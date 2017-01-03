@@ -3,17 +3,17 @@
 Behalve enkele waardes zoals integers en booleans, kent Python ook verzamelingen. Door middel van verzamelingen kun je data groeperen, en hier ook operaties op doen. Eén zo'n verzameling is een `list`. Dit ziet er als volgt uit:
 
 
-    docenten = ["Martijn", "Jelle", "Anne", "Aniek", "Dominique", "Marleen"]
+    docenten = ["Martijn", "Jelle", "Anne", "Maarten", "Aniek", "Dominique", "Marleen"]
 
 
-In het bovenstaande stukje code wordt een list aangemaakt met een zestal strings erin. De blokhaken staan hier voor een list, en de elementen van de list staan tussen de blokhaken gescheiden door komma's. Een list is een geordende muteerbare verzameling: je kan er elementen aan toevoegen, uit verwijderen en vervangen. Kijk eens naar het volgende stukje code:
+In het bovenstaande stukje code wordt een list aangemaakt met een zevental strings erin. De blokhaken staan hier voor een list, en de elementen van de list staan tussen de blokhaken gescheiden door komma's. Een list is een geordende muteerbare verzameling: je kan er elementen aan toevoegen, uit verwijderen en vervangen. Kijk eens naar het volgende stukje code:
 
 
 	docenten.append("Piet")
 	docenten.append("Wouter")
 	print "De eerste docent is:", docenten[0]
 	print "De laatste docent is:", docenten[-1]
-	del docenten[6]
+	del docenten[-2]
 	docenten[2] = "Marianne"
     print "Er zijn", len(docenten), "docenten en dit zijn:", docenten
 

@@ -21,3 +21,19 @@ Het is belangrijk om op te merken dat de naam `i` maar een naam is, dit mag je o
 
 # While-loops
 
+Soms weet je van te voren niet hoe vaak je iets wilt doen. Stel je voor dat we willen berekenen hoe vaak we het getal 1024 door 2 kunnen delen. Met een `for`-loop wordt zo'n taak lastig. Om deze reden heeft Python een `while`-loop. Zie onderstaande code:
+
+
+	n = 1024
+	counter = 0
+
+	while n >= 2:
+	    n /= 2
+	    counter += 1
+
+	print counter
+
+
+Een `while`-loop is eigenlijk een herhalende `if`-statement. Evalueert `n >= 2` naar `True` dan wordt de code uitgevoerd. Enkel wordt na het uitvoeren van de code weer teruggesprongen naar `n >= 2`, en wordt er weer gekeken of `n` groter of gelijk is aan `2`. Zodra `n >= 2` evalueert naar `False`, dan stopt de `while`-loop en gaat Python verder met de eerst volgende regel dat is `print counter`.
+
+Deze `while`-loop gaat net zolang door totdat `n >= 2` niet meer naar `True` evalueert. Dit betekent dat als je de regel `n /= 2` weghaalt je een zogenaamde *infinite loop* krijgt. Een loop die zonder handmatig ingrijpen niet stopt. Let daarom als je `while`-loops gebruikt goed op dat deze ook ooit stopt.
