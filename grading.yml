@@ -1,0 +1,58 @@
+grades:
+    module1:
+        type: float
+        subgrades:
+            scope: integer
+            style: integer
+        calculation: ((2*scope + 1*style) / 15.0 * 9 + 1).round(1)
+        hide_calculated: true
+    module2:
+        type: float
+        subgrades:
+            scope: integer
+            style: integer
+        calculation: ((2*scope + 1*style) / 15.0 * 9 + 1).round(1)
+        hide_calculated: true
+    module3:
+        type: float
+        subgrades:
+            scope: integer
+            style: integer
+        calculation: ((2*scope + 1*style) / 15.0 * 9 + 1).round(1)
+        hide_calculated: true
+    module4:
+        type: float
+        subgrades:
+            scope: integer
+            style: integer
+        calculation: ((2*scope + 1*style) / 15.0 * 9 + 1).round(1)
+        hide_calculated: true
+    tent:
+        type: pass
+    hert:
+        type: pass
+
+calculation:
+    resit:
+        hert: 0
+        psets: 100
+    normal:
+        tent: 0
+        psets: 100
+
+psets:
+    submits:
+        module1: 1
+        module2: 1
+        module3: 1
+        module4: 1
+
+tent:
+    required: true
+    submits:
+        tent: 1
+
+hert:
+    required: true
+    submits:
+        hert: 1

@@ -1,0 +1,8 @@
+name: module4
+files:
+    required:
+        - autorit.py
+        - AutoRitData.csv
+        - temperatuur.py
+        - DeBiltTempMax.txt
+        - DeBiltTempMin.txt
