@@ -15,12 +15,12 @@ In het bovenstaande stukje code wordt een list aangemaakt met een zestal strings
 	print "De laatste docent is:", docenten[-1]
 	del docenten[6]
 	docenten[2] = "Marianne"
-    print "Er zijn", len(docenten), "en dit zijn:", docenten
+    print "Er zijn", len(docenten), "docenten en dit zijn:", docenten
 
 
 Om een element aan een list toe te voegen kunnen we de `append` methode gebruiken zoals op de regel: `docenten.append("Piet")`. Hier wordt de string `"Piet"` toegevoegd aan de list van docenten. 
 
-Om een element uit de list te halen moeten we weer gebruik maken van de blokhaken. Echter dit keer gebruiken we ze voor het aangeven van de index in de list, zoals op de regel: `print "De eerste docent is:", docenten[0]`. Oftewel, `docenten[0]` betekent geef mij het nulste (eerste) element uit de list `docenten`. Bij deze, welkom in de informatica, hier tellen we vanaf 0. Voor het gemak laat Python je ook indexeren vanaf het uiteinde van de list: `-1` betekent het laatste element, `-2` het een-na-laatste, enzovoort.
+Om een element uit de list te halen moeten we weer gebruik maken van de blokhaken. Echter dit keer gebruiken we ze voor het aangeven van de index in de list, zoals op de regel: `print "De eerste docent is:", docenten[0]`. Oftewel, `docenten[0]` betekent geef mij het nulste (eerste) element uit de list `docenten`. Bij deze welkom in de informatica, hier tellen we vanaf 0. Voor het gemak laat Python je ook indexeren vanaf het uiteinde van de list: `-1` betekent het laatste element, `-2` het een-na-laatste, enzovoort.
 
 Een element verwijderen uit een list gaat door middel van de `del` statement, zoals op de regel: `del docenten[6]`.
 
