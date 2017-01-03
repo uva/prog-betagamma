@@ -17,6 +17,6 @@ Dominique van Poorten
 Marleen Rijksen  
 Wouter Vrielinnk  
 
-Voor bijzonderheden moet je bij de coördinator zijn. Mail bij voorkeur naar <progns@mprog.nl> als je praktische vragen hebt, problemen wil melden, of afspraken wil maken.
+Voor bijzonderheden moet je bij de coördinator zijn. Mail bij voorkeur naar <progbg@mprog.nl> als je praktische vragen hebt, problemen wil melden, of afspraken wil maken.
 
 Tijdens de practica van dit vak staan de assistenten voor je klaar en je kunt bij ze terecht met vragen over het programmeren, maar ook over de nagekeken opdrachten en tips over het vak.
