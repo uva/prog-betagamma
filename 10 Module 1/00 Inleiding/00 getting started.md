@@ -11,6 +11,8 @@ Na wat berichten en laadbalken over het opzetten van je workspace, zie je nu dit
 
 Mocht je liever een wat donker scherm willen, ga dan naar het dropdown menu **view** -> **night mode**. Voel je ook vrij om nog een beetje te speuren door de dropdown menu's. Het is okee als je nog niet begrijpt wat alles betekent. Mocht je je wat comfortabeler voelen met deze cursus omdat je wat meer programmeer / computer skills hebt, of je bent gewoon nieuwsgierig, zet dan gerust eens **view** -> **Less Comfortable** uit voor nog meer opties.
 
+Links bovenin zie je een folder icoontje met daarachter de tekst **~/workspace**. Rechtsklik of ctrl+klik hierop en selecteer vervolgens **New Folder**. Noem deze folder **week1**. 
+
 Onderin het scherm zie je de terminal, een omgeving waarin je commando's kan uitvoeren. Voer maar eens het volgende commando uit:
 
     ls
