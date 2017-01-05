@@ -17,8 +17,6 @@ Tijd om ons eerste programma te schrijven. Maak via de Canopy editor een nieuwe 
 print "Hello, world!"
 ```
 
-Zie hoe sommige delen van de tekst anders kleuren in de editor. Dit is "syntax highlighting" wat door de editor wordt toegevoegd om stukken code voor jou als programmeur uit te lichten. 
-
 Sla nu je bestand op (ctrl+s of cmd+s), en run deze door middel van de run knop bovenin de editor. Als het goed is zie je nu in de Python terminal de tekst `Hello, world!` staan.
 
 
