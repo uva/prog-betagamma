@@ -6,7 +6,7 @@ Om snel wat regels Python uit te proberen, kan je de interactieve Python shell i
     python2
 
 
-In deze shell kun je Python code invoeren en deze wordt meteen uitgevoerd. Probeer maar eens `1 + 2`. Deze shell is bijzonder handig om ideeën uit te proberen en te experimenteren met Python, maar is er niet voor om grote programma's te schrijven. Zodra je klaar bent met de Python shell kun je deze afsluiten door de volgende regel Python code uit te voeren:
+In deze shell kun je Python code invoeren en deze wordt meteen uitgevoerd. Probeer maar eens `1 + 2`. Deze shell is bijzonder handig om ideeën uit te proberen en te experimenteren met Python, maar is er niet om grote programma's in te schrijven. Zodra je klaar bent met de Python shell kun je deze afsluiten door de volgende regel Python code uit te voeren:
 
 
 	exit()
