@@ -1,6 +1,6 @@
 # Module 1: Mario
 
-## tl;dr
+## Deze week:
 * Begroet de wereld met `hello.py`
 * Controleer je waterverbruik met `water.py`
 * Bouw één van Mario's pyramides met `mario.py`
