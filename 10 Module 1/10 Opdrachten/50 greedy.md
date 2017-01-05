@@ -3,10 +3,10 @@
 ## tl;dr
 Implementeer een programma dat het minimaal aantal muntjes uitrekent om wisselgeld te geven. 
 
-```
-Hoeveel wisselgeld moet er gegeven worden? 0.41
-4
-```
+
+	Hoeveel wisselgeld moet er gegeven worden? 0.41
+	4
+
 
 ## Background
 
@@ -34,6 +34,6 @@ Het blijkt dat deze greedy aanpak altijd een optimale oplossing levert voor dit 
 
 ## Testing
 
-```
-checkpy.test("greedy")
-```
+
+	checkpy greedy
+

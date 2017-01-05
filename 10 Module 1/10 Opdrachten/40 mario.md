@@ -3,19 +3,19 @@
 ## tl;dr
 Implementeer een programma dat een halve piramide uitprint van een door de gebruiker gegeven hoogte.
 
-```
-Hoe hoog moet de pyramide zijn? 5
-    ##
-   ###
-  ####
- #####
-######
 
-Hoe hoog moet de pyramide zijn? 3
-  ##
- ###
-####
-```
+	Hoe hoog moet de pyramide zijn? 5
+	    ##
+	   ###
+	  ####
+	 #####
+	######
+
+	Hoe hoog moet de pyramide zijn? 3
+	  ##
+	 ###
+	####
+
 
 ## Background
 Aan het einde van wereld 1-1 in Super Mario Brothers moet Mario een halve pyramide van blokken beklimmen voordat hij mag springen naar een vlaggenpost. Dit ziet er zo uit:
@@ -42,6 +42,6 @@ Aan het einde van wereld 1-1 in Super Mario Brothers moet Mario een halve pyrami
 ## Testing
 Loop weer eerst je eigen programma na. Wat gebeurt er als je 0 voor hoogte invult? Kan je programma alle foute input afhandelen? Test dan je programma door middel van checkpy met:
 
-```
-checkpy.test("mario")
-```
+
+	checkpy mario
+
