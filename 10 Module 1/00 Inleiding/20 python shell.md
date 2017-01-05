@@ -12,4 +12,4 @@ In deze shell kun je Python code invoeren en deze wordt meteen uitgevoerd. Probe
 	exit()
 
 
-Wil je de Python shell openhouden en tegelijkertijd via de terminal werken? Dan kan je een tweede terminal starten door te klikken op het **+** icoon naast de oude.
+Wil je de Python shell openhouden en tegelijkertijd via de terminal werken? Dan kan je een tweede terminal starten door te klikken op het **+** icoon naast de oude terminal.
