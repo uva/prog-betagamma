@@ -60,7 +60,7 @@ Checkpy gebruik je door in de terminal commando's uit te voeren. Als je zometeen
 
     checkpy hello
 
-Het is hierbij wel belangrijk dat wanneer je dit commando uitvoert je je in de folder bevindt waar jouw opdracht `hello.py` zich bevindt. Ben je straks klaar met al het werk voor de week? Dan kun je al je bestanden in één keer testen door het volgende commando uit te voeren:
+Het is hierbij wel belangrijk dat wanneer je dit commando uitvoert je je in de folder bevindt waar jouw opdracht `hello.py` zich bevindt. Ben je straks klaar met alle opdrachten van de week? Dan kun je al je bestanden in één keer testen door het volgende commando uit te voeren:
 
     checkpy -m module1
 
