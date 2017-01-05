@@ -21,7 +21,7 @@ Het commando `ls` is een afkorting van list. Dit commando "list" alle bestanden 
 
     cd week1
 
-Het commando `cd` is hier een afkorting van compact disc, uh, nee, change directory. Het veranderd dus de huidige folder naar een andere folder, in dit geval `week1`. Zou je nu `ls` nog een keer uitvoeren, dan zijn er geen resultaten. Laten we hier verandering in brengen door middel van het volgende commando:
+Het commando `cd` is hier een afkorting van compact disc, uh, nee, change directory. Het verandert dus de huidige folder naar een andere folder, in dit geval `week1`. Zou je nu `ls` nog een keer uitvoeren, dan zijn er geen resultaten. Laten we hier verandering in brengen door middel van het volgende commando:
 
     touch print.py
 
