@@ -3,10 +3,10 @@
 ## tl;dr
 Implementeer een programma dat het minimaal aantal muntjes uitrekent om wisselgeld te geven. 
 
-```
-Hoeveel wisselgeld moet er gegeven worden? 0.41
-4
-```
+
+	Hoeveel wisselgeld moet er gegeven worden? 0.41
+	4
+
 
 ## Background
 
@@ -24,7 +24,7 @@ Het blijkt dat deze greedy aanpak altijd een optimale oplossing levert voor dit 
 
 * Schrijf in een bestand genaamd `greedy.py` een programma dat eerst vraagt hoe veel wisselgeld er gegeven moet worden, en vervolgens het minimaal aantal munten uitspuwt.
 * Ga er vanuit dat de gebruiker een getal als geheel getal (integer), of als komma getal (float) invult. Het getal achter de komma staat dan voor centen. Dus `3.21` betekent 3 dollar en 21 cent.
-* Zorg dat als de gebruiker een float heeft ingevuld, je hiervan een integer maakt. Floating points hebben kleine precisie fouten, en dat wil je niet als je met geld werkt! Je kan door middel van de functie `int` een float converteren naar een integer. Probeer maar eens `int(7.3)` en `int(7.8)`.
+* Zorg dat als de gebruiker een float heeft ingevuld, je hiervan een integer maakt. Floating points hebben kleine precisie fouten, en dat wil je niet als je met geld werkt!
 * [Slaagt de gebruiker er niet in om correcte input te geven](https://en.wikipedia.org/wiki/Murphy's_law), laat het de gebruiker dan opnieuw proberen.
 
 ## Hints
@@ -34,6 +34,6 @@ Het blijkt dat deze greedy aanpak altijd een optimale oplossing levert voor dit 
 
 ## Testing
 
-```
-checkpy.test("greedy")
-```
+
+	checkpy greedy
+
