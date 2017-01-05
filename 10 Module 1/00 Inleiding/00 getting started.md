@@ -33,7 +33,7 @@ Handig om te weten is dat je via het commando `cd` een folder omhoog kan via:
 
     cd ..
 
-Hier staat `..` voor de folder boven de huidige. Wil je er meer omhoog? Dan kan dat via `../..`. Ook kan je `cd` de instructie geven om niet relatief van de huidige folder te bewegen, maar absoluut ten opzichte van de root `~`. Bijvoorbeeld:
+Hier staat `..` voor de folder boven de huidige. Wil je er meer omhoog? Dan kan dat via `../..`. Ook kan je `cd` de instructie geven om niet relatief van de huidige folder te bewegen, maar absoluut ten opzichte van jouw login folder. Bijvoorbeeld:
 
     cd ~/workspace/week1
 
