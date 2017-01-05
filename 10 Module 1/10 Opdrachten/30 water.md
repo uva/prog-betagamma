@@ -19,7 +19,7 @@ Implementeer een programma dat een gebruiker zijn waterverbruik reporteert, door
 
 ## Hints
 
-* Maak gebruik van de `input` functie. Deze functie accepteert een argument en print deze uit, vervolgens wacht input tot de gebruiker van jouw programma iets invult en geeft het resultaat daarvan terug. Probeer maar eens `answer = input("Wat is 1 + 2? ")` in de Python terminal.
+* Maak gebruik van de `input` functie. Deze functie accepteert een argument en print deze uit, vervolgens wacht input tot de gebruiker van jouw programma iets invult en geeft het resultaat daarvan terug. Probeer maar eens `answer = input("Wat is 1 + 2? ")` gevolgd door `print answer` in de Python shell.
 
 ## Testing
 Loop eerst je eigen programma na, werkt deze voor alle legale invoer? Vul bijvoorbeeld eens als aantal douche minuten 0, 10 en 137 in. Lijkt alles te werken, dan is het tijd om checkpy erbij te pakken. Testen gaat net zo als bij `hello`, alleen roep je nu de test voor `water` aan. Zo dus:
