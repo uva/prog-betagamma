@@ -33,9 +33,10 @@ Aan het einde van wereld 1-1 in Super Mario Brothers moet Mario een halve pyrami
 
 ## Hints
 
-* In Python kun je strings vermenigvuldigen door gehele getallen (integers). Probeer maar eens `"Hello" * 3`.
 * Tel goed hoe veel spaties en hashes er op elke regel moeten staan.
 * Denk goed na over welke loop structuur (`for` en `while`) je wilt gebruiken.
+* In Python kun je strings vermenigvuldigen door gehele getallen (integers). Probeer maar eens `"Hello" * 3`.
+* `print` in Python voegt autmatisch spaties toe als je gebruik maakt van `,`. Een alternatief is om strings aan elkaar te plakken (concatenaten) door middel van `+` zoals in `print "Geen spatie" + "hier"`.
 * Deel het probleem op in delen. Zorg bijvoorbeeld eerst dat de gebruiker een getal kan invoeren. Daarna kun je kijken of je kan voorkomen dat de gebruikers foutieve input geeft, en dan de pyramide zelf.
 * Mocht de gebruiker een float invullen, dan wil je deze waarschijnlijk converteren naar een int. Je kan door middel van de functie `int` een float converteren naar een integer. Probeer maar eens `int(7.3)` en `int(7.8)`.
 

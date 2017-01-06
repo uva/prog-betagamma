@@ -10,7 +10,7 @@ Voor wat context, zie [wikipedia](https://nl.wikipedia.org/wiki/Hello_world_(pro
 
 ## Specificatie
 
-Tijd om ons eerste programma te schrijven. Maak een nieuw bestand aan (hoe?) en sla dit op als `hello.py`. Plaats in het bestand het volgende stukje Python code:
+Tijd om ons eerste programma te schrijven. Maak een nieuw bestand aan en sla dit op als `hello.py`. Plaats in het bestand het volgende stukje Python code:
 
 	print "Hello, world!"
 
@@ -18,7 +18,7 @@ Zie hoe sommige delen van de tekst anders kleuren in de editor. Dit is "syntax h
 
 Sla nu je bestand op, en *run* dit door het volgende commando uit te voeren in de terminal:
 
-	python2 print.py
+	python2 hello.py
 
 Als het goed is zie je nu in de terminal de tekst `Hello, world!` staan.
 
