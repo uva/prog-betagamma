@@ -65,7 +65,8 @@ Hieronder drie voorbeelden waarmee je de basis van `matplotlib` leert kennen. In
 
 We beginnen met het plotten van wat punten waarvan we de x-waardes (0,1,2,3,4,5) en de y-waardes (0,1,4,9,16,25) hebben. In dit geval is het precies de functie x-kwadraat, maar dat hoeft natuurlijk niet. Om daar een grafiek van te maken doen we het volgende:
 
-
+    import matplotlib
+    matplotlib.use('Agg')
     import matplotlib.pyplot
 
     # de coordinaten per punt
@@ -74,10 +75,10 @@ We beginnen met het plotten van wat punten waarvan we de x-waardes (0,1,2,3,4,5)
 
     # plot punten (y tegen x) met groene rondjes
     matplotlib.pyplot.plot(x_coords, y_coords, "go")
-    matplotlib.pyplot.show()
+    matplotlib.pyplot.savefig("myplot.png")
 
 
-Hierbij is ervoor gekozen om de 'marker' (figuur waarmee elk punt weergegeven wordt) weer te geven als een groen rondje door middel van het meegeven van `"go"`. 
+Hierbij is ervoor gekozen om de 'marker' (figuur waarmee elk punt weergegeven wordt) weer te geven als een groen rondje door middel van het meegeven van `"go"`. De grafiek wordt zodra je deze code runt opgeslagen in een bestand genaamd `myplot.png`. Je mag dit bestand natuurlijk ook anders noemen.
 
 ![](plotje1.png)
 
@@ -86,6 +87,8 @@ Hierbij is ervoor gekozen om de 'marker' (figuur waarmee elk punt weergegeven wo
 Om lange regels te voorkomen kun je een lange modulenaam ook een kortere naam geven bij het importeren.
 
 
+    import matplotlib
+    matplotlib.use('Agg')
     # gebruik de afkorting 'plt'
     import matplotlib.pyplot as plt
 
@@ -94,14 +97,15 @@ Om lange regels te voorkomen kun je een lange modulenaam ook een kortere naam ge
     y_coords = [0,1,4,9,16,25]
 
     plt.plot(x_coords, y_coords, "go")
-    plt.show()
+    plt.savefig("myplot.png")
 
 
 ## Meerdere grafieken en bijschriften
 
 En natuurlijk horen er labels bij de assen, kan je 2 verschillende grafieken in 1 plot zetten en kan je zelf tekst weergeven. Om ook de grafiek x^3 in de grafiek te zetten (met rode lijnen) doe je het volgende:
 
-
+    import matplotlib
+    matplotlib.use('Agg')
     import matplotlib.pyplot as plt
 
     x_values  = [0,1,2,3,4,5]
@@ -117,7 +121,7 @@ En natuurlijk horen er labels bij de assen, kan je 2 verschillende grafieken in 
     plt.text(1.00,100., "mijn eerste plotje", color = "blue", fontsize = 20)
     plt.text(4.00,100., "$x^3$", color = "red", fontsize = 20)
 
-    plt.show()
+    plt.savefig("myplot.png")
 
 
 ![](plotje2.png)
@@ -129,9 +133,11 @@ En natuurlijk horen er labels bij de assen, kan je 2 verschillende grafieken in 
 In stap 2 hebben we een klein aantal punten gekozen waarbij je de waardes zelf in moet vullen. De grafiek ziet er dan ook niet bepaald mooi uit. Je kan natuurlijk met de computer ook zelf x-waardes en bijbehorende y-waardes berekenen. Bijvoorbeeld om de functie sin(x) te plotten in stapjes van 0.01 tussen 0 en 2*pi knopen we de verschillende dingen die we dit blok geleerd hebben aan elkaar en doen we het volgende:
 
 
+    import matplotlib
+    matplotlib.use('Agg')
+    import matplotlib.pyplot as plt
     import numpy as np
     import math
-    import matplotlib.pyplot as plt
 
     x_values = []   # lijst met x-waardes
     y_values = []   # lijst met y-waardes
@@ -145,12 +151,12 @@ In stap 2 hebben we een klein aantal punten gekozen waarbij je de waardes zelf i
         x_values.append(x)
         y_values.append(y)
 
-    # teken de hele grafiek
+    # teken de grafiek
     plt.plot(x_values, y_values, "b-")
     plt.xlabel("x", fontsize = 20)
     plt.ylabel("sin(x)", fontsize = 20)
     plt.text(4.00, 0.50, "f(x) = sin(x)", color = "black", fontsize = 20)
-    plt.show()
+    plt.savefig("myplot.png")
 
 
 ![](plotje3.png)
