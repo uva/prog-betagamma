@@ -10,7 +10,7 @@ We gaan programmeren in Python, een eenvoudige taal met vele mogelijkheden. Je l
 
 Martijn Stegeman (coördinator)  
 Jelle van Assema  
-Marianne de Heer Kloots
+Marianne de Heer Kloots  
 Maarten Inja  
 Aniek van Onzenoort  
 Dominique van Poorten  
