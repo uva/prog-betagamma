@@ -1,32 +1,35 @@
 # Hello
 
 ## tl;dr
-Implementeer een programma dat een simpele begroeting uitprint als volgt:
 
+Implementeer een programma dat een simpele begroeting uitprint als volgt:
 
 	Hello, world!
 
+Voor wat context, zie [wikipedia](https://nl.wikipedia.org/wiki/Hello_world_(programma)).
 
-Voor context zie [wikipedia](https://nl.wikipedia.org/wiki/Hello_world_(programma))
+## Specificatie
 
-
-## Specification
-Tijd om ons eerste programma te schrijven. Maak een nieuwe file aan en sla dezeop als `hello.py`. Plaats in deze file het volgende stukje Python code:
-
+Tijd om ons eerste programma te schrijven. Maak een nieuw bestand aan (hoe?) en sla dit op als `hello.py`. Plaats in het bestand het volgende stukje Python code:
 
 	print "Hello, world!"
 
+Zie hoe sommige delen van de tekst anders kleuren in de editor. Dit is "syntax highlighting", en wordt door de editor toegevoegd om de programmacode voor jou als programmeur te verduidelijken.
 
-Sla nu je bestand op, en run deze. Als het goed is zie je nu in de terminal de tekst `Hello, world!` staan.
+Sla nu je bestand op, en *run* dit door het volgende commando uit te voeren in de terminal:
 
+	python2 print.py
+
+Als het goed is zie je nu in de terminal de tekst `Hello, world!` staan.
 
 ## Testing
-Test eerst je programma zelf. Staan er bijvoorbeeld geen extra hoofdletters of missende uitroeptekens in het resultaat?
 
-Ben je tevreden? Test je programma dan met checkpy. Dit doe je door het volgende commando uit te voeren in de terminal:
+Test altijd zelf je programma's. Staan er bijvoorbeeld geen extra hoofdletters of missende uitroeptekens in het resultaat?
 
+Ben je tevreden? Test je programma dan met `checkpy`. Daarmee kun je in deze cursus controleren of je programma's volledig voldoen aan de specificaties uit de opgaven. Dit doe je in dit geval door het volgende commando uit te voeren in de terminal:
 
 	checkpy hello
 
+Als je alleen maar *happy* smileys ziet dan slagen de tests, en kun je verder met de volgende opdracht. Slagen ze niet, dan is het tijd om te *debuggen*.
 
-Als je alleen maar happy smileys ziet dan slagen de tests, en kun je nu verder met de volgende opdracht. Slagen ze niet, dan is het tijd om te debuggen. Zie je de volgende error "No such file or directory:", check dan of je je wel in de juiste folder (directory) bevindt. Was dit niet het probleem? Kijk dan nog eens goed naar je code, staat er bijvoorbeeld geen extra spatie ergens? Kom je er niet uit, tik even een assistent aan!
+Zie je de volgende error? **"No such file or directory:"** Check dan of je je wel in de juiste map (directory) bevindt. Was dit niet het probleem? Kijk dan nog eens goed naar je code, staat er bijvoorbeeld geen extra spatie ergens? Elke letter telt! Kom je er niet uit, tik even een assistent aan.
