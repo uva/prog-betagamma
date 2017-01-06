@@ -1,4 +1,4 @@
-# Lists
+# Lijsten
 
 Behalve enkele waardes zoals integers en booleans, kent Python ook verzamelingen. Door middel van verzamelingen kun je data groeperen, en hier ook operaties op doen. Eén zo'n verzameling is een `list`. Dit ziet er als volgt uit:
 
