@@ -1,4 +1,4 @@
-# Variables
+# Variabelen
 
 Tot nu toe zijn we enkel bezig geweest met constantes. Om resultaten van berekeningen te kunnen gebruiken in andere berekeningen, hebben we iets nodig om deze op te slaan. Als oplossing laat Python je namen toekennen aan waardes. Deze naam-waarde combinaties noemen we *variables*. Door middel van de `=` operator kunnen we een naam toekennen aan een waarde, en deze vervolgens ergens anders gebruiken. Zie bijvoorbeeld hieronder:
 
