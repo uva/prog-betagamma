@@ -1,5 +1,3 @@
-# Dagdeel 4
-
-## What to Do
+# Dagdeel 4: To-do
 
 * Implementeer `plot`

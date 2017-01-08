@@ -1,4 +1,3 @@
-# Dagdeel 2
+# Dagdeel 2: To-do
 
-## What to Do
 * Implementeer `mario`

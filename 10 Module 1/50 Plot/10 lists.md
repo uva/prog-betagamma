@@ -1,13 +1,16 @@
-# Lijsten
+# Datastructuren
 
-Behalve enkele waardes zoals integers en booleans, kent Python ook verzamelingen. Door middel van verzamelingen kun je data groeperen, en hier ook operaties op doen. Eén zo'n verzameling is een `list`. Dit ziet er als volgt uit:
+Behalve types zoals integers en booleans, kent Python ook structuren waarin meerdere waarden worden gecombineerd. Zulke verzamelingen kun je dan als geheel gebruiken, en er bijvoorbeeld operaties op toepassen. Eén zo'n verzameling is een `list`. Dit ziet er als volgt uit:
 
+    docenten = ["Martijn", "Jelle", "Marianne," "Maarten", "Aniek", "Dominique", "Marleen"]
 
-    docenten = ["Martijn", "Jelle", "Anne", "Maarten", "Aniek", "Dominique", "Marleen"]
+In het bovenstaande stukje code wordt een list aangemaakt met een zevental strings erin. De blokhaken zijn typerend een list, en de elementen van de list staan binnen de blokhaken, gescheiden door komma's. Een list heeft twee belangrijke eigenschappen:
 
+- elke list is *geordend*, ofwel de volgorde van elementen is onderdeel van de structuur en zal niet zomaar wijzigen
 
-In het bovenstaande stukje code wordt een list aangemaakt met een zevental strings erin. De blokhaken staan hier voor een list, en de elementen van de list staan tussen de blokhaken gescheiden door komma's. Een list is een geordende muteerbare verzameling: je kan er elementen aan toevoegen, uit verwijderen en vervangen. Kijk eens naar het volgende stukje code:
+- elke list is *muteerbaar*: je kunt er elementen aan toevoegen, uit verwijderen en vervangen
 
+Kijk maar naar het volgende stukje code en probeer het uit in de shell:
 
 	docenten.append("Piet")
 	docenten.append("Wouter")
@@ -17,12 +20,11 @@ In het bovenstaande stukje code wordt een list aangemaakt met een zevental strin
 	docenten[2] = "Marianne"
     print "Er zijn", len(docenten), "docenten en dit zijn:", docenten
 
+Om een element aan een list toe te voegen kunnen we de `append`-methode gebruiken zoals op de regel: `docenten.append("Piet")`. Hier wordt de string `"Piet"` toegevoegd aan de list van docenten. 
 
-Om een element aan een list toe te voegen kunnen we de `append` methode gebruiken zoals op de regel: `docenten.append("Piet")`. Hier wordt de string `"Piet"` toegevoegd aan de list van docenten. 
+Om een element uit de list te verwijderen gebruiken we ook blokhaken. Dit is een beetje verwarrend, want tussen de haken staat niet de lijst zelf. Dit keer gebruiken we ze voor het aangeven van de index (positie) in de list, zoals op de regel: `print "De eerste docent is:", docenten[0]`. Oftewel, `docenten[0]` betekent geef mij het nulste (eerste) element uit de list `docenten`. Bij deze welkom in de informatica, hier tellen we vanaf 0. En je kunt ook terugtellen vanaf het uiteinde van de list: `-1` betekent het laatste element, `-2` het een-na-laatste, enzovoort.
 
-Om een element uit de list te halen moeten we weer gebruik maken van de blokhaken. Echter dit keer gebruiken we ze voor het aangeven van de index in de list, zoals op de regel: `print "De eerste docent is:", docenten[0]`. Oftewel, `docenten[0]` betekent geef mij het nulste (eerste) element uit de list `docenten`. Bij deze welkom in de informatica, hier tellen we vanaf 0. Voor het gemak laat Python je ook indexeren vanaf het uiteinde van de list: `-1` betekent het laatste element, `-2` het een-na-laatste, enzovoort.
-
-Een element verwijderen uit een list gaat door middel van de `del` statement, zoals op de regel: `del docenten[6]`.
+Een element verwijderen uit een list gaat door middel van `del`, zoals op de regel: `del docenten[6]`.
 
 Elementen vervangen doe je net zoals met variabelen door middel van `=`. Zo wordt op de regel: `docenten[2] = "Marianne"` de string `"Anne"` vervangen door `"Marianne"`.
 
@@ -71,3 +73,7 @@ We kunnen ook lijsten aanpassen door middel van `for`-loops, maar dan is het han
 
 
 In dit stukje code maken we gebruik van een `for`-loop die over de lijst geproduceerd door `range(len(numbers))` itereert. In `range(len(numbers))` wordt eerst de lengte van `numbers` berekend door middel van de functie `len`, en vervolgens maakt `range` een lijst aan afhankelijk van de uitkomst. Dit betekent dus dat in ons voorbeeld de lijst `[0,1,2,3,4]` wordt aangemaakt, want `numbers` kent een lengte van 5. Binnen de `for`-loop kunnen we dan gebruik maken van de waarde van `i`. `i` is namelijk de eerste iteratie `0`, daarmee het geeft de eerste plek aan in de lijst `numbers`. De tweede iteratie neemt `i` de waarde `1` aan, ofwel de tweede plek in `numbers, enzovoort. Door middel van een `for`-loop als hierboven loopen we niet over de lijst `numbers` zelf heen, maar over de plekken (indices) in `numbers`. Doordat je toegang hebt tot de plek, kan je ook de waarde op die plek binnen `numbers` veranderen zoals op de regel `numbers[i] = numbers[i] * 2`. Het resultaat is dat we alle getallen in `numbers` vermenigvuldigen met 2.
+
+## Meer lezen
+
+Wil je meer lezen over lijsten en loops? Kijk dan in [hoofdstuk 10](http://greenteapress.com/thinkpython/html/thinkpython011.html) van *Think Python*.

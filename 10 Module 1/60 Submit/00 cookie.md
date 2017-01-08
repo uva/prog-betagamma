@@ -1,3 +1,3 @@
 # Have a cookie
 
-![](cookie.png)
+![](cookie.png){:.inline}

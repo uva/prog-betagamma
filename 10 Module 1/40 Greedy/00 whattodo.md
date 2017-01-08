@@ -1,4 +1,3 @@
-# Dagdeel 3
+# Dagdeel 3: To-do
 
-## What to Do
 * Implementeer `greedy`

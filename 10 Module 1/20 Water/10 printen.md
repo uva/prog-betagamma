@@ -22,6 +22,17 @@ Het commando `print` in Python doet dan ook precies dat: het print uit wat er ac
 	print 1 + 1
 	print 2 - 1, 3 + 4
 	print "4 + 5"
-	print "1 + 2 =", 1 + 2
 
 Behalve strings printen, kan Python dus ook getallen printen en rekenen met getallen. Door die berekeningen wordt dus ook niet meer letterlijk uitgeprint wat je hebt ingetikt, maar het *resultaat* van de berekening. Ga alle regels langs en probeer te begrijpen waarom die regel print wat je ziet. Let daarbij op dat de komma (`,`) bij `print` gebruikt kan worden om meerdere waarden op één regel te printen: Python scheidt deze automatisch door middel van een spatie.
+
+Nu gaan we berekeningen en tekst combineren:
+
+    print "Het 1e getal van Fibonacci is %d" % 1
+    print "Het 2e getal van Fibonacci is %d" % 1
+    print "Het 3e getal van Fibonacci is %d" % (1 + 1)
+    print "Het 4e getal van Fibonacci is %d" % (1 + 2)
+    print "Het 5e getal van Fibonacci is %d" % (2 + 3)
+
+Als je dit programma uitvoert, dan zie je dat precies waar `%d` stond, nu de uitkomst van de berekening is geplaatst.
+
+We kunnen nu allerlei dingen printen en uitrekenen. We kunnen ook, zoals in de laatste voorbeelden, de resultaten van een berekening op een nette manier printen, zodat de *gebruiker* van het programma begrijpt waar we mee bezig zijn. Experimenteer er nog maar even mee. Mocht je iets tegenkomen dat je niet begrijpt, vraag dan gerust wat het betekent.

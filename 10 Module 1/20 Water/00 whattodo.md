@@ -1,5 +1,4 @@
-# Dagdeel 1
+# Dagdeel 1: To-do
 
-## What to Do
 * Implementeer `hello`
 * Implementeer `water`
