@@ -83,8 +83,8 @@ Was je niet voldoende aanwezig, heb je een opdracht niet zichtbaar geprobeerd, o
 
 Het volgende boek is gratis verkrijgbaar. In de cursus staan soms links naar dit boek. Probeer een balans te vinden in het leren uit de cursusmaterialen, het boek, en het oefenen met voorbeelden.
 
-Allen Downey
-*Think Java*
+Allen Downey  
+*Think Java*  
 Green Tea Press, 2013
 
 ## Uitzonderingen
