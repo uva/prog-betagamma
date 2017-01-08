@@ -91,7 +91,7 @@ Green Tea Press, 2013
 
 Het kan zijn dat je om één of andere reden een uitzondering nodig hebt op de regels van het vak. Deze kun je alleen krijgen bij de coördinator. Stuur een mail naar <progbg@mprog.nl> en leg even kort uit wat je situatie is. Ben je bang een achterstand op te lopen van meer dan een dag of twee? Neem dan razendsnel contact op!
 
-# Samenwerken, fraude en plagiaat
+## Samenwerken
 
 Samenwerken tijdens dit vak is *niet* toegestaan. Dit vak heeft als doel jouw
 persoonlijke programmeervaardigheid te ontwikkelen. Bij vervolgvakken is het
