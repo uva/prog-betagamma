@@ -1,3 +1,3 @@
 # Have a cookie
 
-![](cookie.png){:.inline}
+![](cookie.png){.style="max-width:200px;"}
