@@ -3,9 +3,9 @@
 *Inleiding Programmeren voor Beta-Gamma*  
 *Versie: Januari 2017*
 
-We gaan programmeren in Python, een eenvoudige taal met vele mogelijkheden. Je leert over de basis van het programmeren, maar je gaat vooral aan de slag met toepassingen uit de biologie, wiskunde en natuurkunde.
-
 ![Python](python-logo.png){:.inline}  
+
+We gaan programmeren in Python, een eenvoudige taal met vele mogelijkheden. Je leert over de basis van het programmeren, maar je gaat vooral aan de slag met toepassingen uit de biologie, wiskunde en natuurkunde.
 
 ## Medewerkers
 
