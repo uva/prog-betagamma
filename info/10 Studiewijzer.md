@@ -140,5 +140,5 @@ Zie ook:
 
 Gedeelten van deze cursus zijn gebaseerd op:
 
-- Harvard's CS50, op http://cs50.tv
-- UvA's Inleiding Programmeren voor Natuur- en Sterrenkunde, op https://progns.mprog.nl/
+- Harvard's CS50, op <http://cs50.tv>
+- UvA's Inleiding Programmeren voor Natuur- en Sterrenkunde, op <https://progns.mprog.nl/>
