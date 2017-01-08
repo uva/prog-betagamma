@@ -1,6 +1,5 @@
-# Inleiding Programmeren<br><small>Studiewijzer</small>
+# Inleiding Programmeren<br><small>Studiehandleiding</small>
 
-*Inleiding Programmeren voor Beta-Gamma*  
 *Versie: Januari 2017*
 
 ![Python](python-logo.png){:.inline}  
