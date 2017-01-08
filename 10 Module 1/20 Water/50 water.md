@@ -10,7 +10,7 @@ Implementeer een programma dat aan een gebruiker diens waterverbruik rapporteert
 	Hoeveel minuten douche je? 10
 	120
 
-## Specification
+## Specificatie
 
 * Schrijf in een nieuwe file genaamd `water.py` een programma dat de gebruiker vraagt voor de lengte van zijn of haar douche sessie in minuten. Print vervolgens het overeenkomstige aantal flesjes water uit. Ga er vanuit dat één minuut douchen overeenkomt met 12 flesjes water (van 0.5L).
 
