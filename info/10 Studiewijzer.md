@@ -12,6 +12,7 @@ Martijn Stegeman (coördinator)
 Jelle van Assema  
 Marianne de Heer Kloots  
 Maarten Inja  
+Bob Oey  
 Aniek van Onzenoort  
 Dominique van Poorten  
 Marleen Rijksen  
@@ -83,7 +84,7 @@ Was je niet voldoende aanwezig, heb je een opdracht niet zichtbaar geprobeerd, o
 Het volgende boek is gratis verkrijgbaar. In de cursus staan soms links naar dit boek. Probeer een balans te vinden in het leren uit de cursusmaterialen, het boek, en het oefenen met voorbeelden.
 
 Allen Downey  
-*Think Java*  
+*Think Python*  
 Green Tea Press, 2013
 
 ## Uitzonderingen
