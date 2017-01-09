@@ -39,6 +39,8 @@ Hoeveel munten er precies nodig zijn bij een bepaalde hoeveelheid wisselgeld? Da
 
 * Zorg dat, zodra de gebruiker een float heeft ingevuld, je hiervan een integer maakt. Onze munten zijn immers gespecificeerd in een aantal *centen*.
 
+* Om eventuele afrondingsfouten te voorkomen bij het converteren van floats naar integers, rond getallen eerst af door middel van `round()`. Probeer maar eens: `round(7.8)` en `round(7.2)`.
+
 * Hoe je dit probleem precies aanpakt is verder aan jou. Je zou bijvoorbeeld loops kunnen gebruiken of gebruik kunnen maken van de modulo operator `%`. Probeer maar eens `26 % 8`.
 
 ## Testen
