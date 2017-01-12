@@ -35,7 +35,3 @@ Maak één Pythonbestand (`huiswerk.py`) waarin je achter elkaar de volgende pro
 		1 2 3 4 5 6 7 8 9
 
 	(Die mag natuurlijk niet "hardcoded" zijn. Je moet een for-loop in een for-loop gebruiken om deze op te lossen.)
-
-Ten slotte hier een filmpje van Iko Koevoets, die plantenonderzoek doet en ook daar flink programmeert:
-
-![embed](https://player.vimeo.com/video/199157213)

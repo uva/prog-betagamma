@@ -1,0 +1,8 @@
+name: module2
+files:
+    vereist:
+        - hello.py
+        - water.py
+        - mario.py
+        - greedy.py
+        - plot.py
