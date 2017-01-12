@@ -1,7 +1,7 @@
 # Levensteihnafstand
 
-De levensteihnafstand is gedefinieerd als het minimale aantal bewerkingen die er
-nodig zijn om van de ene string de andere te maken. Het geeft dus aan in welke
+De Levensteihnafstand is gedefinieerd als het minimale aantal bewerkingen dat er
+nodig is om van de ene string tot de andere te komen. Het geeft dus aan in welke
 mate een string op een andere lijkt.
 
 Deze maatstaf wordt bijvoorbeeld gebruikt in informatietheorie om berichten te
@@ -12,28 +12,33 @@ de andere lijkt of om twee DNA-sequenties zo over elkaar te schuiven dat ze het
 meest op elkaar lijken. Verdere toepassingen zijn te vinden in machine
 vertaling, informatie extractie en spraakherkenning.
 
-Er zijn drie soorten bewerkingen op een string mogelijk:
- * Er kan een letter weggehaald worden  
- * Er kan een letter toegevoegd worden  
- * Er kan een letter gesubstitueerd worden  
+Volgens dit principe zijn er zijn drie soorten bewerkingen op een string mogelijk:
 
-De eerste twee bewerkingen hebben als arbitraire kost 1. De laatste bewerking
-kost twee want dit is hetzelfde als 1 letter weghalen en vervolgens 1 letter
-toevoegen.
+* er kan een letter weggehaald worden  
+* er kan een letter toegevoegd worden  
+* er kan een letter gesubstitueerd worden  
 
-Dus om de levensteihnafstand te berekenen willen we het aantal bewerkingen weten
-om van een string `a` naar een string `b` te komen. Je krijg dan iets als
-`levensteihnafstand(a, b)`. Om dit te berekenen delen we het probleem op in
-kleinere stukken. De afstand om een string te krijgen van een lege string is
-simpelweg de lengte van de string aan toevoegingen. Dus `levensteihnafstand("",
-"test")` is vier want je moet vier keer een letter toevoegen om de lege string
-naar het woord test om te zetten.
+De eerste twee bewerkingen hebben elk als kosten 1. De substitutie kost 2 want
+dit is hetzelfde als één letter weghalen en vervolgens één letter toevoegen.
 
-Laten we kijken wat het verschil is tussen de woorden `majeur` en `mineur`
+---
 
-Eerst beginnen met de kost om van een lege string naar `m` te komen (1
-toevoeging), dan naar `ma` (2 toevoegingen), naar `maj` te komen (3), tot `majeur`
-(6). We schrijven dit op in een tabel:
+We gaan een functie schrijven om de Levensteihnafstand te berekenen:
+`levensteihnafstand(a, b)`. Net als bij de fuzzy matching, delen we het
+probleem op in kleinere stukken.
+
+De afstand om van een lege string tot een een willekeurige string te komen is
+simpelweg de lengte van de string. Dus
+
+	`levensteihnafstand("", "pindakaas")`
+
+geeft 9, want je moet vier keer een letter toevoegen om de lege string naar het
+woord `pindakaas` om te zetten.
+
+Laten we vervolgens uitzoeken wat het verschil is tussen twee woorden,
+bijvoorbeeld `majeur` en `mineur`. Eerst beginnen met de kosten om van een lege
+string tot `m` te komen (1 toevoeging), dan tot `ma` (2 toevoegingen), naar
+`maj` te komen (3), tot we uiteindelijk `majeur` hebben (6). We schrijven dit op in een tabel:
 
 |   |   | m | a | j | e | u | r |
 |   | 0 | 1 | 2 | 3 | 4 | 5 | 6 |
@@ -49,35 +54,34 @@ En we doen hetzelfde voor mineur:
 | u | 5 |
 | r | 6 |
 
-Hier kun je dus in de tabel in kolom x en rij y aflezen hoeveel het kost om het
-woord `a` tot de xde letter om te bouwen vanaf het woord `b` tot de yde letter.
-Uiteindelijk willen we dus helemaal rechts onderin komen om te zien hoeveel het
-kost om het hele woord a om te bouwen tot b of andersom.
+Hier kun je dus in de tabel in kolom $$x$$ en rij $$y$$ aflezen hoeveel het
+kost om het woord `a` tot de $$x$$'e letter om te bouwen vanaf het woord `b`
+tot de $$y$$'e letter. Uiteindelijk willen we dus helemaal rechts onderin komen
+om te zien hoeveel het kost om het hele woord `a` om te bouwen tot `b` of
+andersom.
 
-We gaan elk vakje invullen met de levensteihnformule. Gegeven dat we nu
+> We gaan elk vakje invullen met de Levensteihnformule. Gegeven dat we nu
 weten hoeveel het kost om een kleinere string om te bouwen kunnen we makkelijker
 berekenen hoeveel het kost om een iets langere string om te bouwen, waarna we
 weer een iets langere string kunnen opbouwen tot het einde.
 
-Nu de levensteihnformule. Het ziet er ingewikkelder uit dan het is, dus schrik
-niet. De waarde die we in een vakje invullen is afhankelijk van drie manieren
+Nu de Levensteihnformule. (Het ziet er ingewikkelder uit dan het is, dus schrik
+niet.) De waarde die we in een vakje invullen is afhankelijk van drie manieren
 waarop we er kunnen komen (wat de geschiedenis is):
- 1) voor een toevoeging/verwijdering vanaf string `a` nemen we de waarde op plek
-`(x-1, y)` + 1 
- 2) voor een toevoeging/verwijdering vanaf string `b` nemen de waarde op plek
-`(x, y-1)` + 1 
- 3) als karakter x op plek `a` hetzelfde is als karakter y op plek `b` dan nemen
-we de de waarde op plek `(x-1, y-1)`+0 want dan is er niets aan de hand. Als
-deze niet gelijk is moeten we substitueren en nemen we de vorige waarde + 2, dus
-`(x-1, y-1)` + 2 We nemen hiervan diegene die het kleinste resultaat oplevert en
-die vullen we in in het vakje.
 
-We nemen het voorbeeld erbij. We kijken bij het eerste lege vakje of we de
+1. voor een toevoeging/verwijdering vanaf string `a` nemen we de waarde op plek $$(x-1, y) + 1$$
+
+2. voor een toevoeging/verwijdering vanaf string `b` nemen de waarde op plek $$(x, y-1) + 1$$
+
+3. als karakter $$x$$ op plek `a` hetzelfde is als karakter $$y$$ op plek `b` dan nemen we de de waarde op plek $$(x-1, y-1) + 0$$ want dan is er niets aan de hand. Als deze niet gelijk is moeten we substitueren en nemen we de vorige waarde $$+2$$, dus $$(x-1, y-1) + 2$$. We nemen hiervan diegene die het kleinste resultaat oplevert en die vullen we in in het vakje.
+
+We nemen het voorbeeld er weer bij. Gebruik dit om het algoritme en de formule goed te begrijpen. We kijken bij het eerste lege vakje of we de
 string opbouwen
- 1) van `""` naar `m` (kost 1)
- 2) van `""` naar `m` (kost 1)
- 3) of dat er een substitutie nodig is (kost 2), of dat de letter al klopt (kost
-0)
+
+- van `""` naar `"m"` (kosten: 1)
+- van `""` naar `"m"` (kosten: 1)
+- of dat er een substitutie nodig is (kosten: 2)
+- of dat de letter al klopt (kosten: 0)
 
 In ons voorbeeld klopt de letter al en vullen we een 0 in.
 
@@ -91,13 +95,12 @@ In ons voorbeeld klopt de letter al en vullen we een 0 in.
 | r | 6 |
 
 Volgende vakje (naar rechts).
- 1) van `m` naar `ma` kost 1 toevoeging, we komen via het pad van dezelfde
-letter van het vorige vakje want we kijken 1 naar links, dus totale kost = 1
- 2) van `ma` naar `m` kost 1 verwijdering, we komen via het pad 2 toevoegingen,
-dus de totale kost is hier 3 want we kijken 1 naar boven, dus totale kost = 3
- 3) van `m` naar `ma` kost 2, we komen via links boven, dus totale kost = 3
 
-Dus we vullen 1 in:
+- van `m` naar `ma` kost 1 toevoeging, we komen via het pad van dezelfde letter van het vorige vakje want we kijken 1 naar links, dus totale kosten: 1
+- van `ma` naar `m` kost 1 verwijdering, we komen via het pad 2 toevoegingen, dus de totale kosten zijn hier 3, want we kijken 1 naar boven, dus totale kosten: 3
+- van `m` naar `ma` kost 2, we komen via links boven, dus totale kosten: 3
+
+Kortom, we vullen 1 in:
 
 |   |   | m | a | j | e | u | r |
 |   | 0 | 1 | 2 | 3 | 4 | 5 | 6 |
@@ -167,4 +170,3 @@ En helemaal op het einde:
 
 De goedkoopste manier om van mineur naar majeur te komen is vier en dat lees je
 af rechts onderin.
-

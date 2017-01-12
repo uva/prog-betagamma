@@ -1,11 +1,11 @@
 # Opdracht 5: `levensteihn_distance`
 
-Maak een functie `levensteihn_distance` die twee strings als invoer krijgt en de
-levensteihnafstand berekent en teruggeeft.
+Maak een functie `levensteihn_distance()` die twee strings als invoer krijgt en
+de levensteihnafstand berekent en teruggeeft.
 
-Er zijn een aantal stappen. Het eerste wat je wilt doen is vooraan beide strings
-een leeg karakter stoppen (de null string) zodat we kunnen gaan rekenen vanaf
-een lege string (het `""` naar `m` gedeelte van het voorbeeld).
+Het eerste dat je wil doen is vooraan beide strings een leeg karakter stoppen
+(de null string) zodat we kunnen gaan rekenen vanaf een lege string (het `""`
+naar `m` gedeelte van het voorbeeld).
 
 Vervolgens wil je de tabel initialiseren met als afmetingen de lengtes van de
 invoerstrings. De waardes van de tabel kan je in het begin allemaal op nul

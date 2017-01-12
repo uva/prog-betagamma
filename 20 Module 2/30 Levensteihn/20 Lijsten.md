@@ -1,8 +1,7 @@
 # 2D-lijsten
 
-Een tabel in Python is makkelijk te bouwen. Je kunt al met lijsten werken
-en een tabel is niets anders dan een lijst in een lijst. Stel je hebt de
-volgende lijst:
+Nu weer wat Python om te zorgen dat we dit algoritme kunnen bouwen. Je kunt al
+met lijsten werken, en we gaan nu een tabel maken door een lijst met daarin lijsten te definiëren. Stel je hebt de volgende lijst:
 
     >>> l = ['a', 'b', 'c', 'd']
 
@@ -11,7 +10,7 @@ Om het tweede element te pakken gebruik je de brackets `[` en `]`.
     >>> print l[2]
     c
 
-Alternatief kan hier ook eerst een naam aan geven:
+Laten we er een naam aan geven:
 
     >>> element = l[2]
     >>> print element
@@ -29,11 +28,13 @@ Alternatief:
     >>> print element
     ['g', 'h', 'i']
 
-Hoe pak je daar dan een element uit? Aangezien je met lijsten werkt gebruik
-je weer de brackets `[` en `]`! Stel we willen de `h` pakken. Dan moeten we
-eerst uit `l` het derde element pakken (index 2) om de lijst met de `h` te
-krijgen. Vervolgens moeten we van die lijst het tweede element pakken (index 1)
-om de `h` te krijgen. Je kan dat in één keer noteren:
+Hoe pak je daar dan een element uit? Aangezien je met lijsten werkt gebruik je
+gewoon weer de brackets `[` en `]`!
+
+Stel we willen de `h` pakken. Dan moeten we eerst uit `l` het derde element
+pakken (index 2) om de lijst met de `h` te krijgen. Vervolgens moeten we van
+die lijst het tweede element pakken (index 1) om de `h` te krijgen. Je kan dat
+in één keer noteren:
 
     >>> print l[2][1]
     h
@@ -51,11 +52,8 @@ Alternatief:
     >>> print letter
     h
 
-Je kan dit dan zien als een twee dimensionaal veld waar je x en y coördinaten
-kan gebruiken!
-
-Om een twee dimensionale lijst te maken (ook wel nested list genoemd) kun je het
-volgende doen:
+Je kan dit dan zien als een tweedimensionaal veld waar je x- en y-coördinaten
+kunt gebruiken! Om een tweedimensionale lijst aan te maken kun je het volgende doen:
 
     >>> l = []
     >>> for y in range(number_of_columns):
@@ -63,7 +61,7 @@ volgende doen:
     >>>     for x in range(number_of_rows):
     >>>         l[y].append( 'your element here' )
 
-Om zoiets netjes te printen kan je het volgende doen:
+Om zoiets netjes te printen kun je het volgende doen:
 
     >>> for row in l:
     >>>     for xy in row:
