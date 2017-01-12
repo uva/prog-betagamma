@@ -21,7 +21,7 @@ We nemen als voorbeeld voor de haystack `"atgacatgca"` voor de needle `"atgc"`.
 Voor deel `a` kiezen we `"a"` en voor deel `b` kiezen we `"gc"`. Zo krijgen we
 twee lijsten: `[0, 3, 5, 9]` en `[7]`.
 
+{:start="3"}
 3. Nu kunnen we de fuzzy matches vinden door het verschil van de gevonden indices te vergelijken. Hiervoor definiëren we nog drie variabelen: de index waarop een deel `a` matcht noemen we `n`, de lengte van `a` noemen we `m` en de index waarop een deel `b` matcht noemen we `k`. Als $$n + m + 1 = k$$, weten we dat er een fuzzy match op index `n` te vinden is!
-{:start=3}
 
 Merk op dat we dit moeten doen voor elk mogelijk paar tussen de matches van `a` en `b` om alle fuzzy matches te vinden!
