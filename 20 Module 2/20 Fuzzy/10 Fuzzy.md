@@ -13,15 +13,12 @@ We beschrijven nu een algoritme dat precies dit soort matches zoekt. We hergebru
 
 1. Omdat er steeds één letter uitgezonderd kan worden van de match, gaan we de needle opbreken in twee delen (*substrings*). Vanaf het begin tot het uitgezonderde karakter wordt deel `a`, en erna wordt deel `b`. Bijvoorbeeld:
 
-	    "needle" geeft "nee" en "le" (als "d" niet meetelt)
+	"needle" geeft "nee" en "le" (als "d" niet meetelt)
 
 2. Dan gaan we op zoek naar de plekken waarop er exacte matches zijn van `a` in de haystack en waar de exacte matches zijn van `b` in de haystack (bijvoorbeeld door middel van de eerder gemaakte functie).
 
-We nemen als voorbeeld voor de haystack `"atgacatgca"` voor de needle `"atgc"`.
-Voor deel `a` kiezen we `"a"` en voor deel `b` kiezen we `"gc"`. Zo krijgen we
-twee lijsten: `[0, 3, 5, 9]` en `[7]`.
+	We nemen als voorbeeld voor de haystack `"atgacatgca"` voor de needle `"atgc"`. Voor deel `a` kiezen we `"a"` en voor deel `b` kiezen we `"gc"`. Zo krijgen we twee lijsten: `[0, 3, 5, 9]` en `[7]`.
 
-{:start="3"}
 3. Nu kunnen we de fuzzy matches vinden door het verschil van de gevonden indices te vergelijken. Hiervoor definiëren we nog drie variabelen: de index waarop een deel `a` matcht noemen we `n`, de lengte van `a` noemen we `m` en de index waarop een deel `b` matcht noemen we `k`. Als $$n + m + 1 = k$$, weten we dat er een fuzzy match op index `n` te vinden is!
 
 Merk op dat we dit moeten doen voor elk mogelijk paar tussen de matches van `a` en `b` om alle fuzzy matches te vinden!
