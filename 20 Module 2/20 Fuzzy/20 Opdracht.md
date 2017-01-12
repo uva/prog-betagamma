@@ -30,6 +30,8 @@ Het formaat dat je hier gebruikt is een lijst met tuples. Een *tuple* is een man
     >>> print my_tuple[0]
     left
 
+Daarnaast heb je waarschijnlijk een manier nodig om substrings te maken. In Python kun je daarvoor aan de slag met string *slicing*. Zie [Think Python](http://greenteapress.com/thinkpython/html/thinkpython009.html#toc89) voor uitleg hierover!
+
 ## Opdracht 4: `fuzzy_matches`
 
 Maak dan een functie `fuzzy_matches` die, gegeven een haystack en een needle,
