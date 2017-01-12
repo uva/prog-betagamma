@@ -19,6 +19,6 @@ We beschrijven nu een algoritme dat precies dit soort matches zoekt. We hergebru
 
 	We nemen als voorbeeld voor de haystack `"atgacatgca"` voor de needle `"atgc"`. Voor deel `a` kiezen we `"a"` en voor deel `b` kiezen we `"gc"`. Zo krijgen we twee lijsten: `[0, 3, 5, 9]` en `[7]`.
 
-3. Nu kunnen we de fuzzy matches vinden door het verschil van de gevonden indices te vergelijken. Als $$n$$ is de positie waar `a` matcht, $$m$$ is lengte van `a`, en $$k$$ is de positie waar `b` matcht, dan weten we dat er een fuzzy match op index $$n$$ te vinden is wanneer $$n + m + 1 = k$$!
+3. Nu kunnen we de fuzzy matches vinden door het verschil van de gevonden indices te vergelijken. Als $$n$$ is de positie waar `a` matcht, $$m$$ is lengte van `a`, en $$k$$ is de positie waar `b` matcht, dan weten we dat er een fuzzy match op index $$n$$ te vinden is wanneer $$n + m + 1 = k$$.
 
 Merk op dat we dit moeten doen voor elk mogelijk paar tussen de matches van `a` en `b` om alle fuzzy matches te vinden!
