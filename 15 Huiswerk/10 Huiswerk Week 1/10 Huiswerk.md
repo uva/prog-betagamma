@@ -1,6 +1,6 @@
 # Huiswerk
 
-Maak één Pythonbestand (huiswerk.py) waarin je achter elkaar de volgende programma's neerzet. Print tussen de resultaten van elk programma een regel met streepjes (`--------`), zodat we de verschillende programma's goed kunnen onderscheiden.
+Maak één Pythonbestand (`huiswerk.py`) waarin je achter elkaar de volgende programma's neerzet. Print tussen de resultaten van elk programma een regel met streepjes (`--------`), zodat we de verschillende programma's goed kunnen onderscheiden.
 
 0. Schrijf een programma dat de getallen 0 tot 10 print.
 
