@@ -9,7 +9,7 @@ We kijken weer naar de voorbeeldstring, `atgacatgcacaagtatgcat` en de needle
 match. We kunnen namelijk de laatste C van de `needle` in een A veranderen om
 een fuzzy match te vinden!
 
-We beschrijven nu een algoritme dat precies dit soort matches zoekt. We hergebruiken daarbij onze eerder geschreven zoekfuncties. (De uitleg is pittig. Neem de tijd om het te lezen en begrijpen.)
+We beschrijven nu een algoritme dat precies dit soort matches zoekt. We hergebruiken daarbij onze eerder geschreven zoekfuncties. (De uitleg is wat lastig. Neem de tijd om het te lezen en begrijpen.)
 
 1. Omdat er steeds één letter uitgezonderd kan worden van de match, gaan we de needle opbreken in twee delen (*substrings*). Vanaf het begin tot het uitgezonderde karakter wordt deel `a`, en erna wordt deel `b`. Bijvoorbeeld:
 
