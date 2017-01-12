@@ -1,31 +1,27 @@
 # Fuzzy matching
 
-Het is ook vaak nuttig/handig om `bijna matches` te vinden. Bijvoorbeeld als er
-maar 1 letter verschil is tussen de needle en een deel van de haystack. Zoiets
-noemen we `fuzzy matches`.
+Bij zoeken naar overeenkomstig DNA is het nuttig om *bijna-matches* te vinden.
+Bijvoorbeeld als er maar 1 letter verschil is tussen de `needle` en een deel
+van de `haystack`. Zoiets noemen we ook *fuzzy* matching.
 
-We kijken weer naar de voorbeeldstring, ATGACATGCACAAGTATGCAT en de needle
-ATGC. Als er 1 letter verschil mag zijn voor een mogelijke match vinden we op
-index 0 al direct een match. We kunnen namelijk de laatste C van de needle in
-een A veranderen om een fuzzy match te vinden!
+We kijken weer naar de voorbeeldstring, `atgacatgcacaagtatgcat` en de needle
+`atgc`. Als er één letter verschil mag zijn, vinden we op index 0 al direct een
+match. We kunnen namelijk de laatste C van de `needle` in een A veranderen om
+een fuzzy match te vinden!
 
-Om fuzzy matches te vinden kunnen we een deel gebruiken van wat we eerder
-hebben geknutseld. Om te beginnen breken we de needle op in twee substrings.
-Vanaf het begin tot een karakter wordt deel `a`, en vanaf dat karakter + 1 wordt
-deel `b` (we missen dus als je `a` en `b` aan elkaar plakt 1 karakter uit de
-needle).
+We beschrijven nu een algoritme dat precies dit soort matches zoekt. We hergebruiken daarbij onze eerder geschreven zoekfuncties. (De uitleg is pittig. Neem de tijd om het te lezen en begrijpen.)
 
-Dan vinden we de exacte matches van `a` in de haystack en de exacte matches van
-`b` in de haystack (bijvoorbeeld door middel van de eerder gemaakte functie).
+1. Omdat er steeds één letter uitgezonderd kan worden van de match, gaan we de needle opbreken in twee delen (*substrings*). Vanaf het begin tot het uitgezonderde karakter wordt deel `a`, en erna wordt deel `b`. Bijvoorbeeld:
 
-We nemen als voorbeeld voor de haystack ATGACATGCA voor de needle ATGC.
-Voor deel `a` kiezen we `A` en voor deel `b` kiezen we `GC`. Zodanig krijgen we
-twee lijsten: `[0, 3, 5, 9]` voor `a` en `[7]` voor `b`.
+	    "needle" geeft "nee" en "le" (als "d" niet meetelt)
 
-Nu kunnen we de fuzzy matches vinden door het verschil van de gevonden indices
-te vergelijken. Hiervoor definiëren we nog drie variabelen: de index waarop een
-deel `a` matcht noemen we `n`, de lengte van `a` noemen we `m` en de index
-waarop een deel `b` matcht noemen we `k`. Als `n+m+1=k` waar is weten we dat er
-een fuzzy match op index n te vinden is! Merk op dat we dit moeten doen voor
-elk mogelijk paar tussen de matches van `a` en `b` om alle fuzzy matches te
-vinden!
+2. Dan gaan we op zoek naar de plekken waarop er exacte matches zijn van `a` in de haystack en waar de exacte matches zijn van `b` in de haystack (bijvoorbeeld door middel van de eerder gemaakte functie).
+
+We nemen als voorbeeld voor de haystack `"atgacatgca"` voor de needle `"atgc"`.
+Voor deel `a` kiezen we `"a"` en voor deel `b` kiezen we `"gc"`. Zo krijgen we
+twee lijsten: `[0, 3, 5, 9]` en `[7]`.
+
+3. Nu kunnen we de fuzzy matches vinden door het verschil van de gevonden indices te vergelijken. Hiervoor definiëren we nog drie variabelen: de index waarop een deel `a` matcht noemen we `n`, de lengte van `a` noemen we `m` en de index waarop een deel `b` matcht noemen we `k`. Als $$n + m + 1 = k$$, weten we dat er een fuzzy match op index `n` te vinden is!
+{:start=3}
+
+Merk op dat we dit moeten doen voor elk mogelijk paar tussen de matches van `a` en `b` om alle fuzzy matches te vinden!
