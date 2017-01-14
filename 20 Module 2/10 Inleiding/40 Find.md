@@ -46,6 +46,6 @@ keer voorkomt: één keer op index vijf en één keer op index 15. Om de tweede 
 (Waarom 6? Tel het even na!)
 
 In de handleiding staat dat de waardes van `start` en `end` geïnterpreteerd
-worden zoals dat gebeurt bij `slice notation`. Slice notation is stof voor een
-andere keer. Voor nu is het belangrijk dat je weet dat de `start` inclusief is
+worden zoals dat gebeurt bij `slice notation`. Slice notation heb je pas later
+deze week nodig. Voor nu is het belangrijk dat je weet dat de `start` inclusief is
 en `end` exclusief. Dus er wordt gezocht vanaf start *tot* end.
