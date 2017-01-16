@@ -3,7 +3,7 @@ Maak een nieuw bestand aan met de naam `exactMatches.py`. De volgende twee
 functies maak je in dit bestand. Je kan testen of deze functies correct gemaakt
 zijn door checkpy te draaien. Update eerst checkpy eenmalig met:
 
-    sudo sh -c “umask 022; pip2 install checkpy –upgrade”
+    sudo sh -c "umask 022; pip2 install checkpy –upgrade"
 
 En test, als je denkt dat je functies kloppen, met:
 
