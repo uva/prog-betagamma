@@ -17,25 +17,23 @@ de verdere berekeningen. Deze rij en kolom geven de afstand weer vanaf een lege
 string, dus die zijn het makkelijkst om in te vullen. Neem `n` voor de lengte
 van invoerwoord `a` en `m` als lengte voor invoerwoord `b`. De formule is dan:
 
-    table[0][x] = x, waar x = 0 ... n
-    table[y][0] = y, waar y = 0 ... m
+    `table[0][x] = x`, waar x = 0 ... n  
+    `table[y][0] = y`, waar y = 0 ... m  
 
     In Python kun je dit mooi doen met een `for`-loop.
 
 4. Nu komt het moeilijke gedeelte: het invullen van de resterende vakjes. Je
 kunt hiervoor een dubbele `for`-loop gebruiken. De eerste telt de kolommen, de
-tweede telt de rijen. Dit levert je twee coördinaten op. Vervolgens moet je de
-drie waardes berekenen zoals eerder omschreven. Denk er aan dat je door de twee
-loops twee coördinaten hebt (bijvoorbeeld x voor bij welke kolom je bent en y
-voor bij welke rij je bent). De kleinste van de waardes die je berekent zet je
-in de tabel.
+tweede telt de rijen. Dit levert je een stel coördinaten op die door de hele
+tabel heenlopen. Vervolgens moet je de drie waardes berekenen zoals eerder
+omschreven. De kleinste van de waardes die je berekent zet je steeds in de tabel.
 
-Voor de duidelijkheid:
+	    Voor de duidelijkheid:
 
-                        table[y-1][x] +1
-    table[y][x] = min ( table[y][x-1] +1                                )
-                        table[y-1][x-1] + (2 if a[i] == b[j], else 0)
+	                        table[y-1][x] +1
+	    table[y][x] = min ( table[y][x-1] +1                                )
+	                        table[y-1][x-1] + (2 if a[i] == b[j], else 0)
 
-Uiteindelijk return je de waarde van de tabel die rechts onderin staat.
+5. Uiteindelijk return je dan de waarde van de tabel die rechts onderin staat.
 
 Je kunt deze functie testen met `checkpy Levenshtein.py`.
