@@ -7,6 +7,16 @@ probleem*decompositie*. Voor dit algoritme zien we twee duidelijke delen: eerst
 moet je alle mogelijke waarden voor `a` en `b` genereren, en vervolgens kun je
 die gebruiken om de fuzzy matches te vinden.
 
+Dit maal werk je in een bestand met de naam `fuzzyMatches.py`. Om de functies te
+gebruiken die je in exactMatches.py hebt gebruikt moet je deze nog importeren.
+Dit kan op dezelfde manier als waarop we alles van de strings module importeren:
+
+    from exactMatches import *
+
+Let er op dat je alle bestanden in dezelfde map hebt staan!
+
+Je test met `checkpy fuzzyMatches.py`.
+
 ## Opdracht 3: `split_needle`
 
 Maak een functie `split_needle()` die, gegeven een string van lengte >= 3, alle

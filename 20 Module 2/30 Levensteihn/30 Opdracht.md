@@ -1,7 +1,8 @@
 # Opdracht 5: `levensteihn_distance`
 
-Maak een functie `levensteihn_distance()` die twee strings als invoer krijgt en
-de levensteihnafstand berekent en teruggeeft.
+Maak een nieuw bestand met de naam `levensteihn.py` met daarin een functie
+`levensteihn_distance()` die twee strings als invoer krijgt en de
+levensteihnafstand berekent en teruggeeft.
 
 Er zijn een aantal stappen. Het eerste dat je wil doen is vooraan beide strings
 een leeg karakter stoppen (de null string) zodat we kunnen gaan rekenen vanaf
@@ -36,3 +37,5 @@ Voor de duidelijkheid:
                         table[y-1][x-1] + (2 if a[i] == b[j], else 0)
 
 Uiteindelijk return je de waarde van de tabel die rechts onderin staat.
+
+Je kunt deze functie testen met `checkpy levensteihn.py`.
