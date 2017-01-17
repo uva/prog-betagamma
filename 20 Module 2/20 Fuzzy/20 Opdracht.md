@@ -19,8 +19,8 @@ Je test met `checkpy fuzzyMatches.py`.
 
 ## Opdracht 3: `split_needle`
 
-Maak een functie `split_needle()` die, gegeven een string van lengte >= 3, alle
-mogelijke substrings genereert met één missend karakter.
+Maak een functie `split_needle()` die, gegeven een string, alle mogelijke
+substrings genereert met één missend karakter.
 
 Voorbeeld:
 

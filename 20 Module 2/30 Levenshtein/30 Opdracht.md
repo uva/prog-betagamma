@@ -1,8 +1,9 @@
-# Opdracht 5: `Levenshtein_distance`
+# opdracht 5: `Levenshtein_distance`
 
-Maak een nieuw bestand met de naam `Levenshtein.py` met daarin een functie
-`Levenshtein_distance()` die twee strings als invoer krijgt en de
-Levenshteinafstand berekent en teruggeeft. Er zijn een paar stappen om zover te komen.
+Maak een nieuw bestand met de naam `levenshtein.py` met daarin een functie
+`levenshtein_distance()` die twee strings als invoer krijgt en de
+Levenshteinafstand berekent en teruggeeft. Er zijn een paar stappen om zover te
+komen.
 
 1. Zorg eerst dat de invoer-strings klaar zijn om het algoritme mee uit te
 voeren. Om ze mooi op de tabel te laten passen, is het handig om een spatie aan
