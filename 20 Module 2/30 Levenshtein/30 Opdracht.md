@@ -33,7 +33,7 @@ omschreven. De kleinste van de waardes die je berekent zet je steeds in de tabel
 
 	                        table[y-1][x] +1
 	    table[y][x] = min ( table[y][x-1] +1                                )
-	                        table[y-1][x-1] + (2 if a[i] == b[j], else 0)
+	                        table[y-1][x-1] + (0 if a[i] == b[j], else 2)
 
 5. Uiteindelijk return je dan de waarde van de tabel die rechts onderin staat.
 
