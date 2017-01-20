@@ -49,8 +49,8 @@ een lijst met indices van alle fuzzy matches oplevert.
 
 Voorbeeld:
 
-    >>> fuzzy_matches = fuzzy_matches("atgacatgca", "atgc")
-    >>> print fuzzy_matches
+    >>> result = fuzzy_matches("atgacatgca", "atgc")
+    >>> print result
     [0, 5]
 
 Er zijn meerdere manieren om dit te doen. Hier een paar tips.

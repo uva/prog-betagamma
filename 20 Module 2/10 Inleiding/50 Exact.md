@@ -10,7 +10,7 @@ zijn door checkpy te draaien:
 Maak een functie `count_exact_matches` die in elk geval twee argumenten heeft:
 
 - `haystack`, dat is de string waarin we zoeken
-- `'needle`', dat is de string die we zoeken
+- `needle`, dat is de string die we zoeken
 
 De functie moet het aantal keer tellen dat de needle in de haystack voorkomt en
 dat als integer returnen.
