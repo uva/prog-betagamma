@@ -17,6 +17,8 @@ Bereken voor elke nieuw stapje in de tijd en in deze volgorde:
 4. de nieuwe positie van de appel (x). 
     gebruik: $$x_{\rm nieuw} = x + v \Delta t$$
 
+(Stap 1 en 2 kun je combineren, waardoor je in deze simulatie niet hoeft te weten wat de massa van de appel is!)
+
 Je hebt dan alle informatie berekend over een bepaald punt in de tijd. Vervolgens kun je een stapje verder in de tijd maken en deze cyclus herhalen.
 
 ## Uitvoer
