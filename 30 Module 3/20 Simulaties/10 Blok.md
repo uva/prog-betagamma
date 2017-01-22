@@ -1,6 +1,6 @@
 # Simulaties
 
-In het natuurkundig onderzoek wordt veel gewerkt met problemen die niet met analytisch, met de hand, zijn op te lossen. Toch zijn er allerlei technieken die, vaak met een omweg, voor dit soort problemen een oplossing kunnen genereren. In de meeste gevallen is zo'n techniek wel heel arbeidsintensief en worden altijd computers gebruikt om ze toe te passen.
+In het natuurkundig onderzoek wordt veel gewerkt met problemen die niet  analytisch, met de hand, zijn op te lossen. Toch zijn er allerlei technieken die, vaak met een omweg, voor dit soort problemen een oplossing kunnen genereren. In de meeste gevallen is zo'n techniek wel heel arbeidsintensief en worden altijd computers gebruikt om ze toe te passen.
 
 In deze module kijken we naar twee technieken: het *simuleren* van fysieke situaties en het *fitten* van meetgegevens.
 
