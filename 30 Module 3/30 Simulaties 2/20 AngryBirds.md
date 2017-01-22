@@ -1,20 +1,17 @@
 # Angry Birds
 
-We bekijken een situatie zoals in het plaatje hieronder getekend waarbij een bal wordt weggeschoten vanaf de positie ($$x=0$$, $$y=20$$) met snelheid $$v$$ onder een hoek ($$\alpha$$). In het programma **angry_birds.py** gaan we bestuderen welk pad de bal zal afleggen. Net as in de vorige opgaves gebeurt dat onder invloed van de zwaartekracht.
+We bekijken een situatie zoals in het plaatje hieronder getekend waarbij een vogel wordt weggeschoten vanaf de positie ($$x=0$$, $$y=20$$) met snelheid $$v$$ onder een hoek ($$\alpha$$). In het programma **angry_birds.py** gaan we bestuderen welk pad de vogel zal afleggen. Net as in de vorige opgaves gebeurt dat onder invloed van de zwaartekracht.
 
 ![](AngryBirdOverviewLeeg.png)
 
-## Opdracht: animatie stuiterende bal
+## Opdracht: beweging van de vogel
 
-Schrijf een *functie* genaamd `beweging()` die de beweging van de bal beschrijft en als mogelijkheid heeft om de beweging met behulp van een animatie op het scherm te tekenen. Als de bal de grond raakt zal deze weer omhoog stuiteren zonder daarbij energie te verliezen.
+Schrijf een *functie* genaamd `beweging()` die de beweging van de bal beschrijft. Als de vogel de grond raakt zal deze weer omhoog stuiteren zonder daarbij energie te verliezen.
 
 De parameters van de functie zijn:
 
 - snelheid
 - hoek (in graden)
-- een optie of er wel/geen animatie getoond moet worden
-
-(Een animatie geeft duidelijk inzicht, maar is erg langzaam en wil je dus niet altijd doen.)
 
 ## Opdracht: druksensor
 
@@ -24,9 +21,9 @@ We voegen een extra element toe in het probleem; een druksensor die reageert als
 
 Schrijf een functie `angry_birds()` in het zelfde bestand **angry_birds.py** die bestudeert welke hoeken er voor zorgen dat de weggeschoten bal de druksensor zal raken als de bal met een snelheid van $$v=16$$ [m/s] wordt weggeschoten. Varieer de hoek $$\alpha$$ in stappen van 1 graad ($$-88 < \alpha < +88$$).
 
-Om dit te bereiken pas je eerst de functie `beweging()` aan. Deze functie moet net als voorheen de animatie van het traject bij een bepaalde hoek laten zien (of niet, als het derde argument `False` is). Maar voortaan moet de functie ook een waarde `return`en die aangeeft of bij deze hoek de sensor wordt geraakt.
+Om dit te bereiken pas je eerst de functie `beweging()` aan. Voortaan moet de functie een waarde `return`en die aangeeft of bij deze hoek de sensor wordt geraakt.
 
-	beweging(16, 79, False) --> geeft False
+	beweging(16, 79) --> geeft False
 
 In je hoofdfunctie `angry_birds()` maak je dus herhaaldelijk gebruik van de functie `beweging()`, waarin het echte rekenwerk wordt gedaan. De hoofdfunctie verzamelt de resultaten en print.
 
@@ -43,11 +40,11 @@ In je hoofdfunctie `angry_birds()` maak je dus herhaaldelijk gebruik van de func
 
 ### Tips
 
-- Bepaal of je kunt herkennen als de bal de lijn $$y=20$$ kruist en test of *als* dat gebeurt het is in het gebied van de druksensor: $$12<x<14$$. 
+- Bepaal of je kunt herkennen als de vogel de lijn $$y=20$$ kruist en test of *als* dat gebeurt het is in het gebied van de druksensor: $$12<x<14$$. 
 
 ### Extra (optioneel):
 
-De standaardmanier om de positie van de bal te tekenen die we in deze cursus  geleerd hebben is de volgende:
+De standaardmanier om de positie van de vogel te tekenen die we in deze cursus  geleerd hebben is de volgende:
 
     plt.plot(x_kogel, y_kogel, 'bo')  
 
