@@ -35,4 +35,4 @@ Dit is de code die daarbij hoort:
     plt.plot(L_x, L_x2, 'g-')
 
     # teken beide grafieken op het scherm
-    plt.show()
+    plt.savefig("naam.png")
