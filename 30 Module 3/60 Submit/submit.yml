@@ -6,6 +6,5 @@ files:
         - tunnel.py
         - angry_birds.py
         - fit.py
-        - oefeningen.py
     optioneel:
         - angry_plaatje
