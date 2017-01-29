@@ -25,8 +25,6 @@ We gaan het inlezen en verwerken van data doen aan de hand van een voorbeeld:  d
     199394, AC Milan, 0, 0	
     199495, AC Milan, 0, 0	
 
-> Let op: als je het bestand met Windows Kladblok/Notepad opent, dan staat alle data achter elkaar. Dat maakt niet uit voor de goede werking van je programma's.
-
 Hieronder gaan we aan de slag met het beantwoorden van enkele vragen met behulp van dit databestand:
 
 - wat zijn de voetbalseizoenen waarin Van Basten meer dan 20 keer gescoord heeft?
@@ -40,8 +38,6 @@ Omdat het doorlopen van files in een computertaal een standaard procedure is  zi
 	for line in input_filehandle:
         print line
 	input_filehandle.close()
-
-> Tip: klik in Canopy met de rechtermuisknop op de *opdrachtregel* van Python, en kies "Keep directory synced to editor". Dan kan Python het bestand `VanBasten.txt` altijd vinden.
 
 De `'r'` bij de functie `open()` betekent 'read', lezen dus. Als je dit programma uitvoert zal je zien dat bijvoorbeeld de regel van 1988 zo op het scherm verschijnt:
 
