@@ -29,6 +29,8 @@ grades:
         hide_calculated: true
     tent:
         type: pass
+        subgrades:
+            points: integer
         calculation: points >= 13 && -1 || 0
     hert:
         type: pass
