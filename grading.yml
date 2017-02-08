@@ -29,6 +29,7 @@ grades:
         hide_calculated: true
     tent:
         type: pass
+        calculation: points >= 13 && -1 || 0
     hert:
         type: pass
 
