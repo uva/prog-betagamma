@@ -27,20 +27,20 @@ grades:
             style: integer
         calculation: (scope/3.0 + style).round(1)
         hide_calculated: true
-    tent:
+    tentamen:
         type: pass
         subgrades:
             points: integer
         calculation: points >= 13 && -1 || 0
-    hert:
+    hertentamen:
         type: pass
 
 calculation:
     resit:
-        hert: 0
+        hertentamen: 0
         psets: 100
     normal:
-        tent: 0
+        tentamen: 0
         psets: 100
 
 psets:
@@ -50,12 +50,12 @@ psets:
         module3: 1
         module4: 1
 
-tent:
+tentamen:
     required: true
     submits:
-        tent: 1
+        tentamen: 1
 
-hert:
+hertentamen:
     required: true
     submits:
-        hert: 1
+        hertentamen: 1
