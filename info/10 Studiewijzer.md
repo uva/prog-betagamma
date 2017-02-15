@@ -90,7 +90,7 @@ Je krijgt een eindcijfer voor dit vak als je:
 
 Het eindcijfer wordt als volgd samengesteld:
 
-- 4/9 deel is het aantal gehaalde omvang/scope-punten gedeeld door het maximum van 68
+- 4/9 deel is het aantal gehaalde omvang/scope-punten gedeeld door het maximum van 68 (in feite was het 71 maar maximum is gesteld op 68)
 
 - 5/9 deel is een gewogen gemiddelde van de scores op style: 25% module 2, 25% module 3 en 50% module 4.
 
