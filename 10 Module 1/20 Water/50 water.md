@@ -1,7 +1,5 @@
 # Water
 
-## tl;dr
-
 Implementeer een programma dat aan een gebruiker diens waterverbruik rapporteert, door het aantal minuten douchen om te rekenen naar flesjes drinkwater.
 
 	Hoeveel minuten douche je? 1
@@ -16,11 +14,13 @@ Implementeer een programma dat aan een gebruiker diens waterverbruik rapporteert
 
 * Om het simpel te houden, mag je aannemen dat de gebruiker altijd braaf een positief getal invoert. Je hoeft dus geen foutafhandeling te implementeren voor het geval de gebruiker dat niet doet.
 
+* Het resultaat moet er precies uitzien als de voorbeelden hierboven.
+
 ## Hints
 
 * Dit programma voldoet aan het cliché van een standaard computerprogramma: het heeft *invoer*, *berekeningen*, en *uitvoer*. Probeer die drie onderdelen ook terug te laten komen in je code!
 
-* Maak gebruik van de `input`-functie. Deze functie wacht input tot de gebruiker van jouw programma iets invult en geeft het resultaat daarvan terug.
+* Maak gebruik van de `raw_input`-functie en gebruik `int()` om de invoer van de gebruiker om te zetten van een string naar een integer, zodat je de berekening kunt uitvoeren.
 
 * Achterhaal uit bovenstaande opdracht en uit de voorbeelden de formule die we nodig hebben om de berekening te doen. Dan is het belangrijkste deel van het werk gedaan.
 
@@ -30,4 +30,4 @@ Loop eerst je eigen programma na, werkt deze voor alle normale invoer? Vul bijvo
 
 	checkpy water
 
-Zie je unhappy smileys, en kom je er niet uit wat er fout gaat? Tik dan een assistent aan!
+Zie je unhappy smileys, en kom je er niet uit wat er fout gaat? Stuur gauw een mailtje!

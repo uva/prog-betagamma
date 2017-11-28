@@ -1,7 +1,5 @@
 # Greedy
 
-## tl;dr
-
 Implementeer een programma dat het minimaal aantal muntjes uitrekent om wisselgeld te geven. 
 
 	Hoeveel wisselgeld moet er gegeven worden? 0.41
@@ -17,7 +15,7 @@ Een greedy algoritme is een algoritme dat altijd de beste lokale keuze maakt op 
 
 Stel je voor dat een caissière een klant wisselgeld verschuldigd is, en dat deze caissière vervolgens op de palletje kan drukken om kwartjes (25c), dubbeltjes (10c), stuivers (5c), en centen (1c) te krijgen. We zoeken nu een oplossing voor dit probleem door één of meer keer te drukken op de palletjes, waarbij we zo min mogelijk een palletje willen indrukken.
 
-We stellen ons nu een een "gierige" caissière voor, die elke keer als hij op een palletje moet drukken, op het palletje drukt met de hoogst mogelijk waarde waarop nog gedrukt mag worden. Bijvoorbeeld, als een klant nog 41 cent tegoed heeft, dan drukt de caissière eerst op het palletje voor een kwartje. Er blijft dan nog (41 - 25 =) 16 cent over. Nu mag de caissière niet meer drukken op het palletje voor een kwartje, want dan zou hij te veel wisselgeld geven. Dus drukt hij om een dubbeltje te geven, en daarmee blijft er nog 6 cent over. Dit volgt dan met een druk voor een stuiver, en tot slot een cent. In totaal krijgt de klant dus één kwartje, één dubbeltje, één stuiver, en één cent, dit maakt 4 munten in totaal.
+We stellen ons nu een een "gretige" caissière voor, die elke keer als hij op een palletje moet drukken, op het palletje drukt met de hoogst mogelijk waarde waarop nog gedrukt mag worden. Bijvoorbeeld, als een klant nog 41 cent tegoed heeft, dan drukt de caissière eerst op het palletje voor een kwartje. Er blijft dan nog (41 - 25 =) 16 cent over. Nu mag de caissière niet meer drukken op het palletje voor een kwartje, want dan zou hij te veel wisselgeld geven. Dus drukt hij om een dubbeltje te geven, en daarmee blijft er nog 6 cent over. Dit volgt dan met een druk voor een stuiver, en tot slot een cent. In totaal krijgt de klant dus één kwartje, één dubbeltje, één stuiver, en één cent, dit maakt 4 munten in totaal.
 
 Het blijkt dat bij zo'n gierige aanpak *altijd* het minste aantal munten door de vingers van de caissière gaat. De aanpak geeft dus *gegarandeerd een optimale oplossing* (let wel: dit geldt voor deze set munten). We nemen dan aan dat de voorraad muntstukken nooit opraakt.
 
@@ -29,7 +27,7 @@ Hoeveel munten er precies nodig zijn bij een bepaalde hoeveelheid wisselgeld? Da
 
 * Ga er vanuit dat de gebruiker een getal als geheel getal (integer), of als kommagetal invult (nou ja, een puntgetal, want het werkt op z'n Amerikaans). Het getal achter de komma staat in dat laatste geval voor centen. Dus `3.21` betekent 3 dollar en 21 cent.
 
-* [Slaagt de gebruiker er niet in om correcte input te geven](https://en.wikipedia.org/wiki/Murphy's_law), laat het de gebruiker dan opnieuw proberen.
+* [Slaagt de gebruiker er niet in om correcte input te geven](https://en.wikipedia.org/wiki/Murphy's_law), zorg dan dat er opnieuw geprobeerd kan worden.
 
 ## Hints
 

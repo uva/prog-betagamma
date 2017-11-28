@@ -1,7 +1,9 @@
 name: module2
 files:
     vereist:
-        - exactMatches.py
-        - fuzzyMatches.py
-    optioneel:
-        - levenshtein.py
+        - nulpunten.py
+        - afstand.py
+        - histogram.py
+        - riemann.py
+        - montecarlo.py
+        - randomwiskunde.py
