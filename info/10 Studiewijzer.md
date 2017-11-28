@@ -44,9 +44,22 @@ Wat willen we dat je kunt aan het einde van deze cursus?
 Er zijn vier modules van één week. Vanaf de eerste dag van de cursus ga je oefenen met het omzetten van een idee voor een programma naar werkende Python-code. Per module doe je kleine oefeningen, en pak je wat grotere opdrachten aan. Het geheel lever je aan het einde van de module in, en dan wordt het beoordeeld:
 
 * Omvang --- heb je alle opdrachten geprobeerd of heb je dingen overgeslagen?
-  Heb je alles precies gedaan zoals de omschrijving vereist?
+  Heb je alles precies gedaan zoals de omschrijving vereist? Deze wordt gescoord door de tool `checkpy` die in de cursus verwerkt is.
 
-* Stijl --- hoe ordelijk en leesbaar is je code? Dit kan een zwaarwegende factor worden!
+	| module   | punten |
+	| -------- | -----: |
+	| module 1 |     17 |
+	| module 2 |     26 |
+	| module 3 |     19 |
+	| module 4 |      9 |
+
+* Stijl --- hoe ordelijk en leesbaar is je code? Dit kan een zwaarwegende factor worden! Deze wordt als volgt gescoord:
+
+	1. Matig
+	2. Redelijk: genoeg ruimte voor verbetering
+	3. Goed: wat ruimte voor verbetering
+	4. Heel goed: beperkt ruimte voor verbetering
+	5. Excellent: in feite geen ruimte voor verbetering
 
 ## Dagelijks ritme
 
@@ -75,7 +88,13 @@ Je krijgt een eindcijfer voor dit vak als je:
 * elke module op tijd en naar verwachting hebt ingeleverd;
 * een voldoende hebt gehaald voor het tentamen.
 
-Het eindcijfer bestaat in de basis uit het gemiddelde van de modules. Een klein deel van het eindcijfer wordt bepaald door hoe je beter bent gaan programmeren tijdens het vak (de voortgang die jij persoonlijk hebt gemaakt!).
+Het eindcijfer wordt als volgd samengesteld:
+
+- 4/9 deel is het aantal gehaalde omvang/scope-punten gedeeld door het maximum van 68 (in feite was het 71 maar maximum is gesteld op 68)
+
+- 5/9 deel is een gewogen gemiddelde van de scores op style: 25% module 2, 25% module 3 en 50% module 4.
+
+Een klein deel van het eindcijfer wordt bepaald door hoe je beter bent gaan programmeren tijdens het vak (de voortgang die jij persoonlijk hebt gemaakt!).
 
 Was je niet voldoende aanwezig, heb je een opdracht niet zichtbaar geprobeerd, of was je niet bij het tentamen, dan krijg je een NA (niet aanwezig). Heb je het tentamen niet gehaald, dan krijg je een NAV en kun je dit tentamen herkansen. Er zijn geen herkansingen voor de opdrachten.
 
