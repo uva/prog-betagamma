@@ -8,77 +8,69 @@ We gaan programmeren in Python, een eenvoudige taal met vele mogelijkheden. Je l
 
 ## Medewerkers
 
-Martijn Stegeman (coördinator)  
-Jelle van Assema  
-Marianne de Heer Kloots  
-Maarten Inja  
-Bob Oey  
-Aniek van Onzenoort  
-Dominique van Poorten  
-Marleen Rijksen  
-Wouter Vrielink
+Simon Pauw (docent)  
+Martijn Stegeman (coördinator)
 
-Voor bijzonderheden moet je bij de coördinator zijn. Mail bij voorkeur naar <progbg@mprog.nl> als je praktische vragen hebt, problemen wil melden, of persoonlijke afspraken wil maken.
+Voor bijzonderheden moet je bij de docent zijn. Mail bij voorkeur naar <progbg@mprog.nl> als je praktische vragen hebt, problemen wil melden, of persoonlijke afspraken wil maken.
 
 Tijdens de practica van dit vak staan de assistenten voor je klaar en je kunt bij ze terecht met vragen over het programmeren, maar ook over de nagekeken opdrachten en tips over het vak.
 
 ## Verwachtingen
 
 - We verwachten dat je alle programmeeropdrachten serieus aanpakt en de uitwerking vóór de deadline inlevert.
-- We verwachten dat je op alle geroosterde tijden van jouw groep aanwezig bent bij de computerpractica.
+- We verwachten dat je tijdens de eerste week op alle geroosterde practica (laptopcolleges) van jouw groep aanwezig bent.
+- We verwachten dat je in latere weken steeds bij de practica aanwezig bent als je hulp en uitleg nodig hebt.
 - We verwachten dat je je feedback gebruikt om de opdrachten van de volgende keer beter te maken.
-- We verwachten dat je de practicumuren volledig gebruikt om te programmeren en te leren.
 
 ## Leerdoelen
 
 Wat willen we dat je kunt aan het einde van deze cursus?
 
+* Je kunt de aangeboden standaardoplossingen voor wetenschappelijke programmeerproblemen toepassen.
 * Je kunt een omschrijving van een programma omzetten naar werkende code.
 * Je kunt bijgeleverde bibliotheken gebruiken in je eigen programma's.
 * Je kunt code overzichtelijk en beter leesbaar maken door een
   consistente stijl toe te passen.
 * Je kunt bepaalde programmeerfouten opsporen en verbeteren.
 
-## Opdrachten
+## Activiteiten
 
-Er zijn vier modules van één week. Vanaf de eerste dag van de cursus ga je oefenen met het omzetten van een idee voor een programma naar werkende Python-code. Per module doe je kleine oefeningen, en pak je wat grotere opdrachten aan. Het geheel lever je aan het einde van de module in, en dan wordt het beoordeeld:
+Het eindcijfer is samengesteld uit de resultaten van de opdrachten en dat van het tentamen.
+
+| onderdeel | gewicht |  
+| --------- | ------: |  
+| module 1  |     15% |  
+| module 2  |     15% |  
+| module 3  |     15% |  
+| module 4  |     15% |  
+| tentamen  |     40% |  
+
+## Modules
+
+Er zijn vier modules van één week. Vanaf de eerste dag van de cursus ga je oefenen met het omzetten van een idee voor een programma naar werkende Python-code. Per module doe je kleine oefeningen, en pak je wat grotere opdrachten aan. Het geheel lever je aan het einde van de module in, en dan wordt het als volgt beoordeeld:
 
 * Omvang --- heb je alle opdrachten geprobeerd of heb je dingen overgeslagen?
-  Heb je alles precies gedaan zoals de omschrijving vereist? Deze wordt gescoord door de tool `checkpy` die in de cursus verwerkt is.
-
-	| module   | punten |
-	| -------- | -----: |
-	| module 1 |     17 |
-	| module 2 |     26 |
-	| module 3 |     19 |
-	| module 4 |      9 |
+  Heb je alles precies gedaan zoals de omschrijving vereist? De code wordt onder andere gescoord door de tool `checkpy` die je ook zelf kunt gebruiken.
 
 * Stijl --- hoe ordelijk en leesbaar is je code? Dit kan een zwaarwegende factor worden! Deze wordt als volgt gescoord:
 
 	1. Matig
-	2. Redelijk: genoeg ruimte voor verbetering
-	3. Goed: wat ruimte voor verbetering
-	4. Heel goed: beperkt ruimte voor verbetering
-	5. Excellent: in feite geen ruimte voor verbetering
+	2. Redelijk: aardig wat punten voor verbetering
+	3. Goed: diverse punten voor verbetering
+	4. Heel goed: beperkt ruimte voor verbetering, paar kleine problemen
+	5. Excellent: in feite geen ruimte voor verbetering, misschien een suf foutje
 
 ## Dagelijks ritme
 
-De opdrachten zijn ingedeeld in blokken van één practicum. De bedoeling is dat elk blok gemiddeld een uur of vier aan werk is. Mocht je het niet afhebben, dan is het de bedoeling dat je de opdracht thuis nog af maakt. Kom je in de problemen? Neem dan contact op!
-
-## Aanwezigheid
-
-De bedoeling is dat je op alle practicumuren aanwezig bent. Wij leren je namelijk ter plaatse nog dingen die je niet in je eentje kunt leren: bijvoorbeeld het opsporen en verbeteren van fouten in je programma's. Je kunt 10% van de aanwezigheid missen zonder verdere gevolgen voor het halen van het vak. Inhalen is niet mogelijk. Loop je de kantjes er vanaf, dan kan het zijn dat je de 10% snel opmaakt!
+De modules kosten je gemiddeld zo'n 18 uur werk: dat is dus meer tijd dan er practicum ingeroosterd is. Mocht je het niet afhebben, dan is het de bedoeling dat je de opdracht thuis nog af maakt. Kom je in de problemen? Neem dan contact op!
 
 ## Deadlines
 
-De deadline is steeds op vrijdagavond (maakt niet uit welke tijd). Daarna wordt het ingeleverde werk verdeeld onder de nakijkers en gaan zij aan de slag. Lever altijd in wat je hebt, ook als je denkt dat het te weinig is! Het is trouwens prima om, voor je instuurt, een assistent nog even te vragen naar je opgave te kijken, zodat je nog verbeteringen kunt aanbrengen.
+De deadline is steeds op zaterdagavond (maakt niet uit welke tijd). Daarna wordt het ingeleverde werk verdeeld onder de nakijkers en gaan zij aan de slag. Lever altijd in wat je hebt, ook als je denkt dat het te weinig is! Het is trouwens prima om, voor je instuurt, een assistent nog even te vragen naar je opgave te kijken, zodat je nog verbeteringen kunt aanbrengen.
 
 ## Tentamen
 
-Omdat het mogelijk is ongemerkt mee te liften met een medestudent tijdens het
-maken van de practica (als je steevast overlegt over de manier van code
-schrijven), checken we met behulp van het tentamen nog een keer of je
-zelfstandig de leerdoelen van het vak gehaald hebt. Je moet het tentamen voldoende maken, maar het telt verder niet mee. Wil je inzage in de beoordeling? Stuur dan een mailtje voor een afspraak.
+Omdat het mogelijk is ongemerkt mee te liften met een medestudent tijdens het maken van de practica (als je steevast overlegt over de manier van code schrijven), checken we met behulp van het tentamen nog een keer of je zelfstandig de leerdoelen van het vak gehaald hebt. Wil je inzage in de beoordeling? Stuur dan een mailtje voor een afspraak.
 
 ## Eindcijfer
 
@@ -88,27 +80,22 @@ Je krijgt een eindcijfer voor dit vak als je:
 * elke module op tijd en naar verwachting hebt ingeleverd;
 * een voldoende hebt gehaald voor het tentamen.
 
-Het eindcijfer wordt als volgd samengesteld:
-
-- 4/9 deel is het aantal gehaalde omvang/scope-punten gedeeld door het maximum van 68 (in feite was het 71 maar maximum is gesteld op 68)
-
-- 5/9 deel is een gewogen gemiddelde van de scores op style: 25% module 2, 25% module 3 en 50% module 4.
-
 Een klein deel van het eindcijfer wordt bepaald door hoe je beter bent gaan programmeren tijdens het vak (de voortgang die jij persoonlijk hebt gemaakt!).
 
 Was je niet voldoende aanwezig, heb je een opdracht niet zichtbaar geprobeerd, of was je niet bij het tentamen, dan krijg je een NA (niet aanwezig). Heb je het tentamen niet gehaald, dan krijg je een NAV en kun je dit tentamen herkansen. Er zijn geen herkansingen voor de opdrachten.
 
 ## Literatuur
 
-Het volgende boek is gratis verkrijgbaar. In de cursus staan soms links naar dit boek. Probeer een balans te vinden in het leren uit de cursusmaterialen, het boek, en het oefenen met voorbeelden.
+Het volgende boek is gratis verkrijgbaar. In de cursus staat soms al uitleg uit dit boek. Probeer een balans te vinden in het leren uit de cursusmaterialen, het boek, en het oefenen met voorbeelden.
 
 Allen Downey  
 *Think Python*  
 Green Tea Press, 2013
+[link](http://greenteapress.com/thinkpython/html/index.html)
 
 ## Uitzonderingen
 
-Het kan zijn dat je om één of andere reden een uitzondering nodig hebt op de regels van het vak. Deze kun je alleen krijgen bij de coördinator. Stuur een mail naar <progbg@mprog.nl> en leg even kort uit wat je situatie is. Ben je bang een achterstand op te lopen van meer dan een dag of twee? Neem dan razendsnel contact op!
+Het kan zijn dat je om één of andere reden een uitzondering nodig hebt op de regels van het vak. Deze kun je alleen krijgen bij de coördinator. Stuur een mail naar <progbg@mprog.nl> en leg even kort uit wat je situatie is. Ben je bang een achterstand op te lopen van meer dan een dag? Neem dan razendsnel contact op!
 
 ## Samenwerken
 
