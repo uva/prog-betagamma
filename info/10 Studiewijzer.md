@@ -91,7 +91,7 @@ Het volgende boek is gratis verkrijgbaar. In de cursus staat soms al uitleg uit 
 Allen Downey  
 *Think Python*  
 Green Tea Press, 2013
-[link](http://greenteapress.com/thinkpython/html/index.html)
+[link](http://greenteapress.com/thinkpython2/html/index.html)
 
 ## Uitzonderingen
 
