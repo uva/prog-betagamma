@@ -1,6 +1,6 @@
 # Inleiding Programmeren<br><small>Studiehandleiding</small>
 
-*Versie: Januari 2017*
+*Versie: Januari 2018*
 
 ![Python](python-logo.png){:.inline}  
 
