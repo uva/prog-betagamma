@@ -1,6 +1,10 @@
-# Stijlgids #
+# Stijlgids
 
-De gids is momenteel in het Engels. Heb je hulp nodig bij het begrijpen, vraag dan gerust!
+Programmacode is bij voorkeur goed leesbaar, niet alleen voor jezelf, maar ook voor een ander met wie je samenwerkt. Eerder hebben we al kort een aantal richtlijnen genoemd voor het gebruiken van commentaar bij stukjes code. Maar er zijn meer aspecten, die hieronder benoemd worden.
+
+Het is belangrijk tijdens het programmeren regelmatig de stijl even aandacht te geven. Mocht je er het uiterste uit willen halen, zoek dan gerust eens op internet naar code style python. Maar verlies het doel van leren programmeren niet uit het oog!
+
+Deze gids is momenteel in het Engels. Heb je hulp nodig bij het begrijpen, vraag dan gerust!
 
 ---
 

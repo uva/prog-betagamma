@@ -26,7 +26,7 @@ Kijk om te beginnen eens naar het filmpje hiernaast. Egge van der Poel is Data S
 
 #### Dag 3: een serieuzer algoritme
 
-1. Begrijp hoe je ["mooie code"](/python/stijl) kunt schrijven
+1. Begrijp hoe je ["mooie code"](/python/stijlgids) kunt schrijven
 
 2. <span class="label label-primary">Opdracht</span> Reken wisselgeld uit met een [greedy](/algoritmen/greedy) algoritme
 
