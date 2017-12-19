@@ -16,21 +16,21 @@ Maak tekstbestand **module1.py** (weet je nog hoe?) en zet er de volgende regels
 
 Start nu het programma door in de Terminal in te geven:
 
-	python module1.py
+    python module1.py
 
 Wat komt er uit? Heb je nog tikfouten gemaakt? En heb je gezien dat de aanhalingstekens soms verschillen? Je moet de reeks letters achter `print` starten en eindigen met aanhalingstekens (enkele of dubbele). Zo'n reeks noemen we een **string**.
 
 We kunnen ook meerdere waarden op één regel printen. Standaard voegt het `print`-commando een **ENTER** toe aan de tekst, zodat de volgende `print` op een nieuwe regel doorgaat. Je kunt ook zorgen dat deze **ENTER** weggelaten wordt:
 
-	print("De temperatuur is", end="")
-	print(8, end="")
-	print("graden")
+    print("De temperatuur is", end="")
+    print(8, end="")
+    print("graden")
 
 Daarmee wordt de hele boodschap keurig op één regel geprint. Probeer vooral uit!
 
 Je kan dit ook bereiken door meerdere waarden in één printstatement te stoppen:
 
-	print("De temperatuur is", 8, "graden")
+    print("De temperatuur is", 8, "graden")
 
 ## Berekeningen
 
