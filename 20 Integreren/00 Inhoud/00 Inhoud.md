@@ -34,6 +34,8 @@ Kijk om te beginnen eens naar het filmpje hiernaast. Lydia Brenner en Jelle Aalb
 
 2. <span class="label label-primary">Opdracht</span> Gebruik random waarden voor het berekenen van integralen met de  [Monte Carlo](/integreren/monte-carlo)-methode
 
+3. <span class="label label-primary">Opdracht</span> Pas Monte Carlo toe op een [Kinder-ei](/integreren/ei)-methode
+
 #### Inleveren en evaluatie
 
 1. Ga naar [deze pagina](/integreren/submit) om je programma's in te leveren.
