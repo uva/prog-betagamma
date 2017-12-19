@@ -1,10 +1,3 @@
-<style>
-div.embed
-{
-	margin:0 ! important;
-}
-</style>
-
 # Big data
 
 <div style="width: 40%; float:right; margin-left: 2em;">
@@ -23,6 +16,8 @@ In deze module gaan we leren hoe we informatie uit een grote data-set halen.
 
 1. <span class="label label-primary">Opdracht</span>Graven in de [KNMI temperatuur-data](/bigdata/klimaatdiscussie) van de 20ste eeuw
 
-#### Evaluatie
+#### Inleveren en evaluatie
 
-Ben je klaar met deze module? Help ons dan om deze te verbeteren: vul de [evaluatie](https://goo.gl/forms/XP9ccEjH8A3V7q4O2){:target="_blank"} in.
+1. Ga naar [deze pagina](/integreren/inleveren) om je programma's in te leveren.
+
+2. Vul daarna de [evaluatie](https://goo.gl/forms/X0HNmhNQbhAk81442){:target="_blank"} in.

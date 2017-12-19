@@ -19,3 +19,8 @@ In deze module gaan we het spel Monopoly simuleren. Het is ondoenlijk om dit ana
 
 1. <span class="label label-primary">Opdracht</span> Voeg een tweede speler toe en herstel het [evenwicht](/monopoly/twee-spelers)
 
+#### Inleveren en evaluatie
+
+1. Ga naar [deze pagina](/integreren/inleveren) om je programma's in te leveren.
+
+2. Vul daarna de [evaluatie](https://goo.gl/forms/X0HNmhNQbhAk81442){:target="_blank"} in.

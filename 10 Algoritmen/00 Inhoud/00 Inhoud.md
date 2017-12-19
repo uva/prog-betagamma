@@ -40,8 +40,8 @@ Kijk om te beginnen eens naar het filmpje hiernaast. Egge van der Poel is Data S
 
 4. <span class="label label-primary">Opdracht</span> Maak data inzichtelijk met [grafieken](/algoritmen/grafieken)
 
-#### Evaluatie
+#### Inleveren en evaluatie
 
-Ben je klaar met deze module? Help ons dan om deze te verbeteren: vul de [evaluatie](https://goo.gl/forms/gwRSgA3bBnpcAkME2){:target="_blank"} in.
+1. Ga naar [deze pagina](/integreren/inleveren) om je programma's in te leveren.
 
-
+2. Vul daarna de [evaluatie](https://goo.gl/forms/X0HNmhNQbhAk81442){:target="_blank"} in.
