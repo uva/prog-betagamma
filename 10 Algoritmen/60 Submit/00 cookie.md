@@ -2,7 +2,7 @@
 
 ## Sanity check
 
-Alle opdrachten moeten geprogrammeerd worden met behulp van de elementen die in deze cursus zijn aanboden. Er zijn in Python ook heel veel handige functies die je een hoop werk uit handen nemen bij simulaties en fitten. Die kun je later opzoeken in de Python-documentatie. Voor nu mag je deze andere functie nog niet gebruiken, want we oefenen juist met de meer basale elementen van Python.
+Alle opdrachten moeten geprogrammeerd worden met behulp van de elementen die in deze cursus zijn aanboden. Er zijn in Python ook heel veel handige functies die je een hoop werk uit handen nemen bij simulaties en fitten. Die kun je later opzoeken in de Python-documentatie. Voor nu mag je deze andere functies nog niet gebruiken, want we oefenen juist met de meer basale elementen van Python.
 
 ## Testen van je opdrachten
 
