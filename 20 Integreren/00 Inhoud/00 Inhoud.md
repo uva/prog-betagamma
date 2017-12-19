@@ -16,7 +16,7 @@ Kijk om te beginnen eens naar het filmpje hiernaast. Lydia Brenner en Jelle Aalb
 
 #### Dag 2: random
 
-1. Leer over het gebruik van [random getallen](/python/random).
+1. Leer over het gebruik van [random getallen](/python/random)
 
 2. <span class="label label-primary">Opdracht</span> Bereken de gemiddelde [afstand](/integreren/afstand) tussen twee punten in een vierkant
 
@@ -24,17 +24,17 @@ Kijk om te beginnen eens naar het filmpje hiernaast. Lydia Brenner en Jelle Aalb
 
 #### Dag 3: Riemann
 
-1. Leer over de [Riemannsom](/technieken/riemannsom).
+1. Leer over de [Riemannsom](/technieken/riemannsom)
 
-2. <span class="label label-primary">Opdracht</span> Gebruik computerkracht voor het bepalen van de [Riemannsom](/integreren/riemann).
+2. <span class="label label-primary">Opdracht</span> Gebruik computerkracht voor het bepalen van de [Riemannsom](/integreren/riemann)
 
 #### Dag 4: Monte Carlo
 
-1. Leer over de [Monte Carlo](/technieken/monte-carlo)-techniek.
+1. Leer over de [Monte Carlo](/technieken/monte-carlo)-techniek
 
-2. <span class="label label-primary">Opdracht</span> Gebruik random waarden om te integreren met de [Monte Carlo](/integreren/monte-carlo)-methode.
+2. <span class="label label-primary">Opdracht</span> Gebruik random waarden om te integreren met de [Monte Carlo](/integreren/monte-carlo)-methode
 
-3. <span class="label label-primary">Opdracht</span> Pas Monte Carlo toe op een [Kinder-ei](/integreren/ei).
+3. <span class="label label-primary">Opdracht</span> Pas Monte Carlo toe op een [Kinder-ei](/integreren/ei)
 
 #### Inleveren en evaluatie
 
