@@ -30,7 +30,7 @@ Daarmee wordt de hele boodschap keurig op één regel geprint. Probeer vooral ui
 
 Je kan dit ook bereiken door meerdere waarden in één printstatement te stoppen:
 
-  print("De temperatuur is", 8, "graden")
+	print("De temperatuur is", 8, "graden")
 
 ## Berekeningen
 

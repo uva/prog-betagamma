@@ -123,24 +123,24 @@ Je kan meerdere variabelen meegeven als aparte waardes zoals hierboven, maar je 
 
 In het onderstaande voorbeeld wordt in de hoofdcode een lijst met x-waardes geproduceerd waarna een functie gevraagd wordt alle bijbehorende y-waardes uit te rekenen (volgens de functie $$f(x)= 8x^2-5x+9$$) en in een lijst te stoppen zodat het op het scherm geplot kan worden.
 
-  import matplotlib
-  matplotlib.use('Agg')
-  import matplotlib.pyplot as plt
+	import matplotlib
+	matplotlib.use('Agg')
+	import matplotlib.pyplot as plt
+	
+	def MijnPolynoom(x_waardes):
+		y_waardes = []
+		for x in x_waardes:
+			y = 8 * x * x - 5 * x + 9
+			y_waardes.append(y)
+		return y_waardes
 
-  def MijnPolynoom(x_waardes):
-      y_waardes = []
-      for x in x_waardes:
-          y = 8 * x * x - 5 * x + 9
-          y_waardes.append(y)
-      return y_waardes
 
+	# hier begint het programma
+	mijn_x_waardes = [1, 2, 3, 4, 5, 6]
+	mijn_y_waardes = MijnPolynoom(mijn_x_waardes)
 
-  # hier begint het programma
-  mijn_x_waardes = [1, 2, 3, 4, 5, 6]
-  mijn_y_waardes = MijnPolynoom(mijn_x_waardes)
-
-  plt.plot(mijn_x_waardes, mijn_y_waardes, 'g-')
-  plt.savefig("polynoom.png")
+	plt.plot(mijn_x_waardes, mijn_y_waardes, 'g-')
+	plt.savefig("polynoom.png")
 
 
 ---

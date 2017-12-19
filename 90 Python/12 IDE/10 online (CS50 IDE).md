@@ -67,7 +67,7 @@ We gebruiken een programma om te checken of je opdrachten op de juiste manier we
 Om zowel `matplotlib` en `checkpy` te downloaden voer je in de terminal één voor één de volgende commando's uit:
 
 	pip install matplotlib
-    pip install checkpy
+	pip install checkpy
 	checkpy -d Jelleas/progbeta2017tests
 
 Het kan best eventjes duren per commando, en er zal aardig wat tekst over je scherm ratelen. Mocht er weinig tekst staan, speur dan naar een eventuele foutmelding en vraag eventueel om hulp!
