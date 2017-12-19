@@ -40,11 +40,11 @@ Om de file `hello.py` te openen, ga je naar links bovenin je scherm waar je een 
 
 Voer in het bestand `hello.py` de volgende regel code in:
 
-	print("Hello, World!")
+    print("Hello, World!")
 
 Sla `hello.py` vervolgens op. Dit is jouw eerste (Python-)programma, en deze kunnen we uitvoeren door het volgende commando in de terminal te voeren:
 
-	python hello.py
+    python hello.py
 
 Als het goed is zie je direct daaronder de woorden: `Hello, World!` staan.
 
@@ -66,14 +66,14 @@ We gebruiken een programma om te checken of je opdrachten op de juiste manier we
 
 Om zowel `matplotlib` en `checkpy` te downloaden voer je in de terminal één voor één de volgende commando's uit:
 
-	pip install matplotlib
-	pip install checkpy
-	checkpy -d Jelleas/progbeta2017tests
+    pip install matplotlib
+    pip install checkpy
+    checkpy -d Jelleas/progbeta2017tests
 
 Het kan best eventjes duren per commando, en er zal aardig wat tekst over je scherm ratelen. Mocht er weinig tekst staan, speur dan naar een eventuele foutmelding en vraag eventueel om hulp!
 
 Om te testen of alles werkt, en of `hello.py` klopt, voer je het volgende commando in de terminal uit:
 
-	checkpy hello
+    checkpy hello
 
 Kleurt alles groen en zie je enkel vrolijke smileys? Dan zit je goed, en heb je aan onze eisen voor de opdracht voldaan! Mocht er iets rood kleuren, geen paniek! Kijk goed na of je precies hebt gedaan wat er is gevraagd, en mail gerust als je klem zit.
