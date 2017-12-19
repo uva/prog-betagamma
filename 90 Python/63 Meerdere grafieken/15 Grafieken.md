@@ -1,5 +1,5 @@
 # Datavisualisatie: meerdere grafieken tegelijk
-   
+
 We kunnen maar een zeer kleine hoevelheid mogelijkheden laten zien die `pyplot` ons biedt om data te visualiseren. Als laatste zullen we nu kijken hoe we twee grafieken naast elkaar kunnen tekenen. We zullen we dit gebruiken op het moment dat er gevraagd wordt zowel de snelheid als de positie van een object te tekenen als functie van de tijd.
 
 Om meerdere figuren tegelijk af te beelden gebruik je het commando `subplot`. Als voorbeeld gaan we zowel de cosinus als de sinus weergeven, en in een grafiek ernaast tekenen we voor hetzelfde gebied in $$x$$ de grafiek $$x^2$$.

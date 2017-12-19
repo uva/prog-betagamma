@@ -10,7 +10,7 @@ een functie wordt aangegeven met `def`, daarna komt de functienaam (die je zelf
 mag kiezen), en vervolgens komen de haakjes met daartussen mogelijke parameters:
 
     def print_test():
-        print "abcdef"
+        print("abcdef")
 
 Dit is een functie die de string `abcdef` naar je terminal print. Als je
 bovenstaande *definitie* in een Python-bestand zet weet de computer dat er nu
@@ -28,7 +28,7 @@ Nu gaan we de functie uitbreiden! In plaats van dat het altijd `abcdef` print
 willen we *bij de aanroep* bepalen wat geprint wordt. Daarvoor introduceren we een *parameter*:
 
     def print_test_2(parameter_1):
-        print parameter_1
+        print(parameter_1)
 
 We kunnen de functie op verschillende manieren aanroepen:
 
@@ -39,11 +39,9 @@ of (dit heeft hetzelfde resultaat):
     variabele_1 = "hijkl"
     print_test_2(variabele_1)
 
-(Al die verschillende namen! Het is nogal verwarrend. Probeer te begrijpen dat de naam `parameter1` strikt in de functiedefinitie gebruikt wordt, en dat deze pas bij het daadwerkelijk *aanroepen* en uitvoeren van de functie een concrete waarde aanneemt.)
+(Al die verschillende namen! Het is nogal verwarrend. Probeer te begrijpen dat de naam `parameter_1` strikt in de functiedefinitie gebruikt wordt, en dat deze pas bij het daadwerkelijk *aanroepen* en uitvoeren van de functie een concrete waarde aanneemt.)
 
-Nu weet je hoe je een functie kan maken die afhankelijk van de parameter iets *doet*. Wat een functie ook nog kan, is iets uitrekenen en dat vervolgens
-*teruggeven* zodat je er verder mee kan werken in de rest van je programma. Dit
-doe je met het woord `return`.
+Nu weet je hoe je een functie kan maken die afhankelijk van de parameter iets *doet*. Wat een functie ook nog kan, is iets uitrekenen en dat vervolgens *teruggeven* zodat je er verder mee kan werken in de rest van je programma. Dit doe je met het woord `return`.
 
 Bekijk de volgende functie die twee argumenten nodig heeft. De functie telt
 deze waardes op en `return`t vervolgens het resultaat.
@@ -76,8 +74,8 @@ Als je van de getallen van 1 tot en met 20 de getallen zelf en hun kwadraten op 
     import math
 
     for x in range(1,21):
-        x_kwadraat = math.pow(x,2) 
-        print " %d in het kwadraat = %d" % (x, x_kwadraat) 
+        x_kwadraat = math.pow(x,2)
+        print(" {} in het kwadraat = {}".format(x, x_kwadraat))
 
 Je kan zo'n functie ook zelf schrijven natuurlijk. We zullen die `MijnKwadraatFunctie()` noemen. De functie heeft één invoer-parameter (het getal zelf) en één uitvoer (het getal in het kwadraat).
 
@@ -87,12 +85,12 @@ Je kan zo'n functie ook zelf schrijven natuurlijk. We zullen die `MijnKwadraatFu
 
     # hier begint het hoofdprogramma
     for x in range(1,21):
-        x_kwadraat = MijnKwadraatFunctie(x) 
-        print " %d in het kwadraat = %d" % (x, x_kwadraat) 
+        x_kwadraat = MijnKwadraatFunctie(x)
+        print(" {} in het kwadraat = {}".format(x, x_kwadraat))
 
 Eerst komt dus de definitie van de functie en zijn naam. Tussen de haakjes geef je aan welke variabelen er als invoer beschikbaar zijn: *parameters*. In dit geval de variabale `getal` waarna je het antwoord uitrekent. Dit antwoord, ook een getal, wordt vervolgens 'teruggegeven' aan de gebruiker die er vervolgens in de hoofdcode weer verder mee kan werken. In dit geval wordt het antwoord van de functie in de hoofdcode in een variabele (`x_kwadraat`) gestopt en vervolgens op het scherm geprint.
 
-Belangrijk om hier op te merken is ook dat de naam van de variabelen in de functie zelf helemaal losstaat van de waarde en de naam van variabelen in de hoofdcode zelf. In de functie zelf weet het programma bijvoorbeeld niet wat `x` is. Het is een gesloten wereld en je kan in de functie alleen werken met de variabele `getal`. 
+Belangrijk om hier op te merken is ook dat de naam van de variabelen in de functie zelf helemaal losstaat van de waarde en de naam van variabelen in de hoofdcode zelf. In de functie zelf weet het programma bijvoorbeeld niet wat `x` is. Het is een gesloten wereld en je kan in de functie alleen werken met de variabele `getal`.
 
 Bestudeer dit voorbeeld goed en probeer zelf de naam en functionaliteit te veranderen zodat het bijvoorbeeld de derdemacht van het getal uitrekent. In dit geval lijkt het een beetje overbodig om een aparte functie te maken voor een simpele opdracht, maar je zal al snel merken dat sommige stukken code die je in een functie onderbrengt al snel vrij groot kunnen worden.
 
@@ -112,8 +110,8 @@ Je kan ook meerdere parameters meegeven. Dit is bijvoorbeeld een functie die het
     # hier begint het programma
     getal_1 = 126
     getal_2 = 14
-    largest_number =  GrootsteGetal(getal_1, getal_2)
-    print "het grootste getal = %d" % (largest_number)
+    largest_number = GrootsteGetal(getal_1, getal_2)
+    print("het grootste getal is {}".format(largest_number))
 
 
 
@@ -125,23 +123,25 @@ Je kan meerdere variabelen meegeven als aparte waardes zoals hierboven, maar je 
 
 In het onderstaande voorbeeld wordt in de hoofdcode een lijst met x-waardes geproduceerd waarna een functie gevraagd wordt alle bijbehorende y-waardes uit te rekenen (volgens de functie $$f(x)= 8x^2-5x+9$$) en in een lijst te stoppen zodat het op het scherm geplot kan worden.
 
-    import matplotlib.pyplot as plt
+  import matplotlib
+  matplotlib.use('Agg')
+  import matplotlib.pyplot as plt
 
-    def MijnPolynoom(L_x):
-        L_y = []
-        for x in L_x:
-            y = 8 * x * x - 5 * x + 9
-            L_y.append(y)
-        return L_y
- 
+  def MijnPolynoom(x_waardes):
+      y_waardes = []
+      for x in x_waardes:
+          y = 8 * x * x - 5 * x + 9
+          y_waardes.append(y)
+      return y_waardes
 
-    # hier begint het programma
-    L_xwaardes = [1, 2, 3, 4, 5, 6]
-    L_ywaardes = MijnPolynoom(L_xwaardes)
 
-    plt.plot(L_xwaardes, L_ywaardes, 'g-')
-    plt.show()
- 
+  # hier begint het programma
+  mijn_x_waardes = [1, 2, 3, 4, 5, 6]
+  mijn_y_waardes = MijnPolynoom(mijn_x_waardes)
+
+  plt.plot(mijn_x_waardes, mijn_y_waardes, 'g-')
+  plt.savefig("polynoom.png")
+
 
 ---
 

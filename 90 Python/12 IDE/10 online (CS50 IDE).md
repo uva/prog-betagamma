@@ -20,7 +20,7 @@ Mocht je liever een wat donker scherm willen (zoals alle hackers ;-)), ga dan na
 
 ## Proefrit
 
-Links bovenin zie je een map-icoontje met daarachter de tekst **~/workspace**. Rechtsklik of ctrl+klik hierop en selecteer vervolgens **New Folder**. Noem deze map **week1**. 
+Links bovenin zie je een map-icoontje met daarachter de tekst **~/workspace**. Rechtsklik of ctrl+klik hierop en selecteer vervolgens **New Folder**. Noem deze map **week1**.
 
 Onderin het scherm zie je de terminal, een omgeving waarin je commando's kan uitvoeren. Tik maar eens het volgende commando in achter de `$`:
 
@@ -46,7 +46,7 @@ Sla `hello.py` vervolgens op. Dit is jouw eerste (Python-)programma, en deze kun
 
 	python2 hello.py
 
-Als het goed is zie je direct daaronder de woorden: `Hello, World!` staan. 
+Als het goed is zie je direct daaronder de woorden: `Hello, World!` staan.
 
 ## Extra tips
 
@@ -58,7 +58,7 @@ Hier staat `..` voor de map boven de huidige. Wil je verder omhoog? Dan kan dat 
 
     cd ~/workspace/week1
 
-Dat brengt je meteen naar de map `week1` binnen `workspace`. 
+Dat brengt je meteen naar de map `week1` binnen `workspace`.
 
 ## Installeren van Matplotlib en Checkpy
 
@@ -67,11 +67,11 @@ We gebruiken een programma om te checken of je opdrachten op de juiste manier we
 Om zowel `matplotlib` en `checkpy` te downloaden voer je in de terminal één voor één de volgende commando's uit:
 
 	sudo sh -c "umask 022; pip2 install -U pip setuptools"
-	
+
 	sudo sh -c "umask 022; pip2 install matplotlib"
-	
+
 	sudo sh -c "umask 022; pip2 install checkpy"
-	
+
 	sudo sh -c "umask 022; checkpy -d https://github.com/Jelleas/progbeta2017tests"
 
 Het kan best eventjes duren per commando, en er zal aardig wat tekst over je scherm ratelen. Mocht er weinig tekst staan, speur dan naar een eventuele foutmelding en vraag eventueel om hulp!
