@@ -32,19 +32,19 @@ Zo hebben we één string, `locatie`, samengesteld uit drie andere strings.
 
 Python heeft aardig wat functies ingebouwd om je te helpen met strings. Een functie die in de komende opdrachten erg van pas komt is `find`. Je kunt de `help`-opdracht gebruiken om hierover meer informatie te vinden. Daarvoor moet je eerst `python` opstarten.
 
-  # python
-  Python 3.6.0 (default, Aug 10 2017, 07:53:09)
-  [GCC 4.8.4] on linux
-  Type "help", "copyright", "credits" or "license" for more information.
-  >>> help(str.find)
-  find(...)
-    S.find(sub[, start[, end]]) -> int
+	# python
+	Python 3.6.0 (default, Aug 10 2017, 07:53:09)
+	[GCC 4.8.4] on linux
+	Type "help", "copyright", "credits" or "license" for more information.
+	>>> help(str.find)
+	find(...)
+	  S.find(sub[, start[, end]]) -> int
 
-    Return the lowest index in S where substring sub is found,
-    such that sub is contained within S[start:end].  Optional
-    arguments start and end are interpreted as in slice notation.
+	  Return the lowest index in S where substring sub is found,
+	such that sub is contained within S[start:end].  Optional
+	  arguments start and end are interpreted as in slice notation.
 
-    Return -1 on failure.
+	  Return -1 on failure.
 
 Lees het eerst even door! Dan gaan we er nu stap voor stap doorheen, laten we bovenaan beginnen met:
 
@@ -53,7 +53,7 @@ Lees het eerst even door! Dan gaan we er nu stap voor stap doorheen, laten we bo
 Dat betekent dat er twee *verplichte* argumenten zijn: `S` (waar je in zoekt),
 en `sub` (waar je naar op zoek bent). We kunnen dit uitproberen:
 
-    "atgacatgcacaagtatgcat".find("atgc")
+	"atgacatgcacaagtatgcat".find("atgc")
 
 Het resultaat van deze opdracht is de index van het **eerste** voorkomen van de
 string `atgc`. Probeer ook eens wat andere zoekopdrachten uit. Merk op, dat als
@@ -66,7 +66,7 @@ dat deze argumenten optioneel zijn door het gebruik van de brackets `[` en `]`.
 Als je goed naar het zojuist gegeven voorbeeld kijkt zie je dat `atgc` *twee*
 keer voorkomt: één keer op index vijf en één keer op index 15. Om de tweede te vinden kunnen we de optionele argumenten gebruiken. Het eerste argument is `start`, wat aangeeft vanaf welke index `find()` zal zoeken. Door te starten met zoeken ná de index van de eerste match, kun je de tweede match vinden:
 
-    "atgacatgcacaagtatgcat".find("atgc", 6)
+	"atgacatgcacaagtatgcat".find("atgc", 6)
 
 (Waarom 6? Tel het even na!)
 

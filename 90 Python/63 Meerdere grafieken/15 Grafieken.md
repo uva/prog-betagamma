@@ -14,25 +14,25 @@ Dit is de code die daarbij hoort:
     matplotlib.use('Agg')
     import matplotlib.pyplot as plt
 
-    L_x    = []
-    L_x2   = []
-    L_sinx = []
-    L_cosx = []
+    l_x    = []
+    l_x2   = []
+    l_sinx = []
+    l_cosx = []
 
     for x in np.arange(0.,2*math.pi,0.01):
-        L_x.append(x)
-        L_x2.append(x*x)
-        L_sinx.append(math.sin(x))
-        L_cosx.append(math.cos(x))
+        l_x.append(x)
+        l_x2.append(x*x)
+        l_sinx.append(math.sin(x))
+        l_cosx.append(math.cos(x))
 
     # gemeenschappelijke figuur (bevat beide sub-figuren)
     plt.figure(1)
 
     plt.subplot(121)  # ga naar subplot 1
-    plt.plot(L_x, L_sinx, 'b-', L_x, L_cosx, 'r--')
+    plt.plot(l_x, l_sinx, 'b-', l_x, l_cosx, 'r--')
 
     plt.subplot(122)  # ga naar subplot 2
-    plt.plot(L_x, L_x2, 'g-')
+    plt.plot(l_x, l_x2, 'g-')
 
     # teken beide grafieken op het scherm
     plt.savefig("naam.png")

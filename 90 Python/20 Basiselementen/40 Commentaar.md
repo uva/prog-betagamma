@@ -2,7 +2,7 @@
 
 Als je in één bestand redelijk wat Python-code hebt geschreven, dan is het handig om duidelijk te maken *wat waar staat* (voor de lezer van de code zelf, niet voor de gebruiker van het programma). Daarom kun je regels commentaar toevoegen in je code. Die zien er zo uit:
 
-  # berekening
+	# berekening
 	x = x + 1
 
 of

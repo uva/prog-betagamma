@@ -51,12 +51,12 @@ De `'r'` bij de functie `open()` betekent 'read', lezen dus. Als je dit programm
 
 Elke regel bestaat uit verschillende elementen die Toegang tot de verschillende parameters in de regel krijg je door de regel in stukken te ’knippen’. Dit doe je met het Python commando `split()`. Als parameter kan je aan split meegeven waar hij moet knippen. Wij willen dat hij bij elke komma (`,`) knipt, dus we voeren het volgende commando uit: `line.split(',')`. Dit commando produceert een lijst met elementen die de losse stukken bevatten. Hierop kun je afzonderlijke bewerkingen uitvoeren.
 
-  input_file = open('VanBasten.txt', 'r')
-  for line in input_file:
-      print(line)
-      data_opgeknipt = line.split(',')
-      print(data_opgeknipt)
-  input_file.close()
+	input_file = open('VanBasten.txt', 'r')
+	for line in input_file:
+		print(line)
+		data_opgeknipt = line.split(',')
+		print(data_opgeknipt)
+	input_file.close()
 
 De regel met 1988 is nu in stukken geknipt en in een lijst gezet:
 
@@ -97,22 +97,22 @@ Je hebt nu dus de informatie tot je beschikking in een variabele. Vervolgens kun
 
 We wilden het aantal totaal aantal doelpunten uitreken dat Van Basten voor zijn clubs heeft gescoord en ook aangeven in welke seizoenen hij meer dan 20 doelpunten maakte.
 
-  input_file = open('VanBasten.txt', 'r')
-  totaal_doelpunten = 0
+	input_file = open('VanBasten.txt', 'r')
+	totaal_doelpunten = 0
 
-  for line in input_file:
-      data_opgeknipt = line.split(',')
+	for line in input_file:
+		data_opgeknipt = line.split(',')
 
-      seizoen = int(data_opgeknipt[0][0:4])
-      doelpunten = int(data_opgeknipt[2])
+		seizoen = int(data_opgeknipt[0][0:4])
+		doelpunten = int(data_opgeknipt[2])
 
-      totaal_doelpunten = totaal_doelpunten + doelpunten   
+		totaal_doelpunten = totaal_doelpunten + doelpunten   
 
-      if(doelpunten > 20):
-          print("In {} scoorde Van Basten > 20 doelpunten, nl {}".format(seizoen, doelpunten))
-
-  print("TOTAAL: In totaal scoorde Van Basten {} clubdoelpunten".format(totaal_doelpunten))
-  input_file.close()
+		if(doelpunten > 20):
+			print("In {} scoorde Van Basten > 20 doelpunten, nl {}".format(seizoen, doelpunten))
+	
+	print("TOTAAL: In totaal scoorde Van Basten {} clubdoelpunten".format(totaal_doelpunten))
+	input_file.close()
 
 Gebruik altijd `close()` om het bestand netjes te sluiten na gebruik.
 
