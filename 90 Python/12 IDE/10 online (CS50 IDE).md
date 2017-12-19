@@ -40,11 +40,11 @@ Om de file `hello.py` te openen, ga je naar links bovenin je scherm waar je een 
 
 Voer in het bestand `hello.py` de volgende regel code in:
 
-	print "Hello, World!"
+	print("Hello, World!")
 
 Sla `hello.py` vervolgens op. Dit is jouw eerste (Python-)programma, en deze kunnen we uitvoeren door het volgende commando in de terminal te voeren:
 
-	python2 hello.py
+	python hello.py
 
 Als het goed is zie je direct daaronder de woorden: `Hello, World!` staan. 
 
@@ -66,13 +66,9 @@ We gebruiken een programma om te checken of je opdrachten op de juiste manier we
 
 Om zowel `matplotlib` en `checkpy` te downloaden voer je in de terminal één voor één de volgende commando's uit:
 
-	sudo sh -c "umask 022; pip2 install -U pip setuptools"
-	
-	sudo sh -c "umask 022; pip2 install matplotlib"
-	
-	sudo sh -c "umask 022; pip2 install checkpy"
-	
-	sudo sh -c "umask 022; checkpy -d https://github.com/Jelleas/progbeta2017tests"
+	pip install matplotlib
+    pip install checkpy
+	checkpy -d Jelleas/progbeta2017tests
 
 Het kan best eventjes duren per commando, en er zal aardig wat tekst over je scherm ratelen. Mocht er weinig tekst staan, speur dan naar een eventuele foutmelding en vraag eventueel om hulp!
 
