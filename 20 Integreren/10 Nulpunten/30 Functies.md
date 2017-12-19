@@ -2,8 +2,8 @@
 
 Schrijf een programma dat de nulpunten berekent van de polynoom $$f(x)=x^2+2x-10$$ en de grafiek van de functie plot.
 
-	# python nulpunten.py
-	De nulpunten zijn -4.32 en 2.32
+    # python nulpunten.py
+    De nulpunten zijn -4.32 en 2.32
 
 ![](PolynoomAnalyse.png)
 
@@ -16,8 +16,8 @@ Schrijf een programma dat de nulpunten berekent van de polynoom $$f(x)=x^2+2x-10
 
 - Er zijn twee mogelijkheden voor het resultaat van de functie:
 
-	- een lege lijst `[]` als er geen nulpunten zijn
-	- een lijst met twee elementen `[n1, n2]` waarin `n1` en `n2` de nulpunten van de polynoom zijn
+    - een lege lijst `[]` als er geen nulpunten zijn
+    - een lijst met twee elementen `[n1, n2]` waarin `n1` en `n2` de nulpunten van de polynoom zijn
 
 - Plot in alle gevallen de functie, en geef de nulpunten uit de berekening duidelijk aan in de grafiek.
 
@@ -28,7 +28,7 @@ Schrijf een programma dat de nulpunten berekent van de polynoom $$f(x)=x^2+2x-10
 
 - Om te zorgen dat je het resultaat netjes kunt printen en de plot maken, roep je de functie aan met ons voorbeeld, en sla je het resultaat op:
 
-		resultaat = nulpunten(1, 2, -10)
+        resultaat = nulpunten(1, 2, -10)
 
 - Test later ook met een polynoom die geen nulpunten heeft (check dan of de lijst leeg is). Het programma moet in dat geval wel de functie plotten, maar ook netjes printen dat de nulpunten ontbreken:
 
@@ -37,6 +37,6 @@ Schrijf een programma dat de nulpunten berekent van de polynoom $$f(x)=x^2+2x-10
 
 ## Testen
 
-	checkpy nulpunten.py
+    checkpy nulpunten.py
 
 (Werkt het niet? Update dan nog eens met `checkpy -u`.)
