@@ -20,7 +20,7 @@ Mocht je liever een wat donker scherm willen (zoals alle hackers ;-)), ga dan na
 
 ## Proefrit
 
-Links bovenin zie je een map-icoontje met daarachter de tekst **~/workspace**. Rechtsklik of ctrl+klik hierop en selecteer vervolgens **New Folder**. Noem deze map **week1**. 
+Links bovenin zie je een map-icoontje met daarachter de tekst **~/workspace**. Rechtsklik of ctrl+klik hierop en selecteer vervolgens **New Folder**. Noem deze map **week1**.
 
 Onderin het scherm zie je de terminal, een omgeving waarin je commando's kan uitvoeren. Tik maar eens het volgende commando in achter de `$`:
 
@@ -46,7 +46,7 @@ Sla `hello.py` vervolgens op. Dit is jouw eerste (Python-)programma, en deze kun
 
 	python hello.py
 
-Als het goed is zie je direct daaronder de woorden: `Hello, World!` staan. 
+Als het goed is zie je direct daaronder de woorden: `Hello, World!` staan.
 
 ## Extra tips
 
@@ -58,7 +58,7 @@ Hier staat `..` voor de map boven de huidige. Wil je verder omhoog? Dan kan dat 
 
     cd ~/workspace/week1
 
-Dat brengt je meteen naar de map `week1` binnen `workspace`. 
+Dat brengt je meteen naar de map `week1` binnen `workspace`.
 
 ## Installeren van Matplotlib en Checkpy
 

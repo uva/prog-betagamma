@@ -5,7 +5,7 @@ Het is vaak informatief om neer te zetten over *welke* meting het gaat als we ee
     teller = 0
     for meting in metingen_science_park:
         teller = teller + 1
-        print "de %d e meting was %f graden" % (teller, meting)
+        print("de {}e meting was {} graden".format(teller, meting))
 
 Met behulp van al deze informatie kunnen we ook makkelijk het *gemiddelde* uitrekenen. Bedenk dan dat `teller` aan het einde van de loop precies de telling van het totaal aantal elementen van de lijst bevat!
 
@@ -14,9 +14,9 @@ Met behulp van al deze informatie kunnen we ook makkelijk het *gemiddelde* uitre
     for meting in metingen_science_park:
         teller = teller + 1
         som = som + meting
-        print "De %d e meting was %d graden." % (teller, meting)
+        print("De {}e meting was {} graden.".format(teller, meting))
     gemiddelde_temp = som / teller
-    print "De gemiddelde temperatuur was %f graden." % gemiddelde_temp
+    print("De gemiddelde temperatuur was {} graden.".format(gemiddelde_temp))
 
 Of we kunnen met zo'n loopje bijhouden op hoeveel dagen de temperatuur boven de 20 graden uitkwam:
 
@@ -24,9 +24,9 @@ Of we kunnen met zo'n loopje bijhouden op hoeveel dagen de temperatuur boven de 
     for meting in metingen_science_park:
         if meting > 20:
             hete_dagen = hete_dagen + 1
-    print "Op %d dagen was de temperatuur boven de 20 graden" % hete_dagen
+    print("Op {} dagen was de temperatuur boven de 20 graden".format(hete_dagen))
 
-Van lijsten is het belangrijk dat je weet hoe je een lijst definiert, hoe je elementen toevoegt aan een lijst en hoe je de individuele elementen afzonderlijk lukt bekijken.
+Van lijsten is het belangrijk dat je weet hoe je een lijst definiëert, hoe je elementen toevoegt aan een lijst en hoe je de individuele elementen afzonderlijk lukt bekijken.
 
 ## Opdracht
 
