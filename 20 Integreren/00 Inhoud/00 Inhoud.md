@@ -34,8 +34,8 @@ Kijk om te beginnen eens naar het filmpje hiernaast. Lydia Brenner en Jelle Aalb
 
 #### Inleveren en evaluatie
 
-1. Ga naar [deze pagina](/integreren/inleveren) om je programma's in te leveren.
+1. Ga naar [deze pagina](/integreren/submit) om je programma's in te leveren.
 
-2. Vul daarna de [evaluatie](https://goo.gl/forms/X0HNmhNQbhAk81442){:target="_blank"} in.
+2. Vul daarna de [evaluatie](){:target="_blank"} in.
 
 
