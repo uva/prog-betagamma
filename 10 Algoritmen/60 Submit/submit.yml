@@ -3,6 +3,6 @@ files:
     vereist:
         - hello.py
         - water.py
-        - mario.py
+        - piramide.py
         - greedy.py
         - plot.py

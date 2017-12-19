@@ -16,17 +16,15 @@ Kijk om te beginnen eens naar het filmpje hiernaast. Lydia Brenner en Jelle Aalb
 
 #### Dag 2: random
 
-1. Leer over het gebruik van  [random getallen](/python/random).
+1. Leer over het gebruik van [random getallen](/python/random).
 
-2. <span class="label label-primary">Opdracht</span> [Random fact](/integreren/randomwiskunde).
-
-3. <span class="label label-primary">Opdracht</span> Bereken de gemiddelde [afstand](/integreren/afstand) tussen twee punten in een vierkant
+2. <span class="label label-primary">Opdracht</span> Bereken de gemiddelde [afstand](/integreren/afstand) tussen twee punten in een vierkant
 
 3. <span class="label label-primary">Opdracht</span> Analyseer met een [histogram](/integreren/histogram) de uitvoer van de `random`-functie
 
 #### Dag 3: Monte Carlo
 
-2. <span class="label label-primary">Opdracht</span> Gebruik random waarden voor het berekenen van integralen met de  [Monte Carlo](/integreren/monte-carlo)-methode
+1. <span class="label label-primary">Opdracht</span> Gebruik random waarden voor het berekenen van integralen met de  [Monte Carlo](/integreren/monte-carlo)-methode
 
 #### Dag 4: Riemann
 
@@ -37,5 +35,3 @@ Kijk om te beginnen eens naar het filmpje hiernaast. Lydia Brenner en Jelle Aalb
 1. Ga naar [deze pagina](/integreren/submit) om je programma's in te leveren.
 
 2. Vul daarna de [evaluatie](){:target="_blank"} in.
-
-
