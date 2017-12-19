@@ -32,7 +32,7 @@ Kijk om te beginnen eens naar het filmpje hiernaast. Lydia Brenner en Jelle Aalb
 
 1. Leer over de [Monte Carlo](/technieken/monte-carlo)-techniek.
 
-2. <span class="label label-primary">Opdracht</span> Gebruik random waarden voor het berekenen van integralen met de  [Monte Carlo](/integreren/monte-carlo)-methode
+2. <span class="label label-primary">Opdracht</span> Gebruik random waarden om te integreren met de [Monte Carlo](/integreren/monte-carlo)-methode
 
 3. <span class="label label-primary">Opdracht</span> Pas Monte Carlo toe op een [Kinder-ei](/integreren/ei)-methode
 
