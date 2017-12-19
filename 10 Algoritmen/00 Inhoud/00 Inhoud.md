@@ -36,7 +36,7 @@ Kijk om te beginnen eens naar het filmpje hiernaast. Egge van der Poel is Data S
 
 2. Leer over het gebruiken van [modules](/python/modules) in Python
 
-3. Zoek op hoe je data kunt [plotten](/python/plot)
+3. Zoek op hoe je data kunt [plotten](/technieken/plot)
 
 4. <span class="label label-primary">Opdracht</span> Maak data inzichtelijk met [grafieken](/algoritmen/grafieken)
 
