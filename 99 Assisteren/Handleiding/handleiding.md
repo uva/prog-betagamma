@@ -64,24 +64,34 @@ Om ervoor te zorgen dat alle studenten aan de beurt kunnen komen gebruiken we ee
 
 ## Nakijken en feedback
 
-We werken graag met een feedbacksysteem waar studenten gericht gewezen worden op de meest essentiele verbeterpunten. We gebruiken daarvoor twee onderdelen: becijfering en geschreven feedback.
+Omdat het vak maar een maand duurt en we de studenten toch de gelegenheid willen bieden om te leren van de feedback op hun opdrachten, hebben we weinig tijd voor nakijken. Om dit mogelijk te maken beperken we het nakijken van de eerste drie opdrachten tot een simpele vraag: Werkt alles correct?
+
+Verder moeten de studenten hun code mondeling met hun begeleider bespreken. Hierbij is het de bedoeling dat de assistent ze laat zien hoe ze het ontwerp en de stijl van hun code kunnen verbeteren.
+
+Voor de laatste opdracht beoordelen we de student niet alleen op de correctheid van de code, maar ook op de stijl en het ontwerp.
 
 ### Planning
 
-Omdat het vak maar een maand duurt en we de studenten toch de gelegenheid willen bieden om te leren van de feedback op hun opdrachten, hebben we weinig tijd voor nakijken. Om dit in goede banen te leiden hanteren we een redelijk strakke planning:
+De planning voor het nakijken is als volgt:
 
 - De deadlines voor de opdrachten zijn steeds op zaterdagavond.
-- De nakijkdeadline: Dinsdagmiddag om 12:00.
-- Elke maandag houden we een nakijksessie om 11:30. Het doel hiervan is om aan het einde van de sessie al het werk te hebben nageken. Je bent als assistent niet verplicht om hierbij aanwezig te zijn. Maar het kan je een hoop tijd schelen. Mocht je er niet bij kunnen zijn, zorg er dan zelf voor dat je al het werk voor dinsdagmiddag hebt nagekeken.
+- De nakijkdeadline: Maandagavond om 12:00.
+- Elke maandag houden we een nakijksessie om 11:30. Het doel hiervan is om aan het einde van de sessie al het werk te hebben nageken. Je bent als assistent niet verplicht om hierbij aanwezig te zijn. Maar het kan je een hoop tijd schelen. Mocht je er niet bij kunnen zijn, zorg er dan zelf voor dat je al het werk voor maandagavond hebt nagekeken.
+- Dinsdag: Feedback bespreken met de studenten. We maken de student zelf verantwoordelijk voor het bespreken van hun programma met een assistent, maar probeer ook zelf in de gaten te houden of je al jouw studenten hebt gesproken.
 
 ### Cijfers
 
-Becijfering gebeurt met vier verschillende factoren[^2]:
+Voor de eerste drie opdrachten beoordelen we het werk van de student alleen op *correctness*:
 
-- *Scope* (en Correctness): Een cijfer van 1 to 5 (5 is de norm). In hoeverre is een serieuze poging gedaan om de verschillende onderdelen te implementeren? In hoeverre voldoen de geprogrammeerde oplossingen aan de exacte specificatie in de opdrachten? Voor dit criterium gebruiken we o.a. de tool *checkpy*. De studenten krijgen hier toegang toe.
+- *Correctness* (en Scope): Een cijfer van 1 to 5 (5 is de norm). In hoeverre is een serieuze poging gedaan om de verschillende onderdelen te implementeren? In hoeverre voldoen de geprogrammeerde oplossingen aan de exacte specificatie in de opdrachten? Voor dit criterium gebruiken we o.a. de tool *checkpy*. De studenten krijgen hier toegang toe.
 
-- *Style* (en Design): Een cijfer van 1 tot 5 (3 is de norm). In hoeverre is de code goed en snel leesbaar, dus: commentaar aanwezig, indentatie op orde, variabelen met herkenbare namen? Hierbij is het belangrijk dat studenten zich houden aan de (stijlgids)[python/stijlgids]. Hierbij kan je ook wat aandacht besteden aan design: In hoeverre is de code elegant geschreven, dus: overzichtelijk, efficient, logisch, prettig leesbaar? Echter, voor dit vak zijn de design aspecten niet heel belangrijk.
-Voor style becijferen we als volgt:
+Voor de laatste opdracht kijken we nog naar twee andere aspecten van de code:
+
+- *Design*: Een cijfer van 1 tot 5 (3 is de norm). In hoeverre is de code elegant geschreven, dus: overzichtelijk, efficient, logisch, prettig leesbaar? Hierbij is het belangrijk dat de studenten proberen herhaling van code te voorkomen, onnodige loops en magic numbers vermijden, logische indeling van code, etc.
+
+- *Style*: Een cijfer van 1 tot 5 (3 is de norm). In hoeverre is de code goed en snel leesbaar, dus: commentaar aanwezig, indentatie op orde, variabelen met herkenbare namen? Hierbij is het belangrijk dat studenten zich houden aan de (stijlgids)[python/stijlgids].
+
+Voor design en style becijferen we als volgt:
 
 - 5 Perfectie. Alles klopt precies, niets meer aan te verbeteren.
 - 4 Zeer goed. Een of twee kleinigheden.
@@ -89,15 +99,16 @@ Voor style becijferen we als volgt:
 - 2 Redelijk. Nog diverse verbeteringen mogelijk.
 - 1 Slecht. Een onwaarschijnlijk resultaat.
 
-En voor de aardigheid geven we dan ook de formule die we gebruiken om naar een opdrachtscore te komen:
-
-	[TODO]
+Het eindcijfer wordt als volgt berkend:
+- 40% Tentamen
+- 40% Correctness (alle opdrachten)
+- 20% Design en style (laatste opdracht)
 
 ### Feedback
 
-Voor elke opdracht geven we de studenten feedback. Probeer niet meer dan 10 minuten per opdracht te besteden aan het nakijken en schrijven van feedback. Om dit voor elkaar te krijgen is het belangrijk om de grote lijnen in de gaten te houden en niet teveel in te zoomen op details.
+Voor elke opdracht geven we de studenten mondelinge feedback. Probeer niet meer dan 10 minuten per student te besteden aan het bespreken van de feedback. Om dit voor elkaar te krijgen is het belangrijk om de grote lijnen in de gaten te houden en niet teveel in te zoomen op details.
 
-Probeer bij het becijferen het niveau van de individuele student mee te nemen. Vergelijk de student met zichzelf: in hoeverre heeft de student de feedback van voorgaande weken toegepast en is hij of zij vooruitgegaan? Vergeet niet ook positieve feedback te geven! Dit wordt vaak vergeten omdat er eerder punten afgetrokken worden voor fouten dan punten gegeven voor correcte code. Feedback wordt veel prettiger verwerkt als ook de positieve punten worden aangestipt.
+Probeer bij het geven van feedback het niveau van de individuele student mee te nemen. Vergelijk de student met zichzelf: in hoeverre heeft de student de feedback van voorgaande weken toegepast en is hij of zij vooruitgegaan? Vergeet niet ook positieve feedback te geven! Feedback wordt veel prettiger verwerkt als ook de positieve punten worden aangestipt.
 
 Geef feedback op het proces, niet op de student. Dit is ook al kort genoemd bij gesprekstechnieken voor het computerpracticum. Directe feedback op de persoon is veel minder effectief dan feedback op het proces[^5]. Geef daarom in de feedback goed aan waarom iets goed of minder goed is. Bied daarbij tips aan, zodat de student de volgende keer de knelpunten beter kan aanpakken. Tijdens de wekelijkse bespreking van de feedback kun je de feedback wat meer toelichten.
 
