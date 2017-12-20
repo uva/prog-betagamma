@@ -16,6 +16,6 @@ Naast commentaar voor een stukje code is het ook handig om helemaal bovenaan een
 
     # Oefeningen met Python module 1
     # M. Stegeman
-    # 24-8-2016
+    # 24-8-2018
 
 Voeg nu commentaar toe aan je bestand. Maak steeds met een regeltje commentaar duidelijk wat de verschillende onderdelen van je bestand doen.
