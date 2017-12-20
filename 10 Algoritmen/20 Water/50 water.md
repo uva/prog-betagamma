@@ -30,4 +30,4 @@ Loop eerst je eigen programma na, werkt deze voor alle normale invoer? Vul bijvo
 
 	checkpy water
 
-Zie je unhappy smileys, en kom je er niet uit wat er fout gaat? Stuur gauw een mailtje!
+Zie je unhappy smileys, en kom je er niet uit wat er fout gaat? Vraag om hulp!

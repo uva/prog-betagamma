@@ -23,11 +23,11 @@ Als je de functie `sin()` wilt gebruiken moet je aangeven in welke bibliotheek P
 
 - De functies die beschikbaar zijn in de math library kan je vinden in de documentatie:
 
-  <https://docs.python.org/2/library/math.html>
+  <https://docs.python.org/3/library/math.html>
 
 - En zo zijn er nog meer libraries die horen bij standaard-Python:
 
-  <https://docs.python.org/2/library/>
+  <https://docs.python.org/3/library/>
 
 - Voor elk vakgebied of toepassing is wel een aparte library te vinden. Zodra je zelf in je studie aan grotere programma's gaat werken, zal het misschien ook handig zijn om je eigen standaardcode in een library onder te brengen. Het komt de overzichtelijkheid ten goede en je kan je code zo ook makkelijk delen met andere mensen.
 
