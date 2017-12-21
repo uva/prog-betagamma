@@ -37,13 +37,14 @@ Wat willen we dat je kunt aan het einde van deze cursus?
 
 Het eindcijfer is samengesteld uit de resultaten van de opdrachten en dat van het tentamen.
 
-| onderdeel | gewicht |  
-| --------- | ------: |  
-| module 1  |     15% |  
-| module 2  |     15% |  
-| module 3  |     15% |  
-| module 4  |     15% |  
-| tentamen  |     40% |  
+| onderdeel       | gewicht |  
+| --------------- | ------: |  
+| module 1        |     10% |  
+| module 2        |     10% |  
+| module 3        |     10% |  
+| module 4        |     10% |  
+| design en style |     20% |  
+| tentamen        |     40% |  
 
 ## Modules
 
