@@ -4,12 +4,22 @@
 
 ![Python](python-logo.png){:.inline}  
 
-We gaan programmeren in Python, een eenvoudige taal met vele mogelijkheden. Je leert over de basis van het programmeren, maar je gaat vooral aan de slag met toepassingen uit de biologie, wiskunde en natuurkunde.
+We gaan programmeren in Python, een eenvoudige taal met vele mogelijkheden. Je leert over de basis van het programmeren, maar je gaat vooral aan de slag met toepassingen uit verschillende wetenschapsgebieden.
 
 ## Medewerkers
 
 Simon Pauw (docent)  
-Martijn Stegeman (coördinator)
+Martijn Stegeman (coördinator)  
+Bart van Baal  
+Tessa Cramwinckel  
+Aynel Gül  
+Olmo Kramer  
+Mirja Lagerwaard  
+Dominique van Poorten  
+Jill de Ron  
+Joshua de Roos  
+Roos Vervelde  
+Yannick Vinkesteijn
 
 Voor bijzonderheden moet je bij de docent zijn. Mail bij voorkeur naar <progbg@mprog.nl> als je praktische vragen hebt, problemen wil melden, of persoonlijke afspraken wil maken.
 
@@ -17,10 +27,23 @@ Tijdens de practica van dit vak staan de assistenten voor je klaar en je kunt bi
 
 ## Verwachtingen
 
-- We verwachten dat je alle programmeeropdrachten serieus aanpakt en de uitwerking vóór de deadline inlevert.
-- We verwachten dat je tijdens de eerste week op alle geroosterde practica (laptopcolleges) van jouw groep aanwezig bent.
-- We verwachten dat je in latere weken steeds bij de practica aanwezig bent als je hulp en uitleg nodig hebt.
-- We verwachten dat je je feedback gebruikt om de opdrachten van de volgende keer beter te maken.
+In deze cursus ga je aan de slag met programmeeropdrachten, waarmee je de taal Python leert en de standaardaanpak voor een aantal wetenschappelijke problemen leert kennen. Om echt te leren programmeren is veel oefening nodig, dus bovenal verwachten we dat je alle opdrachten volledig maakt, waarbij er natuurlijk wél ruimte is om fouten te maken.
+
+Samenwerken tijdens dit vak is niet toegestaan. Dit vak heeft als doel jouw persoonlijke programmeervaardigheid te ontwikkelen. Bij vervolgvakken is het vaak wél mogelijk om samen te programmeren. Zie verder de opmerkingen over plagiaat, onderaan deze studiehandleiding.
+
+## Schema
+
+Er zijn vier modules van één week. Vanaf de eerste dag van de cursus ga je oefenen met het omzetten van een idee voor een programma naar werkende Python-code. Per module doe je kleine oefeningen en grotere opdrachten.
+
+| onderdeel | deadline                        |  
+| --------- | ------------------------------- |  
+| module 1  | zaterdag 13 januari 23:59       |  
+| module 2  | zaterdag 20 januari 23:59       |  
+| module 3  | zaterdag 27 januari 23:59       |  
+| module 4  | woensdag 31 januari 23:59       |  
+| tentamen  | donderdag 1 februari 14--17 uur |  
+
+Het is geen probleem als de modules een paar minuten later worden ingeleverd, bijvoorbeeld in geval van technische problemen.
 
 ## Leerdoelen
 
@@ -33,7 +56,35 @@ Wat willen we dat je kunt aan het einde van deze cursus?
   consistente stijl toe te passen.
 * Je kunt bepaalde programmeerfouten opsporen en verbeteren.
 
-## Activiteiten
+## Feedback
+
+Alle uitwerkingen van een module lever je aan het eind van de week in. Om te beginnen kijken we of je alles geprobeerd hebt: de **omvang**. Wij gebruiken daarnaast het programma `checkpy` om de **correctheid** van je oplossingen te beoordelen. Je hebt zelf ook toegang tot deze tool, dus gebruik die goed!
+
+> Omdat we altijd nieuwe opdrachten gebruiken, gebeurt het soms dat er een fout wordt gevonden in `checkpy` of in de opdracht zelf. Als we de fout kunnen corrigeren sturen we een mail rond. Zorg in ieder geval dat je altijd aan het eind van de week je oplossingen nog eens checkt met de nieuwste versie van `checkpy`!
+
+Programma's moeten niet alleen het "goede" antwoord geven, maar een programma kan zelf ook een bepaalde kwaliteit hebben. Is het een ordelijk en leesbaar geschreven algoritme? Kan het korter of duidelijker? Alleen je laaste opdracht wordt op **design** en **stijl** beoordeeld, en wel op de volgende schaal:
+
+1. Matig
+2. Redelijk: aardig wat punten voor verbetering
+3. Goed: diverse punten voor verbetering
+4. Heel goed: beperkt ruimte voor verbetering, paar kleine problemen
+5. Excellent: in feite geen ruimte voor verbetering, misschien een suf foutje
+
+> Feedback op design en stijl moet je gedurende de cursus zelf vragen! Zorg dat je diverse assistenten vraagt om verbeterpunten voor je verschillende opdrachten. Zo kun je een goed beeld vormen van wat "goede code" is, en dat zul je natuurlijk terug zien in je cijfer voor de laatste opdracht.
+
+## Aanwezigheid
+
+Tijdens de eerste week is er een aanwezigheidplicht voor alle geroosterde practica: zie je persoonlijke rooster op datanose. Je mag gerust wegblijven als je de opdrachten af hebt (en ingestuurd!).
+
+In latere weken steeds verwachten we dat je bij de practica aanwezig bent als je hulp en uitleg nodig hebt. Zorg dus dat je op tijd begint, zodat je nog een kans hebt om langs te komen als het nodig is!
+
+De modules kosten je gemiddeld zo'n 18 uur werk: dat is dus meer tijd dan er practicum ingeroosterd is. Mocht je het niet afhebben, dan is het de bedoeling dat je de opdracht thuis nog af maakt. Kom je in de problemen? Neem dan direct contact op met de docenten, per mail.
+
+## Tentamen
+
+Omdat het mogelijk is ongemerkt mee te liften met een medestudent tijdens het maken van de practica (als je steevast overlegt over de manier van code schrijven), checken we met behulp van het tentamen nog een keer of je zelfstandig de leerdoelen van het vak gehaald hebt. Wil je inzage in de beoordeling? Stuur dan, na bekendmaking van de uitslag, zelf een mailtje voor een afspraak.
+
+## Eindcijfer
 
 Het eindcijfer is samengesteld uit de resultaten van de opdrachten en dat van het tentamen.
 
@@ -45,35 +96,6 @@ Het eindcijfer is samengesteld uit de resultaten van de opdrachten en dat van he
 | module 4        |     10% |  
 | design en style |     20% |  
 | tentamen        |     40% |  
-
-## Modules
-
-Er zijn vier modules van één week. Vanaf de eerste dag van de cursus ga je oefenen met het omzetten van een idee voor een programma naar werkende Python-code. Per module doe je kleine oefeningen, en pak je wat grotere opdrachten aan. Het geheel lever je aan het einde van de module in, en dan wordt het als volgt beoordeeld:
-
-* Omvang --- heb je alle opdrachten geprobeerd of heb je dingen overgeslagen?
-  Heb je alles precies gedaan zoals de omschrijving vereist? De code wordt onder andere gescoord door de tool `checkpy` die je ook zelf kunt gebruiken.
-
-* Stijl --- hoe ordelijk en leesbaar is je code? Dit kan een zwaarwegende factor worden! Deze wordt als volgt gescoord:
-
-	1. Matig
-	2. Redelijk: aardig wat punten voor verbetering
-	3. Goed: diverse punten voor verbetering
-	4. Heel goed: beperkt ruimte voor verbetering, paar kleine problemen
-	5. Excellent: in feite geen ruimte voor verbetering, misschien een suf foutje
-
-## Dagelijks ritme
-
-De modules kosten je gemiddeld zo'n 18 uur werk: dat is dus meer tijd dan er practicum ingeroosterd is. Mocht je het niet afhebben, dan is het de bedoeling dat je de opdracht thuis nog af maakt. Kom je in de problemen? Neem dan contact op!
-
-## Deadlines
-
-De deadline is steeds op zaterdagavond (maakt niet uit welke tijd). Daarna wordt het ingeleverde werk verdeeld onder de nakijkers en gaan zij aan de slag. Lever altijd in wat je hebt, ook als je denkt dat het te weinig is! Het is trouwens prima om, voor je instuurt, een assistent nog even te vragen naar je opgave te kijken, zodat je nog verbeteringen kunt aanbrengen.
-
-## Tentamen
-
-Omdat het mogelijk is ongemerkt mee te liften met een medestudent tijdens het maken van de practica (als je steevast overlegt over de manier van code schrijven), checken we met behulp van het tentamen nog een keer of je zelfstandig de leerdoelen van het vak gehaald hebt. Wil je inzage in de beoordeling? Stuur dan een mailtje voor een afspraak.
-
-## Eindcijfer
 
 Je krijgt een eindcijfer voor dit vak als je:
 
