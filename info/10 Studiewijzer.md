@@ -99,14 +99,14 @@ Omdat het mogelijk is ongemerkt mee te liften met een medestudent tijdens het ma
 
 Het eindcijfer is samengesteld uit de resultaten van de opdrachten en dat van het tentamen.
 
-| onderdeel                      | gewicht |  
-| ------------------------------ | ------: |  
-| omvang en correctheid module 1 |     10% |  
-| omvang en correctheid module 2 |     10% |  
-| omvang en correctheid module 3 |     10% |  
-| omvang en correctheid module 4 |     10% |  
-| design en style module 4       |     20% |  
-| tentamen                       |     40% |  
+| onderdeel                | berekening           | gewicht |  
+| ------------------------ | -------------------- | ------: |  
+| module 1                 | omvang x correctheid |     10% |  
+| module 2                 | omvang x correctheid |     10% |  
+| module 3                 | omvang x correctheid |     10% |  
+| module 4                 | omvang x correctheid |     10% |  
+| design en style module 4 | design x style       |     20% |  
+| tentamen                 | punten               |     40% |  
 
 Je krijgt een eindcijfer voor dit vak als je:
 
