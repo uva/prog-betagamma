@@ -44,7 +44,7 @@ Wat willen we dat je kunt aan het einde van deze cursus?
 
 ## Activiteiten
 
-Er zijn vier modules van één week. Vanaf de eerste dag van de cursus ga je oefenen met het omzetten van een idee voor een programma naar werkende Python-code.
+Er zijn vier modules van één week. Vanaf de eerste dag van de cursus ga je oefenen met het omzetten van een idee voor een programma naar werkende Python-code. Elke module bestaat uit theorie en voorbeelden, gecombineerd met grotere programmeeropdrachten.
 
 | onderdeel | deadline                        |  
 | --------- | ------------------------------- |  
@@ -89,6 +89,8 @@ De modules kosten je gemiddeld zo'n 19 uur werk: dat is dus meer tijd dan er pra
 | tentamen    | 1 x 3 uur + voorbereiding |      6 uur |  
 |             |                           | **81 uur** |  
 
+De meeste studenten ervaren een programmeervak als zwaar. Dit komt omdat er veel tijd "verloren" gaat aan kleine foutjes, hard nadenken en even uitrusten. Als de frustratie je teveel wordt, laat het dan gerust weten. Weet dat het erbij hoort en onvermijdelijk is. En neem even pauze!
+
 ## Tentamen
 
 Omdat het mogelijk is ongemerkt mee te liften met een medestudent tijdens het maken van de practica (als je steevast overlegt over de manier van code schrijven), checken we met behulp van het tentamen nog een keer of je zelfstandig de leerdoelen van het vak gehaald hebt. Wil je inzage in de beoordeling? Stuur dan, na bekendmaking van de uitslag, zelf een mailtje voor een afspraak.
@@ -97,14 +99,14 @@ Omdat het mogelijk is ongemerkt mee te liften met een medestudent tijdens het ma
 
 Het eindcijfer is samengesteld uit de resultaten van de opdrachten en dat van het tentamen.
 
-| onderdeel       | gewicht |  
-| --------------- | ------: |  
-| module 1        |     10% |  
-| module 2        |     10% |  
-| module 3        |     10% |  
-| module 4        |     10% |  
-| design en style |     20% |  
-| tentamen        |     40% |  
+| onderdeel                      | gewicht |  
+| ------------------------------ | ------: |  
+| omvang en correctheid module 1 |     10% |  
+| omvang en correctheid module 2 |     10% |  
+| omvang en correctheid module 3 |     10% |  
+| omvang en correctheid module 4 |     10% |  
+| design en style module 4       |     20% |  
+| tentamen                       |     40% |  
 
 Je krijgt een eindcijfer voor dit vak als je:
 
@@ -121,13 +123,20 @@ Was je niet voldoende aanwezig, heb je een opdracht niet zichtbaar geprobeerd, o
 Het volgende boek is gratis verkrijgbaar. In de cursus staat soms al uitleg uit dit boek. Probeer een balans te vinden in het leren uit de cursusmaterialen, het boek, en het oefenen met voorbeelden.
 
 Allen Downey  
-*Think Python*  
+*Think Python* ([download](http://greenteapress.com/thinkpython2/html/index.html))  
 Green Tea Press, 2013
-[link](http://greenteapress.com/thinkpython2/html/index.html)
 
 ## Uitzonderingen
 
 Het kan zijn dat je om één of andere reden een uitzondering nodig hebt op de regels van het vak. Deze kun je alleen krijgen bij de coördinator. Stuur een mail naar <progbg@mprog.nl> en leg even kort uit wat je situatie is. Ben je bang een achterstand op te lopen van meer dan een dag? Neem dan razendsnel contact op!
+
+## Eerder gevolgd
+
+**Opdrachten** worden dit jaar op een andere manier beoordeeld dan vorig jaar. Daarnaast zijn ze inhoudelijk in meer of mindere mate gewijzigd. Daarom moeten alle modules opnieuw worden ingeleverd. Daarbij is het af te raden gebruik te maken van je uitwerkingen van vorig jaar, zodat je weer goede oefening krijgt en het vak echt haalt. **Tentamen**resultaten van vorige jaren zijn niet overdraagbaar.
+
+## Vakevaluatie vorig studiejaar
+
+In het studiejaar 2016-2017 is dit vak voor het eerst gegeven. Studenten waren inhoudelijk over het algemeen tevreden en vonden de opdrachten leuk. Wel was de werkdruk soms veel te hoog, was er op sommige practica te weinig begeleiding aanwezig, en misten veel studenten een college waar het doel en de middelen van de cursus duidelijk werden gemaakt. Dit jaar zijn de practicumgroepen daarom kleiner gemaakt, is er een wekelijks hoorcollege en zijn de opdrachten minder zwaar gemaakt (reken je overigens niet rijk: als je nog nooit geprogrammeerd hebt kost dit vak je echt wel de normtijd van 21 uur per week!).
 
 ## Samenwerken
 
@@ -152,11 +161,16 @@ je zelf even onder de knie moet krijgen.
 
 ## Plagiaatregeling
 
-Fraude volgens de UvA: *"Het handelen of nalaten van een student waardoor een
-juist oordeel over zijn kennis, inzicht en vaardigheden geheel of gedeeltelijk
-onmogelijk wordt."*
+Deze cursus hanteert de algemene Fraude- en plagiaatregeling van de UvA. Onder plagiaat wordt in ieder geval verstaan:
 
-We gebruiken bij de beoordeling van de opdrachten plagiaatdetectie. Als blijkt
+1. het gebruik maken dan wel overnemen van andermans teksten, gegevens of ideeën zonder volledige en correcte bronvermelding;
+2. het presenteren als eigen werk of eigen gedachten van de structuur dan wel het centrale gedachtegoed uit bronnen van derden, zelfs indien een verwijzing naar andere auteurs is opgenomen;
+3. het niet duidelijk aangeven in de tekst, bijvoorbeeld via aanhalingstekens of een bepaalde vormgeving, dat letterlijke of bijna letterlijke citaten in het werk werden overgenomen, zelfs indien met een correcte bronvermelding;
+4. het parafraseren van de inhoud van andermans teksten zonder voldoende bronverwijzingen.
+
+Uiteraard is fraude en plagiaat verboden. Hier wordt nauwkeurig op gecontroleerd en streng tegen opgetreden. Bij vermoeden van plagiaat of fraude wordt altijd melding gemaakt bij de Examencommissie. De hoogste sanctie op fraude of plagiaat is volledige uitsluiting van deelname aan alle tentamens, examens of andere vormen van toetsing van de opleiding voor een periode van maximaal 12 maanden of zelfs de definitieve beëindiging van de inschrijving van de betrokkene. Zie voor meer informatie over  de Fraude- en plagiaatregeling van de Universiteit van Amsterdam: www.uva.nl/plagiaat
+
+We gebruiken bij de beoordeling van de programmeeropdrachten plagiaatdetectie. Als blijkt
 dat je opgave geheel of gedeeltelijk overeenkomt met een andere inzending of een
 uitwerking van internet, dan zijn er twee mogelijkheden.
 
@@ -169,14 +183,9 @@ uitwerking van internet, dan zijn er twee mogelijkheden.
   welke inzendingen overeenkomen, waarna de commissie beslist over te nemen
   maatregelen.
 
-Zie ook:
-
-* de [fraude- en plagiaatwebsite](http://www.uva.nl/plagiaat), en
-* de onderwijs- en examenregeling van Beta-Gamma.
-
 ## Dankwoord
 
 Gedeelten van deze cursus zijn gebaseerd op:
 
 - Harvard's CS50, op <http://cs50.tv>
-- UvA's Inleiding Programmeren voor Natuur- en Sterrenkunde, op <https://progns.mprog.nl/>
+- UvA's Inleiding Wetenschappelijk Programmeren, op <https://inleiding.mprog.nl/>
