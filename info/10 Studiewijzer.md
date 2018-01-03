@@ -27,9 +27,9 @@ Tijdens de practica van dit vak staan de assistenten voor je klaar en je kunt bi
 
 ## Verwachtingen
 
-In deze cursus ga je aan de slag met programmeeropdrachten, waarmee je de taal Python leert en de standaardaanpak voor een aantal wetenschappelijke problemen leert kennen. Om echt te leren programmeren is veel oefening nodig, dus bovenal verwachten we dat je alle opdrachten volledig maakt, waarbij er natuurlijk wél ruimte is om fouten te maken.
+In deze cursus ga je aan de slag met programmeeropdrachten, waarmee je de taal Python leert en de standaardaanpak voor een aantal wetenschappelijke problemen leert kennen. Om echt te leren programmeren is veel oefening nodig, dus bovenal verwachten we dat je alle opdrachten volledig maakt, waarbij er natuurlijk ruimte is om fouten te maken.
 
-Samenwerken tijdens dit vak is niet toegestaan. Dit vak heeft als doel jouw persoonlijke programmeervaardigheid te ontwikkelen. Bij vervolgvakken is het vaak wél mogelijk om samen te programmeren. Zie verder de opmerkingen over plagiaat, onderaan deze studiehandleiding.
+> Samenwerken tijdens dit vak is niet toegestaan. Dit vak heeft als doel jouw persoonlijke programmeervaardigheid te ontwikkelen. Bij vervolgvakken is het vaak wél mogelijk om samen te programmeren. Zie verder de opmerkingen over plagiaat, onderaan deze studiehandleiding.
 
 ## Activiteiten
 
@@ -74,7 +74,7 @@ Programma's moeten niet alleen het "goede" antwoord geven, maar een programma ka
 
 ## Aanwezigheid
 
-Tijdens de eerste week is er een aanwezigheidplicht voor alle geroosterde practica: zie je persoonlijke rooster op datanose. Je mag gerust wegblijven als je de opdrachten af hebt (en ingestuurd!).
+Tijdens de eerste week is er een aanwezigheidplicht voor alle geroosterde practica: zie je persoonlijke rooster op datanose. Je mag gerust wegblijven als je de opdrachten helemaal af hebt (en ingestuurd!).
 
 In latere weken steeds verwachten we dat je bij de practica aanwezig bent als je hulp en uitleg nodig hebt. Zorg dus dat je op tijd begint, zodat je nog een kans hebt om langs te komen als het nodig is!
 
@@ -114,7 +114,7 @@ Je krijgt een eindcijfer voor dit vak als je:
 
 Een klein deel van het eindcijfer wordt bepaald door hoe je beter bent gaan programmeren tijdens het vak (de voortgang die jij persoonlijk hebt gemaakt!).
 
-Was je niet voldoende aanwezig, heb je een opdracht niet zichtbaar geprobeerd, of was je niet bij het tentamen, dan krijg je een NA (niet aanwezig). Heb je het tentamen niet gehaald, dan krijg je een NAV en kun je dit tentamen herkansen. Er zijn geen herkansingen voor de opdrachten.
+Was je niet voldoende aanwezig, heb je een opdracht niet zichtbaar geprobeerd, of was je niet bij het tentamen, dan krijg je een NA (niet aanwezig). Heb je het tentamen niet gehaald, dan krijg je een NAV en kun je dit tentamen herkansen. Er zijn geen herkansingen voor de opdrachten, ook niet in geval van overmacht, dus lever altijd in wat je hebt.
 
 ## Literatuur
 
