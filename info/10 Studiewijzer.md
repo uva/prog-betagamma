@@ -80,14 +80,14 @@ In latere weken steeds verwachten we dat je bij de practica aanwezig bent als je
 
 ## Studielast
 
-De modules kosten je gemiddeld zo'n 18 uur werk: dat is dus meer tijd dan er practicum ingeroosterd is. Mocht je het niet afhebben, dan is het de bedoeling dat je de opdracht thuis nog af maakt. Kom je in de problemen? Neem dan direct contact op met de docenten, per mail.
+De modules kosten je gemiddeld zo'n 19 uur werk: dat is dus meer tijd dan er practicum ingeroosterd is. Mocht je het niet afhebben, dan is het de bedoeling dat je de opdracht thuis nog af maakt. Kom je in de problemen? Neem dan direct contact op met de docenten, per mail.
 
 | onderdeel   | studielast                |     totaal |  
 | ----------- | ------------------------- | ---------: |  
 | hoorcollege | 4 x 2 uur                 |      8 uur |  
-| opdrachten  | 3 x 18 uur + 1 x 9 uur    |     63 uur |  
+| opdrachten  | 3 x 19 uur + 1 x 10 uur   |     67 uur |  
 | tentamen    | 1 x 3 uur + voorbereiding |      6 uur |  
-|             |                           | **77 uur** |  
+|             |                           | **81 uur** |  
 
 ## Tentamen
 
