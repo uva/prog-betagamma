@@ -6,7 +6,7 @@
 
 We gaan programmeren in Python, een eenvoudige taal met vele mogelijkheden. Je leert over de basis van het programmeren, maar je gaat vooral aan de slag met toepassingen uit verschillende wetenschapsgebieden.
 
-## Medewerkers
+## Docenten en assistenten
 
 Simon Pauw (docent)  
 Martijn Stegeman (coördinator)  
@@ -21,7 +21,7 @@ Joshua de Roos
 Roos Vervelde  
 Yannick Vinkesteijn
 
-Voor bijzonderheden moet je bij de docent zijn. Mail bij voorkeur naar <progbg@mprog.nl> als je praktische vragen hebt, problemen wil melden, of persoonlijke afspraken wil maken.
+Voor bijzonderheden moet je bij de docenten zijn. Mail bij voorkeur naar <progbg@mprog.nl> als je praktische vragen hebt, problemen wil melden, of persoonlijke afspraken wil maken.
 
 Tijdens de practica van dit vak staan de assistenten voor je klaar en je kunt bij ze terecht met vragen over het programmeren, maar ook over de nagekeken opdrachten en tips over het vak.
 
@@ -31,9 +31,9 @@ In deze cursus ga je aan de slag met programmeeropdrachten, waarmee je de taal P
 
 Samenwerken tijdens dit vak is niet toegestaan. Dit vak heeft als doel jouw persoonlijke programmeervaardigheid te ontwikkelen. Bij vervolgvakken is het vaak wél mogelijk om samen te programmeren. Zie verder de opmerkingen over plagiaat, onderaan deze studiehandleiding.
 
-## Schema
+## Activiteiten
 
-Er zijn vier modules van één week. Vanaf de eerste dag van de cursus ga je oefenen met het omzetten van een idee voor een programma naar werkende Python-code. Per module doe je kleine oefeningen en grotere opdrachten.
+Er zijn vier modules van één week. Vanaf de eerste dag van de cursus ga je oefenen met het omzetten van een idee voor een programma naar werkende Python-code.
 
 | onderdeel | deadline                        |  
 | --------- | ------------------------------- |  
@@ -49,16 +49,16 @@ Het is geen probleem als de modules een paar minuten later worden ingeleverd, bi
 
 Wat willen we dat je kunt aan het einde van deze cursus?
 
-* Je kunt de aangeboden standaardoplossingen voor wetenschappelijke programmeerproblemen toepassen.
+* Je kunt de aangeboden standaardoplossingen voor wetenschappelijke programmeerproblemen toepassen op variaties van de problemen.
 * Je kunt een omschrijving van een programma omzetten naar werkende code.
 * Je kunt bijgeleverde bibliotheken gebruiken in je eigen programma's.
 * Je kunt code overzichtelijk en beter leesbaar maken door een
   consistente stijl toe te passen.
-* Je kunt bepaalde programmeerfouten opsporen en verbeteren.
+* Je kunt enkele veelvoorkomende programmeerfouten opsporen en verbeteren.
 
 ## Feedback
 
-Alle uitwerkingen van een module lever je aan het eind van de week in. Om te beginnen kijken we of je alles geprobeerd hebt: de **omvang**. Wij gebruiken daarnaast het programma `checkpy` om de **correctheid** van je oplossingen te beoordelen. Je hebt zelf ook toegang tot deze tool, dus gebruik die goed!
+Alle uitwerkingen van een module lever je aan het eind van de week in. Om te beginnen kijken we of je alles geprobeerd hebt: de **omvang**. Wij gebruiken daarnaast het programma `checkpy` om de **correctheid** van je oplossingen te beoordelen. Op basis daarvan krijg je punten voor de module. Je hebt zelf ook toegang tot deze tool, dus gebruik die goed!
 
 > Omdat we altijd nieuwe opdrachten gebruiken, gebeurt het soms dat er een fout wordt gevonden in `checkpy` of in de opdracht zelf. Als we de fout kunnen corrigeren sturen we een mail rond. Zorg in ieder geval dat je altijd aan het eind van de week je oplossingen nog eens checkt met de nieuwste versie van `checkpy`!
 
@@ -78,7 +78,16 @@ Tijdens de eerste week is er een aanwezigheidplicht voor alle geroosterde practi
 
 In latere weken steeds verwachten we dat je bij de practica aanwezig bent als je hulp en uitleg nodig hebt. Zorg dus dat je op tijd begint, zodat je nog een kans hebt om langs te komen als het nodig is!
 
+## Studielast
+
 De modules kosten je gemiddeld zo'n 18 uur werk: dat is dus meer tijd dan er practicum ingeroosterd is. Mocht je het niet afhebben, dan is het de bedoeling dat je de opdracht thuis nog af maakt. Kom je in de problemen? Neem dan direct contact op met de docenten, per mail.
+
+| onderdeel   | studielast                |     totaal |  
+| ----------- | ------------------------- | ---------: |  
+| hoorcollege | 4 x 2 uur                 |      8 uur |  
+| opdrachten  | 3 x 18 uur + 1 x 9 uur    |     63 uur |  
+| tentamen    | 1 x 3 uur + voorbereiding |      6 uur |  
+|             |                           | **77 uur** |  
 
 ## Tentamen
 
