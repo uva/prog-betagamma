@@ -27,9 +27,20 @@ Tijdens de practica van dit vak staan de assistenten voor je klaar en je kunt bi
 
 ## Verwachtingen
 
-In deze cursus ga je aan de slag met programmeeropdrachten, waarmee je de taal Python leert en de standaardaanpak voor een aantal wetenschappelijke problemen leert kennen. Om echt te leren programmeren is veel oefening nodig, dus bovenal verwachten we dat je alle opdrachten volledig maakt, waarbij er natuurlijk ruimte is om fouten te maken.
+In deze cursus ga je aan de slag met programmeeropdrachten, waardoor je de taal Python leert en bovendien de standaardaanpak voor een aantal wetenschappelijke problemen leert kennen. Om echt te leren programmeren is veel oefening nodig, dus bovenal verwachten we dat je alle opdrachten volledig maakt, waarbij er natuurlijk ruimte is om fouten te maken.
 
 > Samenwerken tijdens dit vak is niet toegestaan. Dit vak heeft als doel jouw persoonlijke programmeervaardigheid te ontwikkelen. Bij vervolgvakken is het vaak wél mogelijk om samen te programmeren. Zie verder de opmerkingen over plagiaat, onderaan deze studiehandleiding.
+
+## Leerdoelen
+
+Wat willen we dat je kunt aan het einde van deze cursus?
+
+* Je kunt de aangeboden standaardoplossingen voor wetenschappelijke programmeerproblemen toepassen op variaties van de problemen.
+* Je kunt een omschrijving van een programma omzetten naar werkende code.
+* Je kunt bijgeleverde bibliotheken gebruiken in je eigen programma's.
+* Je kunt code overzichtelijk en beter leesbaar maken door een
+  consistente stijl toe te passen.
+* Je kunt enkele veelvoorkomende programmeerfouten opsporen en verbeteren.
 
 ## Activiteiten
 
@@ -44,17 +55,6 @@ Er zijn vier modules van één week. Vanaf de eerste dag van de cursus ga je oef
 | tentamen  | donderdag 1 februari 14--17 uur |  
 
 Het is geen probleem als de modules een paar minuten later worden ingeleverd, bijvoorbeeld in geval van technische problemen.
-
-## Leerdoelen
-
-Wat willen we dat je kunt aan het einde van deze cursus?
-
-* Je kunt de aangeboden standaardoplossingen voor wetenschappelijke programmeerproblemen toepassen op variaties van de problemen.
-* Je kunt een omschrijving van een programma omzetten naar werkende code.
-* Je kunt bijgeleverde bibliotheken gebruiken in je eigen programma's.
-* Je kunt code overzichtelijk en beter leesbaar maken door een
-  consistente stijl toe te passen.
-* Je kunt enkele veelvoorkomende programmeerfouten opsporen en verbeteren.
 
 ## Feedback
 
