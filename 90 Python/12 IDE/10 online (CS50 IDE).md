@@ -68,7 +68,7 @@ Om zowel `matplotlib` en `checkpy` te downloaden voer je in de terminal één vo
 
     pip install matplotlib
     pip install checkpy
-    checkpy -d Jelleas/progbeta2017tests
+    checkpy -d Jelleas/progbgtests
 
 Het kan best eventjes duren per commando, en er zal aardig wat tekst over je scherm ratelen. Mocht er weinig tekst staan, speur dan naar een eventuele foutmelding en vraag eventueel om hulp!
 
