@@ -21,9 +21,9 @@ Joshua de Roos
 Roos Vervelde  
 Yannick Vinkesteijn
 
-Voor bijzonderheden moet je bij de docenten zijn. Mail bij voorkeur naar <progbg@mprog.nl> als je praktische vragen hebt, problemen wil melden, of persoonlijke afspraken wil maken.
+Tijdens de practica van dit vak staan de **assistenten** voor je klaar en je kunt bij ze terecht met vragen over het programmeren, maar ook over de nagekeken opdrachten en tips over het vak.
 
-Tijdens de practica van dit vak staan de assistenten voor je klaar en je kunt bij ze terecht met vragen over het programmeren, maar ook over de nagekeken opdrachten en tips over het vak.
+Het kan zijn dat je om één of andere reden een uitzondering nodig hebt op de regels van het vak. Deze kun je alleen krijgen bij de **docenten**. Stuur een mail naar <progbg@mprog.nl> en leg even kort uit wat je situatie is. Ben je bang een achterstand op te lopen van meer dan een dag? Neem dan razendsnel contact op!
 
 ## Verwachtingen
 
@@ -55,6 +55,8 @@ Er zijn vier modules van één week. Vanaf de eerste dag van de cursus ga je oef
 | tentamen  | donderdag 1 februari 14--17 uur |  
 
 Het is geen probleem als de modules een paar minuten later worden ingeleverd, bijvoorbeeld in geval van technische problemen.
+
+Omdat het mogelijk is ongemerkt mee te liften met een medestudent tijdens het maken van de practica (als je steevast overlegt over de manier van code schrijven), checken we met behulp van het tentamen nog een keer of je zelfstandig de leerdoelen van het vak gehaald hebt. Wil je inzage in de beoordeling? Stuur dan, na bekendmaking van de uitslag, zelf een mailtje voor een afspraak.
 
 ## Feedback
 
@@ -91,10 +93,6 @@ De modules kosten je gemiddeld zo'n 19 uur werk: dat is dus meer tijd dan er pra
 
 De meeste studenten ervaren een programmeervak als zwaar. Dit komt omdat er veel tijd "verloren" gaat aan kleine foutjes, hard nadenken en even uitrusten. Als de frustratie je teveel wordt, laat het dan gerust weten. Weet dat het erbij hoort en onvermijdelijk is. En neem even pauze!
 
-## Tentamen
-
-Omdat het mogelijk is ongemerkt mee te liften met een medestudent tijdens het maken van de practica (als je steevast overlegt over de manier van code schrijven), checken we met behulp van het tentamen nog een keer of je zelfstandig de leerdoelen van het vak gehaald hebt. Wil je inzage in de beoordeling? Stuur dan, na bekendmaking van de uitslag, zelf een mailtje voor een afspraak.
-
 ## Eindcijfer
 
 Het eindcijfer is samengesteld uit de resultaten van de opdrachten en dat van het tentamen.
@@ -125,10 +123,6 @@ Het volgende boek is gratis verkrijgbaar. In de cursus staat soms al uitleg uit 
 Allen Downey  
 *Think Python* ([download](http://greenteapress.com/thinkpython2/html/index.html))  
 Green Tea Press, 2013
-
-## Uitzonderingen
-
-Het kan zijn dat je om één of andere reden een uitzondering nodig hebt op de regels van het vak. Deze kun je alleen krijgen bij de coördinator. Stuur een mail naar <progbg@mprog.nl> en leg even kort uit wat je situatie is. Ben je bang een achterstand op te lopen van meer dan een dag? Neem dan razendsnel contact op!
 
 ## Eerder gevolgd
 
