@@ -56,7 +56,7 @@ Er zijn vier modules van één week. Vanaf de eerste dag van de cursus ga je oef
 
 Het is geen probleem als de modules een paar minuten later worden ingeleverd, bijvoorbeeld in geval van technische problemen.
 
-Omdat het mogelijk is ongemerkt mee te liften met een medestudent tijdens het maken van de practica (als je steevast overlegt over de manier van code schrijven), checken we met behulp van het tentamen nog een keer of je zelfstandig de leerdoelen van het vak gehaald hebt. Wil je inzage in de beoordeling? Stuur dan, na bekendmaking van de uitslag, zelf een mailtje voor een afspraak.
+Omdat het mogelijk is ongemerkt mee te liften met een medestudent tijdens het maken van de practica (als je steevast overlegt over de manier van code schrijven), checken we met behulp van het tentamen nog een keer of je zelfstandig de leerdoelen van het vak gehaald hebt.
 
 ## Feedback
 
@@ -93,6 +93,14 @@ De modules kosten je gemiddeld zo'n 19 uur werk: dat is dus meer tijd dan er pra
 
 De meeste studenten ervaren een programmeervak als zwaar. Dit komt omdat er veel tijd "verloren" gaat aan kleine foutjes, hard nadenken en even uitrusten. Als de frustratie je teveel wordt, laat het dan gerust weten. Weet dat het erbij hoort en onvermijdelijk is. En neem even pauze!
 
+## Literatuur
+
+Het volgende boek is gratis verkrijgbaar. In de cursus staat soms al uitleg uit dit boek. Probeer een balans te vinden in het leren uit de cursusmaterialen, het boek, en het oefenen met voorbeelden.
+
+Allen Downey  
+*Think Python* ([download](http://greenteapress.com/thinkpython2/html/index.html))  
+Green Tea Press, 2013
+
 ## Eindcijfer
 
 Het eindcijfer is samengesteld uit de resultaten van de opdrachten en dat van het tentamen.
@@ -116,21 +124,13 @@ Een klein deel van het eindcijfer wordt bepaald door hoe je beter bent gaan prog
 
 Was je niet voldoende aanwezig, heb je een opdracht niet zichtbaar geprobeerd, of was je niet bij het tentamen, dan krijg je een NA (niet aanwezig). Heb je het tentamen niet gehaald, dan krijg je een NAV en kun je dit tentamen herkansen. Er zijn geen herkansingen voor de opdrachten, ook niet in geval van overmacht, dus lever altijd in wat je hebt.
 
-## Literatuur
-
-Het volgende boek is gratis verkrijgbaar. In de cursus staat soms al uitleg uit dit boek. Probeer een balans te vinden in het leren uit de cursusmaterialen, het boek, en het oefenen met voorbeelden.
-
-Allen Downey  
-*Think Python* ([download](http://greenteapress.com/thinkpython2/html/index.html))  
-Green Tea Press, 2013
-
 ## Eerder gevolgd
 
 **Opdrachten** worden dit jaar op een andere manier beoordeeld dan vorig jaar. Daarnaast zijn ze inhoudelijk in meer of mindere mate gewijzigd. Daarom moeten alle modules opnieuw worden ingeleverd. Daarbij is het af te raden gebruik te maken van je uitwerkingen van vorig jaar, zodat je weer goede oefening krijgt en het vak echt haalt. **Tentamen**resultaten van vorige jaren zijn niet overdraagbaar.
 
-## Vakevaluatie vorig studiejaar
+## Inzage beoordelingen
 
-In het studiejaar 2016-2017 is dit vak voor het eerst gegeven. Studenten waren inhoudelijk over het algemeen tevreden en vonden de opdrachten leuk. Wel was de werkdruk soms veel te hoog, was er op sommige practica te weinig begeleiding aanwezig, en misten veel studenten een college waar het doel en de middelen van de cursus duidelijk werden gemaakt. Dit jaar zijn de practicumgroepen daarom kleiner gemaakt, is er een wekelijks hoorcollege en zijn de opdrachten minder zwaar gemaakt (reken je overigens niet rijk: als je nog nooit geprogrammeerd hebt kost dit vak je echt wel de normtijd van 21 uur per week!).
+Je hebt binnen 30 dagen na bekendmaking van de cijfers recht op inzage van alle soorten toetsen (tentamens, papers, opdrachten). Maak hiervoor een individuele afspraak met de docent per e-mail.
 
 ## Samenwerken
 
@@ -176,6 +176,10 @@ uitwerking van internet, dan zijn er twee mogelijkheden.
 * Er is geen bronvermelding: in dat geval rapporteren we aan de examencommissie
   welke inzendingen overeenkomen, waarna de commissie beslist over te nemen
   maatregelen.
+
+## Vakevaluatie vorig studiejaar
+
+In het studiejaar 2016-2017 is dit vak voor het eerst gegeven. Studenten waren inhoudelijk over het algemeen tevreden en vonden de opdrachten leuk. Wel was de werkdruk soms veel te hoog, was er op sommige practica te weinig begeleiding aanwezig, en misten veel studenten een college waar het doel en de middelen van de cursus duidelijk werden gemaakt. Dit jaar zijn de practicumgroepen daarom kleiner gemaakt, is er een wekelijks hoorcollege en zijn de opdrachten minder zwaar gemaakt (reken je overigens niet rijk: als je nog nooit geprogrammeerd hebt kost dit vak je echt wel de normtijd van 21 uur per week!).
 
 ## Dankwoord
 
