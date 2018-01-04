@@ -130,7 +130,7 @@ Was je niet voldoende aanwezig, heb je een opdracht niet zichtbaar geprobeerd, o
 
 ## Inzage beoordelingen
 
-Je hebt binnen 30 dagen na bekendmaking van de cijfers recht op inzage van alle soorten toetsen (tentamens, papers, opdrachten). Maak hiervoor een individuele afspraak met de docent per e-mail.
+Je hebt binnen 30 dagen na bekendmaking van de cijfers recht op inzage van alle soorten toetsen zodat je de manier van nakijken kunt controleren. Maak hiervoor een individuele afspraak met de docent per e-mail.
 
 ## Samenwerken
 
