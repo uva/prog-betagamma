@@ -9,8 +9,12 @@ Om toegang te krijgen tot de ontwikkelomgeving vragen we je de volgende stappen 
 1. Registreer bij edX op [https://courses.edx.org/register](https://courses.edx.org/register). Je hoeft je niet aan te melden voor een cursus.
 2. Bevestig je account via de link in je e-mail.
 3. Login met jouw net aangemaakte account op [https://cs50.io/](https://cs50.io/).
+4. Er wordt je gevraagd een nieuwe workspace aan te maken. Vul hiervoor de volgende gegevens in:
+    - Workspace name: ide50
+    - Description: CS50 IDE
+    - Template: Harvard's CS50 (*belangrijk*)
 
-Na wat berichten over het opzetten van je workspace, zie je nu dit scherm in jouw browser:
+Na het aanmaken van de workspace, zie je dit scherm in jouw browser:
 
 ![cs50](cs50.png)
 
