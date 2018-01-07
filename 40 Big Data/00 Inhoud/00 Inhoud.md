@@ -20,4 +20,4 @@ In deze module gaan we leren hoe we informatie uit een grote data-set halen.
 
 1. Ga naar [deze pagina](/big-data/submit) om je programma's in te leveren.
 
-2. Vul daarna de [evaluatie](){:target="_blank"} in.
+2. Vul daarna de [evaluatie](https://goo.gl/forms/xo6QrvkyZXEarJMH3){:target="_blank"} in.

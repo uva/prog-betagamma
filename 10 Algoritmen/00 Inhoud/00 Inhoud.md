@@ -44,4 +44,4 @@ Kijk om te beginnen eens naar het filmpje hiernaast. Egge van der Poel is Data S
 
 1. Ga naar [deze pagina](/algoritmen/submit) om je programma's in te leveren.
 
-2. Vul daarna de [evaluatie](){:target="_blank"} in.
+2. Vul daarna de [evaluatie](https://goo.gl/forms/OND0S4NQSsPeCkbv1){:target="_blank"} in.

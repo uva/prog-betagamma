@@ -40,4 +40,4 @@ Kijk om te beginnen eens naar het filmpje hiernaast. Lydia Brenner en Jelle Aalb
 
 1. Ga naar [deze pagina](/integreren/submit) om je programma's in te leveren.
 
-2. Vul daarna de [evaluatie](){:target="_blank"} in.
+2. Vul daarna de [evaluatie](https://goo.gl/forms/vp6PApzx9a2dXtCI2){:target="_blank"} in.

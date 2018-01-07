@@ -23,4 +23,4 @@ In deze module gaan we het spel Monopoly simuleren. Het is ondoenlijk om dit ana
 
 1. Ga naar [deze pagina](/monopoly/submit) om je programma's in te leveren.
 
-2. Vul daarna de [evaluatie](){:target="_blank"} in.
+2. Vul daarna de [evaluatie](https://goo.gl/forms/8CFGlefJYVvTKxPl2){:target="_blank"} in.
