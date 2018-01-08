@@ -62,7 +62,7 @@ Dit stukje code rekent heel specifiek de som van de even getallen van 1 tot en m
     som = 0
     for getal in range(1, 21):
         if getal % 2 == 0:
-            print("Yes! {} is een even getal".fomrat(getal))
+            print("Yes! {} is een even getal".format(getal))
             som = som + getal
     print("de som van de even getallen van 1 tot en met 20 is {}".format(som))
 
