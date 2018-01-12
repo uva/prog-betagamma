@@ -3,8 +3,8 @@ grades:
         type: float
         subgrades:
             scope: integer
-            style: integer
-        calculation: (scope/3.0 + style).round(1)
+            correctness: integer
+        calculation: (scope * correctness / 25.0).round(1)
         hide_calculated: true
     module2:
         type: float
