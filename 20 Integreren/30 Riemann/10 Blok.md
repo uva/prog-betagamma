@@ -36,15 +36,15 @@ $$\int_{0.2}^{2.2} \tan(\cos(\sin(x))) ~dx$$
 
 $$\int_{0}^{\pi} \sin(x^2) ~dx$$
 
-Zet deze functies in je eigen programma en zorg dat je onderaan een aantal keer je `riemann()`-functie aanroept voor deze voorbeelden.
+Zet deze functies in je eigen programma en zorg dat je onderaan een aantal keer je `riemann()`-functie aanroept, om deze voorbeelden te controleren.
+
+In Python kun je functies meegeven als argument aan andere functies. Zo kun je de functie `functie1` die hierboven gedefineerd staat meegeven aan `riemann()` door simpelweg `rieman(functie1, 0, 1, 10000)` aan te roepen.
 
 ## Hints
 
-- In Python kun je functies meegeven als argument aan andere functies. Zo kun je de functie `functie1` die hierboven gedefineerd staat meegeven aan `riemann()` door simpelweg `rieman(functie1, 0, 1, 10000)` aan te roepen.
-
 - Let op: als je het interval in $$N$$ stukjes verdeeld zijn er $$N+1$$ hoekpunten.
 
-- Maak een plaatje van je grafiek zodat je duidelijk ziet welk gebied je aan het integreren bent.
+- Maak een plaatje van je grafiek zodat je duidelijk ziet welk gebied je aan het integreren bent. Je kunt in je `riemann()`-functie een stukje code opnemen om de grafiek te plotten.
 
 ## Debuggen
 
