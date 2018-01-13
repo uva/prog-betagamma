@@ -17,9 +17,9 @@ Schrijf een functie die middels de Riemannsom de integraal berekent van een will
 
 - De functie `riemann()` moet de oppervlakte onder de grafiek teruggeven als resultaat.
 
-## Hints
+## Tests
 
-Zorg dat je deze vervolgens test voor de volgende functies:
+Test je programma eerst op eenvoudige integralen die je ook analytisch kan uitrekenen. Zorg dat je je procedure ook test met de volgende functies:
 
 1. $$\int_{0}^{1}x^{x+\frac{1}{2}} ~dx$$
 
@@ -40,15 +40,23 @@ Zorg dat je deze vervolgens test voor de volgende functies:
 		def functie3(x): 
 			return math.sin(x**2)
 
-* In Python kun je functies meegeven als argument aan andere functies. Zo kun je de functie `functie1` die hierboven gedefineerd staat meegeven aan `riemann()` door simpelweg `rieman(functie1, 0, 1, 10000)` aan te roepen.
+Zet deze functies in je eigen programma en zorg dat je onderaan je `riemann()`-functie aanroept voor al deze voorbeelden. Dan kun je in één keer de voorbeelden controleren.
 
-- Zoals je ziet het je 'alleen' de waarde van de functie nodig op de $$N+1$$ hoekpunten van de intervallen. Zorg dat je het aantal intervallen $$(N)$$ in je programma vrij kan veranderen en bepaal aan de hand daarvan de hoekpunten $$x_i$$ en de waarde van de grafiek op elk van die hoekpunten $$f(x_i)$$. Bereken aan het eind van het programma de integraal en print het op het scherm.
+## Hints
+
+- In Python kun je functies meegeven als argument aan andere functies. Zo kun je de functie `functie1` die hierboven gedefineerd staat meegeven aan `riemann()` door simpelweg `rieman(functie1, 0, 1, 10000)` aan te roepen.
 
 - Let op: als je het interval in $$N$$ stukjes verdeeld zijn er $$N+1$$ hoekpunten.
 
 - Maak een plaatje van je grafiek zodat je duidelijk ziet welk gebied je aan het integreren bent.
 
-- Test je programma op een (vergelijkbare) integraal die je wel analytisch kan uitrekenen.
+## Debuggen
+
+Lijkt het niet te werken? 
+
+- Check "op het oog" met een grafiek of de integraal überhaupt in de buurt komt van wat je mag verwachten.
+
+- Als dat wel goed zit, kan het zijn dat het aantal stappen te klein is om tot een precies genoeg antwoord te komen. Probeer het aantal te verhogen en bekijk ook hoe dit de uitkomsten beinvloed.
 
 
 ## Testen

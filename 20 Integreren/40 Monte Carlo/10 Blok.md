@@ -19,7 +19,7 @@ Schrijf een functie die middels de Monte Carlo-methode de integraal berekent van
 - De functie `montecarlo()` moet de oppervlakte onder de grafiek teruggeven als resultaat.
 
 
-## Tips
+## Tests
 
 Zorg dat je deze vervolgens test voor de volgende functies:
 
@@ -42,16 +42,15 @@ Zorg dat je deze vervolgens test voor de volgende functies:
 		def functie3(x): 
 			return math.sin(x**2)
 
+## Hints
+
 - Maak een plaatje van je grafiek zodat je duidelijk ziet welk gebied je aan het integreren bent.
 
 - Maak ook een grafiek met rode en groene punten zoals in bovenstaand voorbeeld. Mocht je een fout gemaakt hebben in je logica dan zie je dat in een plaatje in 1 keer terwijl je daar anders uren naar moet zoeken in de code zelf.
 
-- test je programma op een (vergelijkbare) integraal die je wel analytisch kan uitrekenen. 
+- Bij 'negatieve' integratieregio's kun je de gebieden splitsen.
 
-- specifiek voor Monte Carlo: bij 'negatieve' integratieregio's de gebieden splitsen
-
-- In 'echte' toepassingen wordt voor efficientie maximalisatie de box zo gekozen dat hij de integraal zo nauw mogelijk omsluit: grootste fractie 'goede' worpen.
-
+- In onderzoekstoepassingen wordt voor maximalisatie van de efficientie de rechthoek zo gekozen dat hij de integraal zo nauw mogelijk omsluit.
 
 ## Testen
 
