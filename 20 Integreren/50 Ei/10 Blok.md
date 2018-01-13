@@ -1,5 +1,7 @@
 # Surprise!
 
+(Deze opdracht hoeft niet ingeleverd te worden.)
+
 ![](ei.jpg){:.inline}
 
 Schrijf een programma `kinder()` dat de oppervlakte van een Kinder-ei berekent. De omtrek van het ei wordt gegeven door: 
