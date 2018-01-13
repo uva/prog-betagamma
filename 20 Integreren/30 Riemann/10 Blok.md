@@ -36,9 +36,7 @@ $$\int_{0.2}^{2.2} \tan(\cos(\sin(x))) ~dx$$
 
 $$\int_{0}^{\pi} \sin(x^2) ~dx$$
 
-Zet deze functies in je eigen programma en zorg dat je onderaan een aantal keer je `riemann()`-functie aanroept, om deze voorbeelden te controleren.
-
-In Python kun je functies meegeven als argument aan andere functies. Zo kun je `functie1()` van hierboven meegeven aan `riemann()` door aan te roepen:
+Zet deze functies in je eigen programma en zorg dat je onderaan een aantal keer je `riemann()`-functie aanroept, om deze voorbeelden te controleren. Zo kun je `functie1()` van hierboven meegeven aan `riemann()` door aan te roepen:
 
     rieman(functie1, 0, 1, 10000)
 
