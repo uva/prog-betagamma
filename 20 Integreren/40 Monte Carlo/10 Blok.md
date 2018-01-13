@@ -21,7 +21,7 @@ Schrijf een functie die middels de Monte Carlo-methode de integraal berekent van
 
 ## Tests
 
-Zorg dat je deze vervolgens test voor de volgende functies:
+Test je programma eerst op eenvoudige integralen die je ook analytisch kan uitrekenen. Zorg dat je je procedure ook test met de volgende functies:
 
 1. $$\int_{0}^{1}x^{x+\frac{1}{2}} ~dx$$
 
@@ -41,6 +41,9 @@ Zorg dat je deze vervolgens test voor de volgende functies:
 
 		def functie3(x): 
 			return math.sin(x**2)
+
+Zet deze functies in je eigen programma en zorg dat je onderaan je `riemann()`-functie aanroept voor al deze voorbeelden. Dan kun je in één keer de voorbeelden controleren.
+
 
 ## Hints
 
