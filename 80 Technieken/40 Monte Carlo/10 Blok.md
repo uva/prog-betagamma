@@ -1,39 +1,37 @@
 # Monte Carlo
 
-Gegeven $$f(x)$$ op $$a \leq x \leq b$$, bereken $$\int_a^b f(x)~dx$$
-
-Benader de integraal door gebruik te maken van random getallen. Gooi in een gebied (van bekende grootte) rond de integratie regio random punten en kijk welke fractie binnen het integratiegebied valt.
+Het is mogelijk een integraal te benaderen door gebruik te maken van random getallen.
 
 ![embed](https://player.vimeo.com/video/138378068)
 
 
-1. Definieer rechthoek dat het integratiegebied omsluit
+1.  Definieer rechthoek dat het integratiegebied omsluit
 
-Definieer een gebied (vaak een rechthoek) dat het de integraalregio omsluit. Kies dus 
-een  $$x_{min}$$, $$x_{max}$$, $$y_{min}$$ en $$y_{max}$$ zodanig dat geldt 
+    Definieer een gebied (vaak een rechthoek) dat het de integraalregio omsluit. Kies dus 
+    een  $$x_{min}$$, $$x_{max}$$, $$y_{min}$$ en $$y_{max}$$ zodanig dat geldt 
 
-  - $$x_{min} \leq a$$ en $$x_{max} \geq b$$
+      - $$x_{min} \leq a$$ en $$x_{max} \geq b$$
 
-  - voor $$a \leq x \leq b$$ : $$y_{min} \leq f(x)  \leq y_{max}$$
+      - voor $$a \leq x \leq b$$ : $$y_{min} \leq f(x)  \leq y_{max}$$
 
-Note: in de meeste toepassingen wordt gekozen voor $$x_{min} = a$$ en $$x_{max} = b$$.
+    Kies de meest smalle rechthoek met $$x_{min} = a$$ en $$x_{max} = b$$.
 
-2. Gooi random punten in het rechthoek
+2.  Gooi random punten in het rechthoek
 
-Gooi een groot aantal random punten $$(x_i, y_i)$$ in het rechthoek dat het integratiegebied om sluit en 
-bekijk voor elk punt of het binnen het integratiegebied valt ('goed') of erbuiten ('fout'). Hou bij welke 
-fractie van de punten in het integratiegebied valt: $$f_{goed}$$.
+    Gooi een groot aantal random punten $$(x_i, y_i)$$ in het rechthoek dat het integratiegebied om sluit en 
+    bekijk voor elk punt of het binnen het integratiegebied valt ('goed') of erbuiten ('fout'). Hou bij welke 
+    fractie van de punten in het integratiegebied valt: $$f_{goed}$$.
 
-3. Bepaal de integraal
+3.  Bepaal de integraal
 
-De integraal is de fractie punten die binnen de grafiek vallen keer de oppervlakte van de totale box. 
-In het geval van een rechthoek wordt dat gegeven door :
-$$
-    \int_a^b f(x)~dx = f_{goed}~~\cdot~(x_{max}-x_{min})\cdot(y_{max}-y_{min})
-$$
+    De integraal is de fractie punten die binnen de grafiek vallen keer de oppervlakte van de totale box. 
+    In het geval van een rechthoek wordt dat gegeven door:
 
+    $$
+        \int_a^b f(x)~dx = f_{goed}~~\cdot~(x_{max}-x_{min})\cdot(y_{max}-y_{min})
+    $$
 
-## Voorbeeld: $$\int_{0}^{\pi}sin(x)~dx$$
+## Voorbeeld
 
 Van de functie $$sin(x)$$ weten we dat het op het domein $$0 < x < \pi$$ tussen de 0 en de 1 ingesloten ligt. We 
 definieren dan ook een box om het integratiegebied heen en 2000 random punten gegooid. Daarvan bleek 63.15% 

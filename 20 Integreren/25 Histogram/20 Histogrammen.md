@@ -50,3 +50,7 @@ Genereer voor elk 'experiment' 100 random getallen en reken de som daarvan uit. 
 
 > Let op: print het percentage < 40 op één regel en het percentage > 60 op de volgende. Print bovendien niet alleen het percentage maar leg even uit wat het precies voor getal is.
 
+
+## Testen
+
+	checkpy histogram
