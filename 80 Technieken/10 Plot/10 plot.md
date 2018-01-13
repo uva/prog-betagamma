@@ -1,18 +1,12 @@
 # Grafieken
 
-Het is handig om je resultaten te visualiseren in een grafiek of zelfs een filmpje. Dit is belangrijk om aan het eind van het project je resultaten inzichtelijk te maken, maar ook tijdens het ontwikkelen van (lees 'vechten met') je code. Tijdens het programmeren loop je vaak tegen problemen waarbij de computer niet lijkt te doen wat jij wilt. Dit zogenaamde debuggen, het uitzoeken waar je programa een andere lijn volgt dan de logica die jij erin denk te hebben gestopt, kan je doen door op bepaalde plekken iets te printen. Een alternatief is het visualiseren van de data uit je programma, omdat je dan vaak in één oogopslag ziet waar het probleem zit.
+Het is handig om je resultaten te visualiseren in een grafiek of zelfs een filmpje. Dit is belangrijk om aan het eind van het project je resultaten inzichtelijk te maken, maar ook tijdens het ontwikkelen van je code. Er is een standaardpakket om resultaten te visualiseren in Python: `matplotlib`. Het is een zeer omvangrijk pakket waarvan we maar een fractie nodig zullen hebben.
 
-Om je boodschap en conclusies goed over te brengen is het belangrijk dat je aandacht besteedt aan de presentatie zodat het voor je publiek duidelijk is. Vaak duurt het doorrekenen van het probleem zelf uren/dagen/weken. Neem dus altijd de tijd om de bijbehorende grafiek netjes en duidelijk te maken.
-
-Er is een standaardpakket om resultaten te visualiseren in Python: `matplotlib`. Het is een zeer omvangrijk pakket waarvan we maar een fractie nodig zullen hebben. Een goede tutorial kan je hier vinden: <http://matplotlib.org/users/pyplot_tutorial.html>.
-
-> Er bestaat een enorme variatie in de manier waarop data en resultaten gevisualiseerd worden. Denk altijd na hoe *jij* denkt dat je het best de informatie weer kan geven zodat de *gebruiker* de juiste conclusie trekt. Zoek vervolgens in de `matplotlib`-documentatie hoe je dat voor elkaar kunt krijgen.
-
-Hieronder drie voorbeelden waarmee je de basis leert kennen. Vergeet niet de voorbeelden uit te proberen!
+> Om je boodschap en conclusies goed over te brengen is het belangrijk dat je aandacht besteedt aan de presentatie zodat het voor je publiek duidelijk is. Er bestaat een enorme variatie in de manier waarop data en resultaten gevisualiseerd worden. Denk altijd na hoe je denkt dat je het best de informatie weer kan geven zodat de "gebruiker" van je grafieken de juiste conclusie trekt. Zoek vervolgens in de `matplotlib`-documentatie hoe je dat voor elkaar kunt krijgen.
 
 ## Een lijst met punten
 
-We beginnen met het plotten van wat punten waarvan we de x-waardes (0,1,2,3,4,5) en de y-waardes (0,1,4,9,16,25) hebben. In dit geval is het precies de functie x-kwadraat, maar dat hoeft natuurlijk niet. Om daar een grafiek van te maken doen we het volgende:
+We beginnen met het plotten van wat punten waarvan we de x-waardes $$(0,1,2,3,4,5)$$ en de y-waardes $$(0,1,4,9,16,25)$$ hebben. In dit geval is het precies de functie $$x^2$$, maar dat hoeft natuurlijk niet. Om daar een grafiek van te maken doen we het volgende:
 
     import matplotlib
     matplotlib.use('agg')
@@ -26,13 +20,13 @@ We beginnen met het plotten van wat punten waarvan we de x-waardes (0,1,2,3,4,5)
     matplotlib.pyplot.plot(x_coords, y_coords, 'go')
     matplotlib.pyplot.savefig('plot.png')
 
-Hierbij is ervoor gekozen om de 'marker' (figuur waarmee elk punt weergegeven wordt) weer te geven als een groen rondje: daarvoor geven we `'go'` mee als argument. Als je een rode lijn had gewild had je voor `'r-'` kunnen kiezen. De plot wordt opgeslagen als `plot.png`.
+We kiezen voor groene rondjes als 'markers', waarmee elk punt in de grafiek wordt weergegeven: dat is wat `'go'` betekent. Met het laatste commando wordt de plot opgeslagen als een bestand `plot.png`. Deze vind je na uitvoeren van het programma als los bestand bij je code.
 
 ![](plotje1.png)
 
 ## Afkorten
 
-Om veel schrijven te voorkomen kun je een lange modulenaam ook een kortere naam geven bij het importeren.
+Je kunt een lange modulenaam ook een kortere naam geven bij het importeren. In het geval van `matplotlib.pyplot` kun je dan de plot-opdrachten een stuk korter opschrijven:
 
     import matplotlib
     matplotlib.use('agg')
@@ -49,7 +43,7 @@ Om veel schrijven te voorkomen kun je een lange modulenaam ook een kortere naam 
 
 ## Meerdere grafieken en bijschriften
 
-Natuurlijk behoren de assen labels te hebben, kan je 2 verschillende grafieken in 1 plot zetten en kan je zelf tekst weergeven. Om ook de grafiek x^3 in de grafiek te zetten (met rode lijnen) doe je het volgende:
+We breiden de plot wat uit: er komt een functie $$x^3$$ bij, we gebruiken een lijngrafiek en we voegen aslabels toe en een los tekstje:
 
     import matplotlib
     matplotlib.use('agg')
@@ -76,21 +70,21 @@ Natuurlijk behoren de assen labels te hebben, kan je 2 verschillende grafieken i
 
 ![](plotje2.png)
 
-> Tip: de formule $$x^3$$ kunnen we mooi afdrukken bij de grafiek. De formule `x^3` is geschreven in de taal $$\LaTeX$$. Helaas kan dat alleen in plotjes!
+> Tip: de formule $$x^3$$ kunnen we mooi afdrukken bij de grafiek. De formule `x^3` in de code hierboven is geschreven in de taal $$\LaTeX$$.
 
-## Stap 3: hogeresolutie-grafieken
+## Hogere resolutie
 
-In stap 2 hebben we een klein aantal punten gekozen waarbij je de waardes
-zelf in moet vullen. De grafiek ziet er dan ook niet bepaald mooi uit. Je kan natuurlijk met de computer ook zelf x-waardes en bijbehorende y-waardes berekenen en in lijsten opslaan. Als we bijvoorbeeld de functie sin(x) willen plotten in stapjes van 0.01 tussen 0 en 2*pi dan knopen we de verschillende dingen die we de dingen hiervoor aan elkaar en doen we het volgende:
+Hierboven hebben we een klein aantal punten gekozen waarbij je de waardes
+zelf in moet vullen. De grafiek ziet er dan ook wat hoekig uit. Om een scherpere grafiek te krijgen kun je de computer gewoon een heleboel y-waardes laten berekenen. Als we bijvoorbeeld de functie $$sin(x)$$ willen plotten in stapjes van $$0.01$$ tussen $$0$$ en $$2\pi$$ dan knopen we de verschillende dingen die we de dingen hiervoor aan elkaar en doen we het volgende:
 
     import matplotlib
     matplotlib.use('agg')
-    import numpy as np               # numpy module: nodig voor arange-functie
-    import math                      # math module: nodig voor sin()-functie
-    import matplotlib.pyplot as plt  # pyplot module: nodig voor plotten
+    import numpy as np
+    import math
+    import matplotlib.pyplot as plt
 
-    x_values = []   # lijst met x-waardes
-    y_values = []   # lijst met y-waardes
+    x_values = []
+    y_values = []
 
     # x loopt van 0 tot 2pi in stapjes van 0.01
     for x in np.arange(0, 2*math.pi, 0.01):
@@ -110,11 +104,11 @@ zelf in moet vullen. De grafiek ziet er dan ook niet bepaald mooi uit. Je kan na
 
 ![](plotje3.png)
 
-# Meerdere grafieken tegelijk
+## Grafieken naast elkaar
 
-We kunnen maar een zeer kleine hoevelheid mogelijkheden laten zien die `pyplot` ons biedt om data te visualiseren. Als laatste zullen we nu kijken hoe we twee grafieken naast elkaar kunnen tekenen. We zullen we dit gebruiken op het moment dat er gevraagd wordt zowel de snelheid als de positie van een object te tekenen als functie van de tijd.
+Als laatste zullen we nu kijken hoe we twee grafieken naast elkaar kunnen tekenen. Je kunt dit bijvoorbeeld gebruiken op het moment dat er gevraagd wordt zowel de snelheid als de positie van een object te tekenen als functie van de tijd. Die hebben erg verschillende schalen, dus dan is het netter om ze niet in één grafiek te zetten maar naast elkaar.
 
-Om meerdere figuren tegelijk af te beelden gebruik je het commando `subplot`. Als voorbeeld gaan we zowel de cosinus als de sinus weergeven, en in een grafiek ernaast tekenen we voor hetzelfde gebied in $$x$$ de grafiek $$x^2$$.
+Als voorbeeld gaan we zowel de cosinus als de sinus weergeven, en in een grafiek ernaast tekenen we voor hetzelfde gebied in $$x$$ de grafiek $$x^2$$.
 
 ![](plotje4.png)
 
