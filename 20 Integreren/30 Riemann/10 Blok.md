@@ -19,7 +19,7 @@ Schrijf een functie die middels de Riemannsom de integraal berekent van een will
 
 ## Tests
 
-Test je programma eerst op eenvoudige integralen die je ook analytisch kan uitrekenen. Zorg dat je je procedure ook test met de volgende functies:
+Test je procedure met de volgende functies:
 
 1. $$\int_{0}^{1}x^{x+\frac{1}{2}} ~dx$$
 
