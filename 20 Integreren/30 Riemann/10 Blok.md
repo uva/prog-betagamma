@@ -36,7 +36,7 @@ $$\int_{0.2}^{2.2} \tan(\cos(\sin(x))) ~dx$$
 
 $$\int_{0}^{\pi} \sin(x^2) ~dx$$
 
-Zet deze functies in je eigen programma en zorg dat je onderaan je `riemann()`-functie aanroept voor al deze voorbeelden. Dan kun je in één keer de voorbeelden controleren.
+Zet deze functies in je eigen programma en zorg dat je onderaan een aantal keer je `riemann()`-functie aanroept voor deze voorbeelden.
 
 ## Hints
 

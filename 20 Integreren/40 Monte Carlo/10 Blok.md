@@ -38,8 +38,7 @@ $$\int_{0.2}^{2.2} \tan(\cos(\sin(x))) ~dx$$
 
 $$\int_{0}^{\pi} \sin(x^2) ~dx$$
 
-Zet deze functies in je eigen programma en zorg dat je onderaan je `montecarlo()`-functie aanroept voor al deze voorbeelden. Dan kun je in één keer de voorbeelden controleren.
-
+Zet deze functies in je eigen programma en zorg dat je onderaan een aantal keer je `montecarlo()`-functie aanroept, om deze voorbeelden te controleren.
 
 ## Hints
 
