@@ -56,7 +56,7 @@ Lijkt het niet te werken?
 
 - Check "op het oog" met een grafiek of de integraal überhaupt in de buurt komt van wat je mag verwachten.
 
-- Als dat wel goed zit, kan het zijn dat het aantal stappen te klein is om tot een precies genoeg antwoord te komen. Probeer het aantal te verhogen en bekijk ook hoe dit de uitkomsten beinvloed.
+- Als dat wel goed zit, kan het zijn dat het aantal stappen te klein is om tot een precies genoeg antwoord te komen. Probeer het aantal te verhogen en bekijk ook hoe dit de uitkomsten beinvloedt.
 
 
 ## Testen
