@@ -19,26 +19,22 @@ Schrijf een functie die middels de Riemannsom de integraal berekent van een will
 
 ## Tests
 
-Test je procedure met de volgende functies:
+Test je procedure met de volgende functie, die je makkelijk analytisch kunt controleren:
 
-1. $$\int_{0}^{1}x^{x+\frac{1}{2}} ~dx$$
+	def functie1(x):
+		return x**2
 
-	Hint: test je functie door te testen of je programma de integraal $$\int_{0}^{1}x^2 dx$$ goed voorspelt
+Test ook met de volgende functies. Sommige daarvan zijn "integreerbaar", andere kun je alleen numeriek benaderen.
 
-		def functie1(x):
-			return x**(x + 0.5)
+$$\int_{0}^{1}x^2 dx$$
 
-2. $$\int_{0.2}^{2.2} \tan(\cos(\sin(x))) ~dx$$
+$$\int_{0}^{1}x^{x+\frac{1}{2}} ~dx$$
 
-	Hint: test je functie door te testen of je programma de integraal $$\int_{0}^{\pi}sin(x) dx$$ goed voorspelt
+$$\int_{0}^{\pi}sin(x) dx$$
 
-		def functie2(x): 
-			return math.tan(math.cos(math.sin(x)))
+$$\int_{0.2}^{2.2} \tan(\cos(\sin(x))) ~dx$$
 
-3. $$\int_{0}^{\pi} \sin(x^2) ~dx$$
-
-		def functie3(x): 
-			return math.sin(x**2)
+$$\int_{0}^{\pi} \sin(x^2) ~dx$$
 
 Zet deze functies in je eigen programma en zorg dat je onderaan je `riemann()`-functie aanroept voor al deze voorbeelden. Dan kun je in één keer de voorbeelden controleren.
 

@@ -21,10 +21,12 @@ Schrijf een functie die middels de Monte Carlo-methode de integraal berekent van
 
 ## Tests
 
-Test je procedure met de volgende functies:
+Test je procedure met de volgende functie, die je makkelijk analytisch kunt controleren:
 
 	def functie1(x):
 		return x**2
+
+Test ook met de volgende functies. Sommige daarvan zijn "integreerbaar", andere kun je alleen numeriek benaderen.
 
 $$\int_{0}^{1}x^2 dx$$
 
@@ -36,7 +38,7 @@ $$\int_{0.2}^{2.2} \tan(\cos(\sin(x))) ~dx$$
 
 $$\int_{0}^{\pi} \sin(x^2) ~dx$$
 
-Zet deze functies in je eigen programma en zorg dat je onderaan je `riemann()`-functie aanroept voor al deze voorbeelden. Dan kun je in één keer de voorbeelden controleren.
+Zet deze functies in je eigen programma en zorg dat je onderaan je `montecarlo()`-functie aanroept voor al deze voorbeelden. Dan kun je in één keer de voorbeelden controleren.
 
 
 ## Hints
