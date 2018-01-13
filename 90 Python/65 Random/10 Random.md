@@ -13,6 +13,8 @@ Elke keer dat je de functie aanroept zal het een nieuw getal opleveren. Tien ran
         x = random.random()
         print(x)
 
+> Probeer bovenstaande programma's zelf ook even uit! Pas wel op dat je hiervoor niet een bestand `random.py` maakt. In dat geval zal `import random` proberen jouw eigen bestand te importeren, en dat gaat niet werken.
+
 ## Bouwen met bouwstenen
 
 Zodra je een bouwsteen hebt kan je met behulp van logica en wiskundige manipulaties hier zelf andere objecten van bouwen. Als de computer bijvoorbeeld een random getal tussen 0 en 1 kan produceren dan kunnen we die zo omschrijven dat het transformeert in een random getal tussen een getal a en b.
