@@ -16,7 +16,7 @@ Kijk om te beginnen eens naar het filmpje hiernaast. Lydia Brenner en Jelle Aalb
 
 #### Dag 2: random
 
-1. Leer over het gebruik van [random getallen](/python/random)
+1. Leer over het gebruik van [random getallen](/technieken/random)
 
 2. <span class="label label-primary">Opdracht</span> Bereken de gemiddelde [afstand](/integreren/afstand) tussen twee punten in een vierkant
 
