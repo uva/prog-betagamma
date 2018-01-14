@@ -10,7 +10,9 @@ Kijk om te beginnen eens naar het filmpje hiernaast. Lydia Brenner en Jelle Aalb
 
 #### Dag 1: nulpunten
 
-1. Leer over [functies](/python/functies) in Python
+1. Leer over [goed ontworpen programma's](/naslag/designgids)
+
+2. Leer over [functies](/python/functies) in Python
 
 3. <span class="label label-primary">Opdracht</span> Bepaal de [nulpunten](/integreren/nulpunten) van een polynoom
 
