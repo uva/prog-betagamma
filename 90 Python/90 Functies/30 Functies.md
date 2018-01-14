@@ -4,6 +4,8 @@ Een *functie* is een stukje code waar je een naam aan geeft, zodat het hergebrui
 
 ![embed](https://player.vimeo.com/video/241704136)
 
+(In het filmpje gebruiken we `print` zonder haakjes `()`. Omdat de cursus in Python 3 werkt, moet je nu wél haakjes toevoegen als je iets wil printen.)
+
 Functies zijn dus een belangrijk aspect van leren programmeren. Het begin van
 een functie wordt aangegeven met `def`, daarna komt de functienaam (die je zelf
 mag kiezen), en vervolgens komen de haakjes met daartussen mogelijke parameters:
