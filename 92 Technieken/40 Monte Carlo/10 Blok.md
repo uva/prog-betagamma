@@ -16,7 +16,7 @@ Het is mogelijk een integraal te benaderen door gebruik te maken van random geta
 
     Kies de meest smalle rechthoek met $$x_{min} = a$$ en $$x_{max} = b$$.
 
-2.  Gooi random punten in het rechthoek
+2.  Gooi random punten in de rechthoek
 
     Gooi een groot aantal random punten $$(x_i, y_i)$$ in het rechthoek dat het integratiegebied om sluit en 
     bekijk voor elk punt of het binnen het integratiegebied valt ('goed') of erbuiten ('fout'). Hou bij welke 
