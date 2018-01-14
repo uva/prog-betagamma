@@ -84,7 +84,7 @@ In het onderstaande voorbeeld wordt in het hoofdprogramma een lijst met x-waarde
             y_en.append(y)
         return y_en
 
-    # hier begint het programma
+    # hier begint het hoofdprogramma
     x_waardes = [1, 2, 3, 4, 5, 6]
     y_waardes = polynoom(x_waardes)
 
