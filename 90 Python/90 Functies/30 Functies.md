@@ -38,7 +38,7 @@ Bekijk de volgende functie:
 
 Je ziet dat de functie `plus5(a)` een parameter `a` nodig heeft om het antwoord te kunnen berekenen. Bij `return` zie je dat er een waarde wordt teruggegeven, een waarde die uitgedrukt is in een formule `5 + a`.
 
-Let op dat de formule pas wordt geëvalueerd op het moment dat de functie is aangeroepen met een (geldige) parameter! Het antwoord van de functie staat dus niet van te voren past, maar hangt af van de situatie.
+Let op dat de formule pas wordt geëvalueerd op het moment dat de functie is aangeroepen met een (geldige) parameter! Het antwoord van de functie staat dus niet van te voren vast, maar hangt af van de situatie.
 
 Om het antwoord van de functie te kunnen gebruiken in de rest van het programma, moeten we de functie *aanroepen* en het resultaat in een variabele opslaan:
 
