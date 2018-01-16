@@ -1,3 +1,11 @@
 Hoi,
 
-Hierbij wat feedback of een cijfer! Heb je vragen, stuur dan gerust een mail terug.
+Bij deze je feedback! Bespreek deze met een assistent tijdens een practicum.
+Mocht er iets fundementeel niet kloppen, stuur dan een mail terug, zodat de
+docenten dit kunnen afhandelen.
+
+De feedback bestaat uit een aantal punten. Het kan zijn dat je programma's
+niet helemaal juist werkten; dan geven we aan wat er aan de hand is. Verder
+geven we aan wat problemen met de leesbaarheid en efficiëntie van de code 
+zouden kunnen zijn. Met die feedabck kun je je volgende inzendingen weer 
+beter maken.
