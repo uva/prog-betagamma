@@ -6,8 +6,11 @@
 
 In deze module gaan we het spel Monopoly simuleren. Het is ondoenlijk om dit analytisch te doen omdat er met het gebruik van dobbelstenen een ingewikkeld element van kans in het spel besloten ligt is. Speltheorie in de praktijk.
 
+Kijk om te beginnen eens naar het filmpje hiernaast. [Anne Kroon](http://www.uva.nl/profiel/k/r/a.c.kroon/a.c.kroon.html) en [Damian Trilling](http://www.damiantrilling.net) werken bij de afdeling politieke communicatiewetenschap van de UvA en vertellen over hun ervaring met programmeren bij hun onderzoek.
 
-#### Dag 1 en Dag 2: vrij rondlopen op het bord
+#### Dag 1 en 2: vrij rondlopen op het bord
+
+1. Over [Monopoly](/monopoly/inleiding) en deze module
 
 1. <span class="label label-primary">Opdracht</span> Monopoly met 1 speler in [Donald Trump-mode](/monopoly/vrij-rondlopen)
 
