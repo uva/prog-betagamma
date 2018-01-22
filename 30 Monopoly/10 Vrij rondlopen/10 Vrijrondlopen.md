@@ -12,7 +12,7 @@ We gaan een groot aantal potjes Monopoly simuleren waarin we 1 speler rond laten
 
 Doel van deze opdracht is om te bepalen wat het gemiddeld aantal worpen is
 waarna alle straten zijn verkocht. Schrijf in een bestand
-`Monopoly_opdracht1.py` een functie `simuleer_groot_aantal_potjes_Monopoly()`.
+`monopoly_opdracht1.py` een functie `simuleer_groot_aantal_potjes_Monopoly()`.
 Defineer *buiten alle functies* een variabele `aantal_potjes` die aangeeft
 hoeveel potjes er gesimuleerd moeten worden: in ons geval 10000.
 
@@ -185,4 +185,4 @@ Zorg tot slot dat de functie `simuleer_groot_aantal_potjes_Monopoly()` nu het ge
 
 ## Testen
 
-    checkpy Monopoly_opdracht1
+    checkpy monopoly_opdracht1

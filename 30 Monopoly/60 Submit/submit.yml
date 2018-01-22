@@ -1,10 +1,5 @@
 name: module3
 files:
     vereist:
-        - appel.py
-        - basejump.py
-        - tunnel.py
-        - angry_birds.py
-        - fit.py
-    optioneel:
-        - angry_plaatje
+        - monopoly_opdracht1.py
+        - monopoly_realistisch.py
