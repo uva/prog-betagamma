@@ -27,8 +27,6 @@ Tot slot kun je oefenen met de volgende opdrachten. Maar richt je eerst op het o
 
     Probeer niet de `sum()`-functie te gebruiken.
 
-5.  Wat wordt door de volgende regel code geprint en waarom? print 5 // 3
-
 6.  Schrijf een regel code die 2.9 afrondt zodat er 2 uit komt.
 
 7.  Schrijf een regel code die 2.1 afrondt zodat er 3 uit komt.
