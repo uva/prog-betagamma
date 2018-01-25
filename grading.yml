@@ -24,31 +24,47 @@ grades:
         type: float
         subgrades:
             scope: integer
+            correctness: integer
+        calculation: (scope * correctness / 25.0 * 9 + 1).round(1)
+        hide_calculated: true
+    style:
+        type: float
+        subgrades:
+            design: integer
             style: integer
-        calculation: (scope/3.0 + style).round(1)
+        calculation: (scope * correctness / 25.0 * 9 + 1).round(1)
         hide_calculated: true
     tentamen:
-        type: pass
+        type: float
         subgrades:
             points: integer
-        calculation: points >= 13 && -1 || 0
+        calculation: points/100.0
     hertentamen:
-        type: pass
+        type: float
+        subgrades:
+            points: integer
+        calculation: points/100.0
 
 calculation:
     resit:
-        hertentamen: 0
-        psets: 100
+        hertentamen: 40
+        modules: 40
+        style: 20
     normal:
-        tentamen: 0
-        psets: 100
+        tentamen: 40
+        modules: 40
+        style: 20
 
-psets:
+modules:
     submits:
         module1: 1
         module2: 1
         module3: 1
         module4: 1
+
+style:
+    submits:
+        style: 1
 
 tentamen:
     required: true
