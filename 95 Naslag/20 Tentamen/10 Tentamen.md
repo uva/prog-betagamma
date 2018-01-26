@@ -6,6 +6,13 @@ Het tentamen sluit aan op de programmeeropdrachten. We willen toetsen of je geno
 
 Download [hier](oefententamen.pdf) het oefententamen. Probeer de vragen eerst volledig zelf te beantwoorden. Een paar uur later kijk je er nog eens naar. Pas daarna kun je programma's uitproberen op je computer. En pas dáárna vraag je of iemand wil uitleggen hoe het zit :-) Zo zorg je dat je maximaal uitgedaagd wordt en maximaal voorbereid bent voor het tentamen.
 
+# Conceptvragen
+
+Hieronder kan je de conceptvragen van het hoorcollege vinden. Probeer deze vragen ook weer eerst zelf te beantwoorden. Vervolgens kan je de antwoorden checken door de code op de computer uit te voeren.
+
+- Week 2: [Download](cq2.pdf)
+- Week 3: [Download](cq3.pdf)
+
 ## Oefenopdrachten
 
 Tot slot kun je oefenen met de volgende opdrachten. Maar richt je eerst op het oefententamen!
