@@ -12,6 +12,7 @@ Hieronder kan je de conceptvragen van het hoorcollege vinden. Probeer deze vrage
 
 - Week 2: [Download](cq2.pdf)
 - Week 3: [Download](cq3.pdf)
+- Week 4: [Download](cq4.pdf)
 
 ## Oefenopdrachten
 
