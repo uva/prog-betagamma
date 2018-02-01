@@ -25,6 +25,8 @@ grades:
         subgrades:
             scope: integer
             correctness: integer
+            design: integer
+            style: integer
         calculation: (scope * correctness / 25.0 * 9 + 1).round(1)
         hide_calculated: true
     style:
@@ -32,7 +34,7 @@ grades:
         subgrades:
             design: integer
             style: integer
-        calculation: (scope * correctness / 25.0 * 9 + 1).round(1)
+        calculation: (design * style / 25.0 * 9 + 1).round(1)
         hide_calculated: true
     tentamen:
         type: float
