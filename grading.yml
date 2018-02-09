@@ -34,7 +34,7 @@ grades:
         subgrades:
             design: integer
             style: integer
-        calculation: (design + style / 10.0 * 9 + 1).round(1)
+        calculation: ((design + style) / 10.0 * 9 + 1).round(1)
         hide_calculated: true
     tentamen:
         type: float
