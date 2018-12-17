@@ -18,11 +18,11 @@ Kijk om te beginnen eens naar het filmpje hiernaast. Egge van der Poel is Data S
 
 3. Oefen met het basisboek hoofdstukken 1 t/m 3 en plan een [toets](toets) in
 
-4. Schrijf een paar kleine programmaatjes om te oefenen met [variabelen](/practice/swap)
+4. <span class="label label-primary">Inleveren</span> Schrijf een paar kleine programmaatjes om te oefenen met [variabelen](/practice/swap)
 
 5. Lees over [invoer en uitvoer](/python/io) in Python
 
-6. Schrijf een programma om je [waterverbruik](/algoritmen/water) te controleren
+6. <span class="label label-primary">Inleveren</span> Schrijf een programma om je [waterverbruik](/algoritmen/water) te controleren
 
 #### Deel 2: een eerste algoritme
 
@@ -34,15 +34,15 @@ Kijk om te beginnen eens naar het filmpje hiernaast. Egge van der Poel is Data S
 
 4. Oefen met het basisboek hoofdstukken 5 en 8, en plan een [toets](toets) in
 
-5. Schrijf een paar kleine programmaatjes om te oefenen met [loops](/practice/loops)
+5. <span class="label label-primary">Inleveren</span> Schrijf een paar kleine programmaatjes om te oefenen met [loops](/practice/loops)
 
-6. Bouw een heel klein stukje Mario in [piramide](/algoritmen/piramide)
+6. <span class="label label-primary">Inleveren</span> Bouw een heel klein stukje Mario in [piramide](/algoritmen/piramide)
 
 #### Deel 3: een serieuzer algoritme
 
 1. Lees en begrijp hoe je ["mooie code"](/naslag/stijlgids) kunt schrijven
 
-2. Reken [wisselgeld](/algoritmen/wisselgeld) uit met een greedy algoritme
+2. <span class="label label-primary">Inleveren</span> Reken [wisselgeld](/algoritmen/wisselgeld) uit met een greedy algoritme
 
 #### Evaluatie
 
