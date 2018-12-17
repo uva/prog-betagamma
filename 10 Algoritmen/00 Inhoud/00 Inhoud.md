@@ -14,9 +14,15 @@ Kijk om te beginnen eens naar het filmpje hiernaast. Egge van der Poel is Data S
 
 1. [Installeer](/python/ide) Python
 
-2. Oefen vervolgens goed met de [basiselementen](/python/basiselementen) van Python
+2. Lees over [variabelen](/python/variabelen) in Python
 
-3. <span class="label label-primary">Opdracht</span> Controleer je [waterverbruik](/algoritmen/water)
+3. Oefen met het basisboek hoofdstukken 1 t/m 3 en plan een [toets](toets) in
+
+4. Schrijf een paar kleine programmaatjes om te oefenen met [variabelen](/practice/swap)
+
+5. Lees over [invoer en uitvoer](/python/io) in Python
+
+6. Schrijf een programma om je [waterverbruik](/algoritmen/water) te controleren
 
 #### Dag 2: een eerste algoritme
 
@@ -29,16 +35,6 @@ Kijk om te beginnen eens naar het filmpje hiernaast. Egge van der Poel is Data S
 1. Begrijp hoe je ["mooie code"](/naslag/stijlgids) kunt schrijven
 
 2. <span class="label label-primary">Opdracht</span> Reken wisselgeld uit met een [greedy](/algoritmen/greedy) algoritme
-
-#### Dag 4: werken met grafieken
-
-1. Sla je data op in een [lijst](/python/lijsten)
-
-2. Leer over het gebruiken van [modules](/python/modules) in Python
-
-3. Zoek op hoe je data kunt [plotten](/technieken/plot)
-
-4. <span class="label label-primary">Opdracht</span> Maak data inzichtelijk met [grafieken](/algoritmen/grafieken)
 
 #### Inleveren en evaluatie
 

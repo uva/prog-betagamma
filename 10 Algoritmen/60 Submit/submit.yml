@@ -1,8 +1,0 @@
-name: module1
-files:
-    vereist:
-        - hello.py
-        - water.py
-        - piramide.py
-        - greedy.py
-        - plot.py

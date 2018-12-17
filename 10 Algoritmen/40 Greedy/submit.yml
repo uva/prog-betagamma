@@ -1,0 +1,4 @@
+name: piramide
+files:
+    required:
+        - piramide.py

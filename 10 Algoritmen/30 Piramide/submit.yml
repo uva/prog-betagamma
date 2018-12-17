@@ -1,0 +1,4 @@
+name: wisselgeld
+files:
+    required:
+        - wisselgeld.py

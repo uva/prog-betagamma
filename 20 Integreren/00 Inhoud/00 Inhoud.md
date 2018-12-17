@@ -8,6 +8,16 @@ In deze module gaan we werken met *functies* en *random getallen*. Met deze onde
 
 Kijk om te beginnen eens naar het filmpje hiernaast. Lydia Brenner en Jelle Aalbers promoveren bij het [Nikhef](http://www.nikhef.nl/) en vertellen over hun ervaring met programmeren en simuleren bij hun onderzoek.
 
+#### Dag 4: werken met grafieken
+
+1. Sla je data op in een [lijst](/python/lijsten)
+
+2. Leer over het gebruiken van [modules](/python/modules) in Python
+
+3. Zoek op hoe je data kunt [plotten](/technieken/plot)
+
+4. <span class="label label-primary">Opdracht</span> Maak data inzichtelijk met [grafieken](/algoritmen/grafieken)
+
 #### Dag 1: nulpunten
 
 1. Leer over [goed ontworpen programma's](/naslag/designgids)
