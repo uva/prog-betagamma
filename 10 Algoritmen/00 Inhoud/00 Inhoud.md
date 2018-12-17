@@ -10,7 +10,7 @@ Kijk om te beginnen eens naar het filmpje hiernaast. Egge van der Poel is Data S
 
 <p style="margin-top:2em;"></p>
 
-#### Dag 1: aan de slag
+#### Deel 1: aan de slag
 
 1. [Installeer](/python/ide) Python
 
@@ -24,20 +24,26 @@ Kijk om te beginnen eens naar het filmpje hiernaast. Egge van der Poel is Data S
 
 6. Schrijf een programma om je [waterverbruik](/algoritmen/water) te controleren
 
-#### Dag 2: een eerste algoritme
+#### Deel 2: een eerste algoritme
 
-1. Leer meer over [algoritmen](/python/algoritmen)
+1. Leer meer over [voorwaardelijke opdrachten](/python/voorwaarden)
 
-2. <span class="label label-primary">Opdracht</span> Bouw een heel klein stukje Mario in [piramide](/algoritmen/piramide)
+2. Oefen met het basisboek hoofdstuk 4
 
-#### Dag 3: een serieuzer algoritme
+3. Leer meer over [loops](/python/loops)
 
-1. Begrijp hoe je ["mooie code"](/naslag/stijlgids) kunt schrijven
+4. Oefen met het basisboek hoofdstukken 5 en 8, en plan een [toets](toets) in
 
-2. <span class="label label-primary">Opdracht</span> Reken wisselgeld uit met een [greedy](/algoritmen/greedy) algoritme
+5. Schrijf een paar kleine programmaatjes om te oefenen met [loops](/practice/loops)
 
-#### Inleveren en evaluatie
+6. Bouw een heel klein stukje Mario in [piramide](/algoritmen/piramide)
 
-1. Ga naar [deze pagina](/algoritmen/submit) om je programma's in te leveren.
+#### Deel 3: een serieuzer algoritme
 
-2. Vul daarna de [evaluatie](https://goo.gl/forms/OND0S4NQSsPeCkbv1){:target="_blank"} in.
+1. Lees en begrijp hoe je ["mooie code"](/naslag/stijlgids) kunt schrijven
+
+2. Reken wisselgeld uit met een [greedy](/algoritmen/greedy) algoritme
+
+#### Evaluatie
+
+Vul de [evaluatie](https://goo.gl/forms/OND0S4NQSsPeCkbv1){:target="_blank"} in voor deze module.
