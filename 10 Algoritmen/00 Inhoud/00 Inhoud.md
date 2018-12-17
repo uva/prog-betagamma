@@ -42,7 +42,7 @@ Kijk om te beginnen eens naar het filmpje hiernaast. Egge van der Poel is Data S
 
 1. Lees en begrijp hoe je ["mooie code"](/naslag/stijlgids) kunt schrijven
 
-2. Reken wisselgeld uit met een [greedy](/algoritmen/greedy) algoritme
+2. Reken [wisselgeld](/algoritmen/wisselgeld) uit met een greedy algoritme
 
 #### Evaluatie
 
