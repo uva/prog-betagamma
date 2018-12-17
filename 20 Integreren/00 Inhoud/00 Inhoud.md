@@ -24,7 +24,9 @@ Kijk om te beginnen eens naar het filmpje hiernaast. Lydia Brenner en Jelle Aalb
 
 2. Leer over [functies](/python/functies) in Python
 
-3. <span class="badge badge-secondary">Opdracht</span> Bepaal de [nulpunten](/integreren/nulpunten) van een polynoom
+3. Schrijf een paar kleine programmaatjes om te oefenen met [functies](/practice/functies)
+
+4. <span class="badge badge-secondary">Opdracht</span> Bepaal de [nulpunten](/integreren/nulpunten) van een polynoom
 
 #### Dag 2: random
 
