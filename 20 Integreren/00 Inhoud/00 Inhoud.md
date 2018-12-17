@@ -16,7 +16,7 @@ Kijk om te beginnen eens naar het filmpje hiernaast. Lydia Brenner en Jelle Aalb
 
 3. Zoek op hoe je data kunt [plotten](/technieken/plot)
 
-4. <span class="badge badge-primary">Opdracht</span> Maak data inzichtelijk met [grafieken](/algoritmen/grafieken)
+4. <span class="badge badge-secondary">Opdracht</span> Maak data inzichtelijk met [grafieken](/algoritmen/grafieken)
 
 #### Dag 1: nulpunten
 
@@ -24,29 +24,29 @@ Kijk om te beginnen eens naar het filmpje hiernaast. Lydia Brenner en Jelle Aalb
 
 2. Leer over [functies](/python/functies) in Python
 
-3. <span class="badge badge-primary">Opdracht</span> Bepaal de [nulpunten](/integreren/nulpunten) van een polynoom
+3. <span class="badge badge-secondary">Opdracht</span> Bepaal de [nulpunten](/integreren/nulpunten) van een polynoom
 
 #### Dag 2: random
 
 1. Leer over het gebruik van [random getallen](/technieken/random)
 
-2. <span class="badge badge-primary">Opdracht</span> Bereken de gemiddelde [afstand](/integreren/afstand) tussen twee punten in een vierkant
+2. <span class="badge badge-secondary">Opdracht</span> Bereken de gemiddelde [afstand](/integreren/afstand) tussen twee punten in een vierkant
 
-3. <span class="badge badge-primary">Opdracht</span> Analyseer met een [histogram](/integreren/histogram) de uitvoer van de `random`-functie
+3. <span class="badge badge-secondary">Opdracht</span> Analyseer met een [histogram](/integreren/histogram) de uitvoer van de `random`-functie
 
 #### Dag 3: Riemann
 
 1. Leer over de [Riemannsom](/technieken/riemannsom)
 
-2. <span class="badge badge-primary">Opdracht</span> Gebruik computerkracht voor het bepalen van de [Riemannsom](/integreren/riemann)
+2. <span class="badge badge-secondary">Opdracht</span> Gebruik computerkracht voor het bepalen van de [Riemannsom](/integreren/riemann)
 
 #### Dag 4: Monte Carlo
 
 1. Leer over de [Monte Carlo](/technieken/monte-carlo)-techniek
 
-2. <span class="badge badge-primary">Opdracht</span> Gebruik random waarden om te integreren met de [Monte Carlo](/integreren/monte-carlo)-methode
+2. <span class="badge badge-secondary">Opdracht</span> Gebruik random waarden om te integreren met de [Monte Carlo](/integreren/monte-carlo)-methode
 
-3. <span class="badge badge-primary">Opdracht</span> Pas Monte Carlo toe op een [Kinder-ei](/integreren/ei)
+3. <span class="badge badge-secondary">Opdracht</span> Pas Monte Carlo toe op een [Kinder-ei](/integreren/ei)
 
 #### Inleveren en evaluatie
 
