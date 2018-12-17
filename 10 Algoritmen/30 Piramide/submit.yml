@@ -1,4 +1,4 @@
-name: wisselgeld
+name: piramide
 files:
     required:
-        - wisselgeld.py
+        - piramide.py
