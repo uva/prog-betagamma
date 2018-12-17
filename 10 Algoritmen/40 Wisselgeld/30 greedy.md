@@ -1,4 +1,4 @@
-# Greedy
+# Wisselgeld
 
 Implementeer een programma dat het minimaal aantal muntjes uitrekent om wisselgeld te geven. 
 
