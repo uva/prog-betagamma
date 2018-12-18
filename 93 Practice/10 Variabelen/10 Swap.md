@@ -1,7 +1,9 @@
 # Variabelen
+
 Schrijf een algoritme dat de waarden van twee variabelen verwisselt.
 
 ## Swap
+
 De onderstaande code is nog niet helemaal compleet. Er worden twee variabelen (`a` en `b`) aangemaakt en uitgeprint, maar de waarden worden nog niet verwisseld. Het is aan jou om het programma af te maken.
 
 	a = 4
