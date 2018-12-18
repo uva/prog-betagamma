@@ -29,7 +29,7 @@ Output:
 	[1.0, 1.2, 1.4, 1.6, 1.8]
 	[3.0, 3.1, 3.2, 3.3, 3.4]
 
-De lijst van `genereer1()` is gebaseerd op de vergelijking `y = 2 * x + 1`, de lijst van `genereer2()` is gebaseerd op de vergelijking `y = x + 3`. Zoals je ziet bevatten bijde functies grotendeels dezelfde code. Alleen de vergelijking verschillen. Dat kan eleganter:
+De lijst van `genereer1()` is gebaseerd op de vergelijking `y = 2 * x + 1`, de lijst van `genereer2()` is gebaseerd op de vergelijking `y = x + 3`. Zoals je ziet bevatten beide functies grotendeels dezelfde code. Alleen de vergelijking verschillen. Dat kan eleganter:
 
 	import numpy as np
 

@@ -18,7 +18,7 @@ Gebruik een loop om de eerste 10 stappen van de volgende som te berekenen:
 
 	1/1 + 1/2 + 1/4 + 1/8 + ...
 
-Wat gebeurt er als je de eerste 100 stappen brekent? Of fe eerste 1000?
+Wat gebeurt er als je de eerste 100 stappen brekent? Of de eerste 1000?
 
 ### Oefening 2.4
 
@@ -26,4 +26,4 @@ Gebruik een loop om de eerste 10 stappen van de volgende som te berekenen:
 
 	1/1 + 1/2 + 1/3 + 1/4 + ...
 
-Wat gebeurt er als je de eerste 100 stappen brekent? Of fe eerste 1000?
+Wat gebeurt er als je de eerste 100 stappen brekent? Of de eerste 1000?
