@@ -1,6 +1,6 @@
 # Algoritmen
 
-<div style="width: 40%; float:right; margin-left: 2em;">
+<div class="float-embed">
 ![embed](https://player.vimeo.com/video/235029301)
 </div>
 
