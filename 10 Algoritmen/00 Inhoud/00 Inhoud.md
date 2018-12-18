@@ -1,6 +1,6 @@
 # Algoritmen
 
-<div class="float-embed">
+<div class="embed-float">
 ![embed](https://player.vimeo.com/video/235029301)
 </div>
 
