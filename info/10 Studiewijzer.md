@@ -1,6 +1,6 @@
-# Inleiding Programmeren<br><small>Studiehandleiding</small>
+# Inleiding Programmeren<br><small>Studiewijzer</small>
 
-*Versie: Januari 2018 (wijzigingen voorbehouden)*
+*Versie: Januari 2019 (wijzigingen voorbehouden)*
 
 ![Python](python-logo.png){:.inline}  
 
@@ -10,16 +10,6 @@ We gaan programmeren in Python, een eenvoudige taal met vele mogelijkheden. Je l
 
 Simon Pauw (docent)  
 Martijn Stegeman (coördinator)  
-Bart van Baal  
-Tessa Cramwinckel  
-Aynel Gül  
-Olmo Kramer  
-Mirja Lagerwaard  
-Dominique van Poorten  
-Jill de Ron  
-Joshua de Roos  
-Roos Vervelde  
-Yannick Vinkesteijn
 
 Tijdens de practica van dit vak staan de **assistenten** voor je klaar en je kunt bij ze terecht met vragen over het programmeren, maar ook over de nagekeken opdrachten en tips over het vak.
 
@@ -44,31 +34,32 @@ Wat willen we dat je kunt aan het einde van deze cursus?
 
 ## Activiteiten
 
-Er zijn vier modules van één week. Vanaf de eerste dag van de cursus ga je oefenen met het omzetten van een idee voor een programma naar werkende Python-code. Elke module bestaat uit theorie en voorbeelden, gecombineerd met grotere programmeeropdrachten.
+Er zijn drie modules van ongeveer één week. Vanaf de eerste dag van de cursus ga je oefenen met het omzetten van een idee voor een programma naar werkende Python-code. Elke module bestaat uit theorie en voorbeelden, gecombineerd met grotere programmeeropdrachten.
 
 | onderdeel | deadline                        |  
 | --------- | ------------------------------- |  
-| module 1  | zaterdag 13 januari 23:59       |  
-| module 2  | zaterdag 20 januari 23:59       |  
-| module 3  | zaterdag 27 januari 23:59       |  
-| module 4  | woensdag 31 januari 23:59       |  
-| tentamen  | donderdag 1 februari 14--17 uur |  
+| module 1  | dinsdag 15 januari 23:59        |  
+| module 2  | donderdag 24 januari 23:59      |  
+| module 3  | woensdag 30 januari 23:59       |  
+| tentamen  | donderdag 31 januari 13--15 uur |  
 
 Het is geen probleem als de modules een paar minuten later worden ingeleverd, bijvoorbeeld in geval van technische problemen.
+
+Het is mogelijk om de modules maximaal 24 uur later in te leveren, met aftrek van 2 punten op het eindcijfer van de module.
 
 Omdat het mogelijk is ongemerkt mee te liften met een medestudent tijdens het maken van de practica (als je steevast overlegt over de manier van code schrijven), checken we met behulp van het tentamen nog een keer of je zelfstandig de leerdoelen van het vak gehaald hebt.
 
 ## Feedback
 
-Alle uitwerkingen van een module lever je aan het eind van de week in. Om te beginnen kijken we of je alles geprobeerd hebt: de **omvang**. Wij gebruiken daarnaast het programma `checkpy` om de **correctheid** van je oplossingen te beoordelen. Op basis daarvan krijg je punten voor de module. Je hebt zelf ook toegang tot deze tool, dus gebruik die goed!
+Alle uitwerkingen van een module lever je aan het eind van de week in. Om te beginnen kijken we of je alles geprobeerd hebt: de **correctness**. Op basis daarvan krijg je punten voor de module. Je hebt zelf ook toegang tot deze tool, dus gebruik die goed!
 
 > Omdat we altijd nieuwe opdrachten gebruiken, gebeurt het soms dat er een fout wordt gevonden in `checkpy` of in de opdracht zelf. Als we de fout kunnen corrigeren sturen we een mail rond. Zorg in ieder geval dat je altijd aan het eind van de week je oplossingen nog eens checkt met de nieuwste versie van `checkpy`!
 
-Programma's moeten niet alleen het "goede" antwoord geven, maar een programma kan zelf ook een bepaalde kwaliteit hebben. Is het een ordelijk en leesbaar geschreven algoritme? Kan het korter of duidelijker? Alleen je laaste opdracht wordt op **design** en **stijl** beoordeeld, en wel op de volgende schaal:
+Programma's moeten niet alleen het "goede" antwoord geven, maar een programma kan zelf ook een bepaalde kwaliteit hebben. Is het een ordelijk en leesbaar geschreven algoritme? Kan het korter of duidelijker? De opdrachten worden op **stijl** beoordeeld, en wel op de volgende schaal:
 
 1. Matig
-2. Redelijk: aardig wat punten voor verbetering
-3. Goed: diverse punten voor verbetering
+2. Redelijk: zeker geprobeerd, aardig wat punten voor verbetering
+3. Goed: aantal dingen goed op orde, met diverse punten voor verbetering
 4. Heel goed: beperkt ruimte voor verbetering, paar kleine problemen
 5. Excellent: in feite geen ruimte voor verbetering, misschien een suf foutje
 
@@ -76,9 +67,9 @@ Programma's moeten niet alleen het "goede" antwoord geven, maar een programma ka
 
 ## Aanwezigheid
 
-Tijdens de eerste week is er een aanwezigheidplicht voor alle geroosterde practica: zie je persoonlijke rooster op datanose. Je mag gerust wegblijven als je de opdrachten helemaal af hebt (en ingestuurd!).
+Tijdens de eerste week is er een **aanwezigheidplicht** voor alle geroosterde practica: zie je persoonlijke rooster op datanose. Je mag gerust wegblijven als je de opdrachten helemaal af hebt (en ingestuurd!).
 
-In latere weken steeds verwachten we dat je bij de practica aanwezig bent als je hulp en uitleg nodig hebt. Zorg dus dat je op tijd begint, zodat je nog een kans hebt om langs te komen als het nodig is!
+In latere weken steeds verwachten we dat je bij de practica aanwezig bent als je hulp en uitleg nodig hebt. Er is geen mogelijkheid om hulp per e-mail te krijgen als vervanging van het practicum. Zorg dus dat je op tijd begint, zodat je nog een kans hebt om langs te komen als het nodig is!
 
 ## Studielast
 
@@ -91,7 +82,7 @@ De modules kosten je gemiddeld zo'n 19 uur werk: dat is dus meer tijd dan er pra
 | tentamen    | 1 x 3 uur + voorbereiding |      6 uur |  
 |             |                           | **81 uur** |  
 
-De meeste studenten ervaren een programmeervak als zwaar. Dit komt omdat er veel tijd "verloren" gaat aan kleine foutjes, hard nadenken en even uitrusten. Als de frustratie je teveel wordt, laat het dan gerust weten. Weet dat het erbij hoort en onvermijdelijk is. En neem even pauze!
+De meeste studenten ervaren een programmeervak als **zwaar**. Dit komt omdat er veel tijd "verloren" gaat aan kleine foutjes, hard nadenken en even uitrusten. Als de frustratie je teveel wordt, laat het dan gerust weten. Weet dat het erbij hoort en onvermijdelijk is. En neem even pauze!
 
 ## Literatuur
 
@@ -105,14 +96,15 @@ Green Tea Press, 2013
 
 Het eindcijfer is samengesteld uit de resultaten van de opdrachten en dat van het tentamen.
 
-| onderdeel                | berekening           | gewicht |  
-| ------------------------ | -------------------- | ------: |  
-| module 1                 | omvang x correctheid |     10% |  
-| module 2                 | omvang x correctheid |     10% |  
-| module 3                 | omvang x correctheid |     10% |  
-| module 4                 | omvang x correctheid |     10% |  
-| design en style module 4 | design x style       |     20% |  
-| tentamen                 | punten               |     40% |  
+| onderdeel | berekening  | gewicht |  
+| --------- | ----------- | ------: |  
+| module 1  | correctheid |     10% |  
+|           | style       |      5% |  
+| module 2  | correctheid |     10% |  
+|           | style       |     10% |  
+| module 3  | correctheid |     10% |  
+|           | style       |     20% |  
+| tentamen  | punten      |     40% |  
 
 Je krijgt een eindcijfer voor dit vak als je:
 
@@ -130,7 +122,7 @@ Was je niet voldoende aanwezig, heb je een opdracht niet zichtbaar geprobeerd, o
 
 ## Inzage beoordelingen
 
-Je hebt binnen 30 dagen na bekendmaking van de cijfers recht op inzage van alle soorten toetsen zodat je de manier van nakijken kunt controleren. Maak hiervoor een individuele afspraak met de docent per e-mail.
+Je hebt binnen 30 dagen na bekendmaking van de cijfers recht op inzage van alle soorten toetsen zodat je de manier van nakijken kunt controleren. Vraag na de bekendmaking van de uitslagen zelf om een individuele afspraak met de docent, per e-mail.
 
 ## Samenwerken
 
@@ -179,7 +171,9 @@ uitwerking van internet, dan zijn er twee mogelijkheden.
 
 ## Vakevaluatie vorig studiejaar
 
-In het studiejaar 2016-2017 is dit vak voor het eerst gegeven. Studenten waren inhoudelijk over het algemeen tevreden en vonden de opdrachten leuk. Wel was de werkdruk soms veel te hoog, was er op sommige practica te weinig begeleiding aanwezig, en misten veel studenten een college waar het doel en de middelen van de cursus duidelijk werden gemaakt. Dit jaar zijn de practicumgroepen daarom kleiner gemaakt, is er een wekelijks hoorcollege en zijn de opdrachten minder zwaar gemaakt (reken je overigens niet rijk: als je nog nooit geprogrammeerd hebt kost dit vak je echt wel de normtijd van 21 uur per week!).
+In het studiejaar 2016-2017 is dit vak voor het eerst gegeven. Studenten waren inhoudelijk over het algemeen tevreden en vonden de opdrachten leuk. Wel was de werkdruk soms veel te hoog.
+
+In het studiejaar 2017-2018 gaven we het vak voor de tweede keer. De werkdruk was aanzienlijk beter volgens de studenten.
 
 ## Dankwoord
 
