@@ -18,7 +18,7 @@ Kijk om te beginnen eens naar het filmpje hiernaast. Egge van der Poel is Data S
 
 3. Oefen met het basisboek hoofdstukken 1 t/m 3 en plan een [toets](toets) in
 
-4. <span class="badge badge-secondary">Oefenen</span> Schrijf een paar kleine programmaatjes om te oefenen met [variabelen](/practice/swap)
+4. <span class="badge badge-secondary">Inleveren</span> Schrijf een paar kleine programmaatjes om te oefenen met [variabelen](/practice/variabelen)
 
 5. Lees over [invoer en uitvoer](/python/io) in Python
 
