@@ -24,6 +24,8 @@ Kijk om te beginnen eens naar het filmpje hiernaast. Egge van der Poel is Data S
 
 6. <span class="badge badge-secondary">Inleveren</span> Schrijf een programma om je [waterverbruik](/algoritmen/water) te controleren
 
+7. Lees over [commentaar](/python/comments) in code. Voeg dan commentaar toe aan de vorige opdracht. Veel zal het niet zijn, want het is maar een kort programma!
+
 #### Deel 2: een eerste algoritme
 
 1. Leer meer over [voorwaardelijke opdrachten](/python/voorwaarden)
