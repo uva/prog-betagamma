@@ -1,10 +1,12 @@
-# Variabelen
+# Swap
 
-Schrijf een algoritme dat de waarden van twee variabelen verwisselt.
+We schrijven een aantal algoritmen die de waarden van variabelen kunnen *verwisselen*. Maak een bestand `swap.py` om de oefening in te doen.
 
-## Swap
+## Verwisselen van twee variabelen
 
-De onderstaande code is nog niet helemaal compleet. Er worden twee variabelen (`a` en `b`) aangemaakt en uitgeprint, maar de waarden worden nog niet verwisseld. Het is aan jou om het programma af te maken.
+In hoofdstuk 3.2 van het basisboek vind je uitleg over algoritmen om de inhoud van variabelen te verwisselen. Jij gaat de algoritmen *implementeren* (maken) in Python.
+
+Onderstaande code is nog niet helemaal compleet. Er worden twee variabelen (`a` en `b`) aangemaakt en uitgeprint, maar de waarden worden nog niet verwisseld. Het is aan jou om het programma af te maken.
 
 	a = 4
 	b = 6
@@ -13,17 +15,14 @@ De onderstaande code is nog niet helemaal compleet. Er worden twee variabelen (`
 
 	print(a, b)
 
-Huidige output:
+Als je het programma uitvoert zoals hierboven, met de `TODO` nog intact, dan krijg je de volgende uitvoer:
 
 	4 6
 
-Verwachte output:
+Maar we willen graag dat de inhoud van de variabelen wordt verwisseld, vóór we de print doen, zodat het programma de volgende uitvoer geeft.
 
 	6 4
 
-### Specificatie
+## Verwisselen van meer variabelen
 
-* Maak een nieuw bestand genaamd `swap.py`.
-* Kopieer de bovenstaande code.
-* Schrijf een algoritme die de waarden van de variablen `a` en `b` verwisselt.
-* Maak een programma die de waarden van 4 variabelen verwisselt.
+Maak in `swap.py` ook de andere oefeningen uit het basisboek. Je hoeft ze niet allemaal te bewaren.
