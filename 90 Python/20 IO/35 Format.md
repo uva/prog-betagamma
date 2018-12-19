@@ -1,4 +1,4 @@
-# Format
+## Format
 
 We hebben al gezien hoe je variabelen kan printen. Bijvoorbeeld:
 

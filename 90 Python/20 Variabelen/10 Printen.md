@@ -1,4 +1,4 @@
-# Printen
+## Printen
 
 Als je een programma hebt geschreven kun je het uitvoeren (*runnen*). De computer loopt dan stap voor stap door je programma en voert de instructies uit die op elke regel staan.
 
