@@ -178,7 +178,7 @@ In het studiejaar 2017-2018 gaven we het vak voor de tweede keer. De werkdruk wa
 | Sterke punten      | Mogelijke verbeteringen                                             |  
 | ------------------ | ------------------------------------------------------------------- |  
 | zeer leerzaam      | in de 'spits' duurde het soms lang voordat vragen werden beantwoord |  
-| duidelijke opbouw  | en zou meer uitleg bij kunnen                                       |  
+| duidelijke opbouw  | er zou meer uitleg bij kunnen                                       |  
 | nuttige opdrachten |                                                                     |  
 | goede docenten     |                                                                     |  
 
