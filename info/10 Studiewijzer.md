@@ -173,7 +173,16 @@ uitwerking van internet, dan zijn er twee mogelijkheden.
 
 In het studiejaar 2016-2017 is dit vak voor het eerst gegeven. Studenten waren inhoudelijk over het algemeen tevreden en vonden de opdrachten leuk. Wel was de werkdruk soms veel te hoog.
 
-In het studiejaar 2017-2018 gaven we het vak voor de tweede keer. De werkdruk was aanzienlijk beter volgens de studenten.
+In het studiejaar 2017-2018 gaven we het vak voor de tweede keer. De werkdruk was aanzienlijk beter volgens de studenten. Hierbij een samenvatting van de opmerkingen:
+
+| Sterke punten      | Mogelijke verbeteringen                                             |  
+| ------------------ | ------------------------------------------------------------------- |  
+| zeer leerzaam      | in de 'spits' duurde het soms lang voordat vragen werden beantwoord |  
+| duidelijke opbouw  | en zou meer uitleg bij kunnen                                       |  
+| nuttige opdrachten |                                                                     |  
+| goede docenten     |                                                                     |  
+
+Dit jaar zijn er meer oefeningen en tussenopdrachtjes in de modules opgenomen, waarvan de bedoeling is dat het helpt om beter van de cursus te leren.
 
 ## Dankwoord
 
