@@ -23,9 +23,9 @@ Hoeveel munten er precies nodig zijn bij een bepaalde hoeveelheid wisselgeld? Da
 
 ## Specificatie
 
-* Schrijf in een bestand genaamd `greedy.py` een programma dat eerst vraagt hoe veel wisselgeld er gegeven moet worden, en vervolgens het minimaal aantal munten uitspuwt.
+* Schrijf in een bestand genaamd `wisselgeld.py` een programma dat eerst vraagt hoeveel dollars wisselgeld er gegeven moet worden, en vervolgens het (minimum) aantal munten print waaruit dat wisselgeld zal bestaan.
 
-* Ga er vanuit dat de gebruiker een getal als geheel getal (integer), of als kommagetal invult (nou ja, een puntgetal, want het werkt op z'n Amerikaans). Het getal achter de komma staat in dat laatste geval voor centen. Dus `3.21` betekent 3 dollar en 21 cent.
+* Ga er vanuit dat de gebruiker een getal als geheel getal (integer), of als kommagetal invult. Het getal achter de komma staat in dat laatste geval voor centen. Dus `3.21` betekent 3 dollar en 21 cent.
 
 * [Slaagt de gebruiker er niet in om correcte input te geven](https://en.wikipedia.org/wiki/Murphy's_law), zorg dan dat er opnieuw geprobeerd kan worden.
 
@@ -43,6 +43,6 @@ Hoeveel munten er precies nodig zijn bij een bepaalde hoeveelheid wisselgeld? Da
 
 ## Testen
 
-	checkpy greedy
+	checkpy wisselgeld
 
 (Je weet nu hoe het testen werkt, toch?)
