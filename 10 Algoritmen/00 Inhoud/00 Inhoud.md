@@ -10,13 +10,15 @@ Kijk om te beginnen eens naar het filmpje hiernaast. Egge van der Poel is Data S
 
 <p style="margin-top:2em;"></p>
 
-#### Deel 1: aan de slag
+#### Dag 1: aan de slag
+
+1. Plan een toets in voor het basisboek: [groep AC](https://calendly.com/betagamma/test-1-groep-ac)/[groep BD](https://calendly.com/betagamma/test-1-groep-bd)
 
 1. Maak je online [ontwikkelomgeving](/naslag/installatie-online) aan
 
-2. Lees over [variabelen](/python/variabelen) in Python
+2. Lees over [berekeningen en variabelen](/python/variabelen) in Python
 
-3. Oefen met het basisboek hoofdstukken 1 t/m 3 en plan een [toets](toets) in
+3. Oefen met het basisboek hoofdstukken 1 t/m 3 voor de toets
 
 4. <span class="badge badge-secondary">Inleveren</span> Schrijf een paar kleine programmaatjes om te oefenen met [variabelen](/practice/variabelen)
 
@@ -28,13 +30,15 @@ Kijk om te beginnen eens naar het filmpje hiernaast. Egge van der Poel is Data S
 
 #### Deel 2: een eerste algoritme
 
+1. Plan een toets in voor het basisboek: [groep AC](https://calendly.com/betagamma/test-2-groep-ac)/[groep BD](https://calendly.com/betagamma/test-2-groep-bd)
+
 1. Leer meer over [voorwaardelijke opdrachten](/python/voorwaarden)
 
 2. Oefen met het basisboek hoofdstuk 4
 
 3. Leer meer over [loops](/python/loops)
 
-4. Oefen met het basisboek hoofdstukken 5 en 8, en plan een [toets](toets) in
+4. Oefen met het basisboek hoofdstukken 5 en 8
 
 5. <span class="badge badge-secondary">Oefenen</span> Schrijf een paar kleine programmaatjes om te oefenen met [loops](/practice/loops)
 
