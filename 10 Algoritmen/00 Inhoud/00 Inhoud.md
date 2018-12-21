@@ -12,6 +12,8 @@ Kijk om te beginnen eens naar het filmpje hiernaast. Egge van der Poel is Data S
 
 #### Deel 1: aan de slag
 
+Let op: het is niet toegestaan om samen te werken bij dit vak!
+
 1. Plan een toets in voor het basisboek: [groep AC](https://calendly.com/betagamma/test-1-groep-ac)/[groep BD](https://calendly.com/betagamma/test-1-groep-bd)
 
 1. Maak je online [ontwikkelomgeving](/naslag/installatie-online) aan
