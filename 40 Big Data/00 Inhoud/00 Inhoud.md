@@ -1,6 +1,6 @@
 # Big data
 
-<div style="width: 40%; float:right; margin-left: 2em;">
+<div class="embed-float">
 ![embed](https://player.vimeo.com/video/236110830)
 </div>
 
@@ -18,6 +18,4 @@ In deze module gaan we leren hoe we informatie uit een grote data-set halen.
 
 #### Inleveren en evaluatie
 
-1. Ga naar [deze pagina](/big-data/submit) om je programma's in te leveren.
-
-2. Vul daarna de [evaluatie](https://goo.gl/forms/xo6QrvkyZXEarJMH3){:target="_blank"} in.
+Vul de [evaluatie](https://goo.gl/forms/xo6QrvkyZXEarJMH3){:target="_blank"} in.
