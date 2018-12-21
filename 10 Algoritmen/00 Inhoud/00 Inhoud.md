@@ -10,7 +10,7 @@ Kijk om te beginnen eens naar het filmpje hiernaast. Egge van der Poel is Data S
 
 <p style="margin-top:2em;"></p>
 
-#### Dag 1: aan de slag
+#### Deel 1: aan de slag
 
 1. Plan een toets in voor het basisboek: [groep AC](https://calendly.com/betagamma/test-1-groep-ac)/[groep BD](https://calendly.com/betagamma/test-1-groep-bd)
 
