@@ -12,7 +12,7 @@ Kijk om te beginnen eens naar het filmpje hiernaast. Egge van der Poel is Data S
 
 #### Deel 1: aan de slag
 
-1. [Maak je ontwikkelomgeving aan](/naslag/installatie-online)
+1. Maak je online [ontwikkelomgeving](/naslag/installatie-online) aan
 
 2. Lees over [variabelen](/python/variabelen) in Python
 
