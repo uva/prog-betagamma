@@ -40,7 +40,7 @@ Let op: het is niet toegestaan om samen te werken bij dit vak!
 
 3. Leer meer over [loops](/python/loops)
 
-4. Oefen met het basisboek hoofdstukken 5 en 8
+4. Oefen met het basisboek hoofdstukken 5 en 6
 
 5. <span class="badge badge-secondary">Inleveren</span> Schrijf een paar kleine programmaatjes om te oefenen met [loops](/practice/loops)
 
