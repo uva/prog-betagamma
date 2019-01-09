@@ -1,0 +1,4 @@
+name: gemiddelde
+files:
+    required:
+        - gemiddelde.py

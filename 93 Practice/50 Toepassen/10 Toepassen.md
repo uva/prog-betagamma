@@ -56,6 +56,9 @@ Het bovenstaande programma werkt exact hetzelfde als het programma ervoor, maar 
 
 ## Oefeningen
 
+* Noem je programma toepassen.py
+* Copieer de bovenstaande code in het programma.
+
 ### Oefening 1.1
 
 Maak een functie `fun3()` voor de vergelijking `y = -4 * x + 4` en gebruik de bovenstaande functie `genereer` om waarden voor deze functie te genereren.
