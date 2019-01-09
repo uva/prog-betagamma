@@ -1,0 +1,4 @@
+name: toepassen
+files:
+    required:
+        - toepassen.py
