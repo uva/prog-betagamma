@@ -4,6 +4,14 @@ Het is handig om je resultaten te visualiseren in een grafiek of zelfs een filmp
 
 > Om je boodschap en conclusies goed over te brengen is het belangrijk dat je aandacht besteedt aan de presentatie zodat het voor je publiek duidelijk is. Er bestaat een enorme variatie in de manier waarop data en resultaten gevisualiseerd worden. Denk altijd na hoe je denkt dat je het best de informatie weer kan geven zodat de "gebruiker" van je grafieken de juiste conclusie trekt. Zoek vervolgens in de `matplotlib`-documentatie hoe je dat voor elkaar kunt krijgen.
 
+## Let op! ##
+
+Om matplotlib te gebruiken in de online IDE, heb je nog iets meer nodig dan onderstaande. Gebruik dit bovenaan je programma:
+
+    import matplotlib
+    matplotlib.use('Agg')
+    import matplotlib.pyplot as plt
+
 ## Een lijst met punten
 
 We beginnen met het plotten van wat punten waarvan we de x-waardes $$(0,1,2,3,4,5)$$ en de y-waardes $$(0,1,4,9,16,25)$$ hebben. In dit geval is het precies de functie $$x^2$$, maar dat hoeft natuurlijk niet. Om daar een grafiek van te maken doen we het volgende:

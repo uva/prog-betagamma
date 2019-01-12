@@ -34,7 +34,7 @@ Kijk om te beginnen eens naar het filmpje hiernaast. Lydia Brenner en Jelle Aalb
 
 2. <span class="badge badge-secondary">Inleveren</span> Bereken de gemiddelde [afstand](/integreren/afstand) tussen twee punten in een vierkant
 
-3. <span class="badge badge-secondary">Inleveren</span> Analyseer met een [histogram](/integreren/histogram) de uitvoer van de `random`-functie
+<!-- 3. <span class="badge badge-secondary">Inleveren</span> Analyseer met een [histogram](/integreren/histogram) de uitvoer van de `random`-functie -->
 
 #### Deel 4: Riemann
 
