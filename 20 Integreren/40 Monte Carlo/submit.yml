@@ -1,0 +1,4 @@
+name: montecarlo
+files:
+    required:
+        - montecarlo.py

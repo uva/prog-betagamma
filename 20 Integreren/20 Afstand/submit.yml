@@ -1,0 +1,4 @@
+name: afstand
+files:
+    required:
+        - afstand.py

@@ -1,0 +1,4 @@
+name: riemann
+files:
+    required:
+        - riemann.py

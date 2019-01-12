@@ -1,0 +1,4 @@
+name: nulpunten
+files:
+    required:
+        - nulpunten.py
