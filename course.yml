@@ -8,3 +8,9 @@ acknowledgements:
     - 'Based on CS50 from http://cs50.tv/2016/fall/ -- Copyright 2011--2017, David J. Malan.'
 
 license: <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons-Licentie" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a> Dit werk valt onder een <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Naamsvermelding-NietCommercieel-GelijkDelen 4.0 Internationaal-licentie</a>.
+
+feedback_templates:
+    filename:
+        explanation: "Will ask student to submit a file with the correct name. Only use when file doesn't match expected name and check fails."
+        feedback: "Je hebt een bestand met de verkeerde naam ingeleverd! Submit deze binnen 1 dag opnieuw met de juiste naam; je kunt een assistent om hulp vragen."
+        grade: 0
