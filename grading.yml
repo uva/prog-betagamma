@@ -5,6 +5,7 @@
     type: float
     subgrades:
         points: integer
+        style: integer
     automatic:
         points: check_score
 
