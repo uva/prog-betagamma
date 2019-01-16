@@ -1,3 +1,6 @@
+1: &passfail
+    type: pass    
+
 2: &automatic
     type: float
     subgrades:
@@ -6,6 +9,7 @@
         points: check_score
 
 grades:
+    loops: *passfail
     water:
         <<: *automatic
         calculation: (points.to_f / 3 * 9 + 1).round(1)
