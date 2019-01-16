@@ -20,6 +20,8 @@ grades:
     piramide:
         <<: *automatic
         calculation: (points.to_f / 4 * 9 + 1).round(1)
+    gemiddelde: *passfail
+    toepassen: *passfail
     module1:
         type: float
         subgrades:
