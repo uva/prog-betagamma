@@ -3,12 +3,13 @@
     subgrades:
         correctness: integer
     automatic:
-        correctness: (check_score * 5).floor
-    calculation: -(correctness/5)
+        correctness: check_score
     hide_calculated: true
 
 grades:
-    water: *automatic
+    water:
+        <<: *automatic
+        calculation: (correctness.to_f / 6 * 9 + 1).round(1)
     wisselgeld: *automatic
     piramide: *automatic
     module1:
