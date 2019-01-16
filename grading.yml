@@ -9,13 +9,13 @@
 grades:
     water:
         <<: *automatic
-        calculation: (points.to_f / 6 * 9 + 1).round(1)
+        calculation: (points.to_f / 3 * 9 + 1).round(1)
     wisselgeld:
         <<: *automatic
         calculation: (points.to_f / 6 * 9 + 1).round(1)
     piramide:
         <<: *automatic
-        calculation: (points.to_f / 6 * 9 + 1).round(1)
+        calculation: (points.to_f / 4 * 9 + 1).round(1)
     module1:
         type: float
         subgrades:
