@@ -4,7 +4,6 @@
         points: integer
     automatic:
         points: check_score
-    hide_calculated: true
 
 grades:
     water:
