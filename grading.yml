@@ -1,21 +1,21 @@
 2: &automatic
     type: float
     subgrades:
-        correctness: integer
+        points: integer
     automatic:
-        correctness: check_score
+        points: check_score
     hide_calculated: true
 
 grades:
     water:
         <<: *automatic
-        calculation: (correctness.to_f / 6 * 9 + 1).round(1)
+        calculation: (points.to_f / 6 * 9 + 1).round(1)
     wisselgeld:
         <<: *automatic
-        calculation: (correctness.to_f / 6 * 9 + 1).round(1)
+        calculation: (points.to_f / 6 * 9 + 1).round(1)
     piramide:
         <<: *automatic
-        calculation: (correctness.to_f / 6 * 9 + 1).round(1)
+        calculation: (points.to_f / 6 * 9 + 1).round(1)
     module1:
         type: float
         subgrades:
