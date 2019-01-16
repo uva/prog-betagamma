@@ -1,40 +1,42 @@
+2: &automatic
+    type: float
+    subgrades:
+        correctness: integer
+    automatic:
+        correctness: (check_score * 5).floor
+    calculation: -(correctness/5)
+    hide_calculated: true
+
 grades:
+    water: *automatic
+    wisselgeld: *automatic
+    piramide: *automatic
     module1:
         type: float
         subgrades:
-            scope: integer
-            correctness: integer
-        calculation: (scope * correctness / 25.0 * 9 + 1).round(1)
+            style: integer
+        calculation: (style.to_f).round(1)
         hide_calculated: true
     module2:
         type: float
         subgrades:
-            scope: integer
             correctness: integer
+            style: integer
         calculation: (scope * correctness / 25.0 * 9 + 1).round(1)
         hide_calculated: true
     module3:
         type: float
         subgrades:
-            scope: integer
             correctness: integer
+            style: integer
         calculation: (scope * correctness / 25.0 * 9 + 1).round(1)
         hide_calculated: true
     module4:
         type: float
         subgrades:
-            scope: integer
             correctness: integer
-            design: integer
             style: integer
         calculation: (scope * correctness / 25.0 * 9 + 1).round(1)
-        hide_calculated: true
-    style:
-        type: float
-        subgrades:
-            design: integer
-            style: integer
-        calculation: ((design + style) / 10.0 * 9 + 1).round(1)
         hide_calculated: true
     tentamen:
         type: float
