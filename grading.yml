@@ -9,6 +9,7 @@
         points: check_score
 
 grades:
+    swap: *passfail
     loops: *passfail
     water:
         <<: *automatic
