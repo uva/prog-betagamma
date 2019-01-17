@@ -103,7 +103,7 @@ Het eindcijfer is samengesteld uit de resultaten van de opdrachten en dat van he
 | module 2  | correctheid |     10% |  
 |           | style       |     10% |  
 | module 3  | correctheid |     10% |  
-|           | style       |     20% |  
+|           | style       |     15% |  
 | tentamen  | punten      |     40% |  
 
 Je krijgt een eindcijfer voor dit vak als je:
