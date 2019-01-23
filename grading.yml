@@ -1,11 +1,11 @@
 1: &passfail
     type: pass    
 
-2: &automatic
+2: &autom
     type: float
     subgrades:
         points: integer
-        style: integer
+        # style: integer
     automatic:
         points: check_score
         hide_calculated: true
@@ -14,13 +14,13 @@ grades:
     swap: *passfail
     loops: *passfail
     water:
-        <<: *automatic
+        <<: *autom
         calculation: (points / 3.0 * 9 + 1).round(1)
     wisselgeld:
-        <<: *automatic
+        <<: *autom
         calculation: (points / 6.0 * 9 + 1).round(1)
     piramide:
-        <<: *automatic
+        <<: *autom
         calculation: (points / 4.0 * 9 + 1).round(1)
     style1:
         type: integer
