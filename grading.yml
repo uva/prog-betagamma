@@ -8,7 +8,7 @@
         # style: integer
     automatic:
         points: check_score
-        hide_calculated: true
+    hide_calculated: true
 
 grades:
     swap: *passfail
