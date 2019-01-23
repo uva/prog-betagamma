@@ -26,7 +26,7 @@ grades:
         type: integer
         subgrades:
             points: integer
-        calculation: (points / 5.0 * 9 + 1).round(1)
+        calculation: (points / 5.0 * 9 + 1)
         hide_calculated: true
     gemiddelde: *passfail
     toepassen: *passfail
