@@ -22,6 +22,11 @@ grades:
     piramide:
         <<: *automatic
         calculation: (   ((points.to_f / 4 * 9 + 1) / 3 * 2)   +   ((style.to_f / 5 * 9 + 1) / 3)   ).round(1)
+    style1:
+        type: integer
+        subgrades:
+            points: integer
+        calculation: points
     gemiddelde: *passfail
     toepassen: *passfail
     tentamen:
