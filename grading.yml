@@ -23,10 +23,10 @@ grades:
         <<: *autom
         calculation: (points / 4.0 * 9 + 1).round(1)
     style1:
-        type: integer
+        type: float
         subgrades:
             points: integer
-        calculation: (points / 5.0 * 9 + 1)
+        calculation: (points / 5.0 * 9 + 1).round(1)
         hide_calculated: true
     gemiddelde: *passfail
     toepassen: *passfail
