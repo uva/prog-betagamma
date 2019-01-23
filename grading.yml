@@ -18,10 +18,10 @@ grades:
         calculation: (   ((points.to_f / 3 * 9 + 1) / 3 * 2)   +   ((style.to_f / 5 * 9 + 1) / 3)   ).round(1)
     wisselgeld:
         <<: *automatic
-        calculation: (points.to_f / 6 * 9 + 1).round(1)
+        calculation: (   ((points.to_f / 6 * 9 + 1) / 3 * 2)   +   ((style.to_f / 5 * 9 + 1) / 3)   ).round(1)
     piramide:
         <<: *automatic
-        calculation: (points.to_f / 4 * 9 + 1).round(1)
+        calculation: (   ((points.to_f / 4 * 9 + 1) / 3 * 2)   +   ((style.to_f / 5 * 9 + 1) / 3)   ).round(1)
     gemiddelde: *passfail
     toepassen: *passfail
     tentamen:
