@@ -8,13 +8,14 @@
         style: integer
     automatic:
         points: check_score
+        hide_calculated: true
 
 grades:
     swap: *passfail
     loops: *passfail
     water:
         <<: *automatic
-        calculation: (points.to_f / 3 * 9 + 1).round(1)
+        calculation: ((points.to_f / 3 * 9 + 1) / 3 * 2) + ((style.to_f / 5 * 9 + 1) / 3).round(1)
     wisselgeld:
         <<: *automatic
         calculation: (points.to_f / 6 * 9 + 1).round(1)
@@ -23,33 +24,6 @@ grades:
         calculation: (points.to_f / 4 * 9 + 1).round(1)
     gemiddelde: *passfail
     toepassen: *passfail
-    module1:
-        type: float
-        subgrades:
-            style: integer
-        calculation: (style.to_f).round(1)
-        hide_calculated: true
-    module2:
-        type: float
-        subgrades:
-            correctness: integer
-            style: integer
-        calculation: (scope * correctness / 25.0 * 9 + 1).round(1)
-        hide_calculated: true
-    module3:
-        type: float
-        subgrades:
-            correctness: integer
-            style: integer
-        calculation: (scope * correctness / 25.0 * 9 + 1).round(1)
-        hide_calculated: true
-    module4:
-        type: float
-        subgrades:
-            correctness: integer
-            style: integer
-        calculation: (scope * correctness / 25.0 * 9 + 1).round(1)
-        hide_calculated: true
     tentamen:
         type: float
         subgrades:
