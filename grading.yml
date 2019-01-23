@@ -27,6 +27,7 @@ grades:
         subgrades:
             points: integer
         calculation: points
+        hide_calculated: true
     gemiddelde: *passfail
     toepassen: *passfail
     tentamen:
