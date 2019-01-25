@@ -77,23 +77,29 @@ grades:
 calculation:
     resit:
         hertentamen: 40
-        modules: 40
-        style: 20
+        modules: 30
+        style: 30
     normal:
         tentamen: 40
-        modules: 40
-        style: 20
+        modules: 30
+        style: 30
 
 modules:
     submits:
-        module1: 1
-        module2: 1
-        module3: 1
-        module4: 1
+        water: 1
+        wisselgeld: 2
+        piramide: 2
+        afstand: 1
+        riemann: 2
+        montecarlo: 2
+        autorit: 3
+        temperatuur: 2
 
 style:
     submits:
-        style: 1
+        style1: 1
+        style2: 1
+        style3: 1
 
 tentamen:
     required: true
