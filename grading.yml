@@ -30,6 +30,21 @@ grades:
         hide_calculated: true
     gemiddelde: *passfail
     toepassen: *passfail
+    plot:
+        <<: *autom
+        calculation: (points / 2.0 * 9 + 1).round(1)
+    nulpunten:
+        <<: *autom
+        calculation: (points / 4.0 * 9 + 1).round(1)
+    afstand:
+        <<: *autom
+        calculation: (points / 2.0 * 9 + 1).round(1)
+    riemann:
+        <<: *autom
+        calculation: (points / 4.0 * 9 + 1).round(1)
+    montecarlo:
+        <<: *autom
+        calculation: (points / 4.0 * 9 + 1).round(1)
     tentamen:
         type: float
         subgrades:
