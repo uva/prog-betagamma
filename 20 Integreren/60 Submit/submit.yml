@@ -1,8 +1,0 @@
-name: module2
-files:
-    vereist:
-        - nulpunten.py
-        - afstand.py
-        - histogram.py
-        - riemann.py
-        - montecarlo.py
