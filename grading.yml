@@ -45,6 +45,24 @@ grades:
     montecarlo:
         <<: *autom
         calculation: (points / 4.0 * 9 + 1).round(1)
+    style2:
+        type: float
+        subgrades:
+            points: integer
+        calculation: (points / 5.0 * 9 + 1).round(1)
+        hide_calculated: true
+    autorit:
+        <<: *autom
+        calculation: (points / 2.0 * 9 + 1).round(1)
+    temperatuur:
+        <<: *autom
+        calculation: (points / 4.0 * 9 + 1).round(1)
+    style3:
+        type: float
+        subgrades:
+            points: integer
+        calculation: (points / 5.0 * 9 + 1).round(1)
+        hide_calculated: true
     tentamen:
         type: float
         subgrades:
