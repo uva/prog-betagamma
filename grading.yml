@@ -67,7 +67,7 @@ grades:
         type: float
         subgrades:
             points: integer
-        calculation: ((points-13.0)*(4.0/6)+6).round(1)
+        calculation: (points*9.0/14-67.0/14).round(1)
     hertentamen:
         type: float
         subgrades:
