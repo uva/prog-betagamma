@@ -56,7 +56,7 @@ grades:
         calculation: (points / 2.0 * 9 + 1).round(1)
     temperatuur:
         <<: *autom
-        calculation: (points / 4.0 * 9 + 1).round(1)
+        calculation: (points / 8.0 * 9 + 1).round(1)
     style3:
         type: float
         subgrades:
