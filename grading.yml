@@ -92,8 +92,8 @@ modules:
         afstand: 1
         riemann: 2
         montecarlo: 2
-        autorit: 3
-        temperatuur: 2
+        autorit: 2
+        temperatuur: 3
 
 style:
     submits:
