@@ -102,11 +102,13 @@ style:
         style3: 1
 
 tentamen:
+    minimum: 5.5
     required: true
     submits:
         tentamen: 1
 
 hertentamen:
+    minimum: 5.5
     required: true
     submits:
         hertentamen: 1
