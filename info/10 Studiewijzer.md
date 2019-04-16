@@ -96,15 +96,15 @@ Green Tea Press, 2013
 
 Het eindcijfer is samengesteld uit de resultaten van de opdrachten en dat van het tentamen.
 
-| onderdeel | berekening  | gewicht |  
-| --------- | ----------- | ------: |  
-| module 1  | correctheid |     10% |  
-|           | style       |      5% |  
-| module 2  | correctheid |     10% |  
-|           | style       |     10% |  
-| module 3  | correctheid |     10% |  
-|           | style       |     15% |  
-| tentamen  | punten      |     40% |  
+| onderdeel | schaal      | beoordeling               | gewicht |  
+| --------- | ----------- | ------------------------- | ------: |  
+| module 1  | correctheid | aantal geslaagde tests    |     10% |  
+|           | style       | expertoordeel 1--5 punten |      5% |  
+| module 2  | correctheid | aantal geslaagde tests    |     10% |  
+|           | style       | expertoordeel 1--5 punten |     10% |  
+| module 3  | correctheid | aantal geslaagde tests    |     10% |  
+|           | style       | expertoordeel 1--5 punten |     15% |  
+| tentamen  |             | punten volgens model      |     40% |  
 
 Je krijgt een eindcijfer voor dit vak als je:
 
