@@ -1,4 +1,0 @@
-name: plot
-files:
-    required:
-        - plot.py

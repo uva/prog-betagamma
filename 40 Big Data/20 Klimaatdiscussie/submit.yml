@@ -1,6 +1,0 @@
-name: temperatuur
-files:
-    required:
-        - temperatuur.py
-        - DeBiltTempMax.txt
-        - DeBiltTempMin.txt

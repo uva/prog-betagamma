@@ -1,5 +1,0 @@
-name: autorit
-files:
-    required:
-        - autorit.py
-        - AutoRitData.csv
