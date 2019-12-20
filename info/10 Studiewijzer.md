@@ -82,7 +82,7 @@ Programma's moeten niet alleen het "goede" antwoord geven, maar een programma ka
 6. zichtbare aandacht voor de meeste aspecten
 5. zichtbare aandacht voor een beperkt aantal aspecten
 4. geen aantoonbare aandacht voor de kwaliteitsaspecten
-{: start="5" reversed=""}
+{: start="10" reversed=""}
 
 Zoals je ziet is het minimum een 4. Als je de opdracht wel helemaal werkend inlevert, maar niet zichtbaar aan de kwaliteitsaspecten hebt gewerkt, krijg je dat cijfer.
 
