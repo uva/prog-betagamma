@@ -9,15 +9,16 @@ We gaan programmeren in Python, een eenvoudige taal met vele mogelijkheden. Je l
 ## Docenten en assistenten
 
 Simon Pauw (docent)  
+Marleen Rijksen (co-docent)  
 Martijn Stegeman (coördinator)  
 
 Tijdens de practica van dit vak staan de **assistenten** voor je klaar en je kunt bij ze terecht met vragen over het programmeren, maar ook over de nagekeken opdrachten en tips over het vak.
 
-Het kan zijn dat je om één of andere reden een uitzondering nodig hebt op de regels van het vak. Deze kun je alleen krijgen bij de **docenten**. Stuur een mail naar <progbg@mprog.nl> en leg even kort uit wat je situatie is. Ben je bang een achterstand op te lopen van meer dan een dag? Neem dan razendsnel contact op!
+Het kan zijn dat je om één of andere reden een uitzondering nodig hebt op de regels van het vak. Deze kun je alleen krijgen bij de **docenten** en niet bij de assistenten. Stuur een mail naar <progbg@mprog.nl> en leg even kort uit wat je situatie is. Ben je bang een achterstand op te lopen van meer dan een dag? Neem dan razendsnel contact op!
 
 ## Verwachtingen
 
-In deze cursus ga je aan de slag met programmeeropdrachten, waardoor je de taal Python leert en bovendien de standaardaanpak voor een aantal wetenschappelijke problemen leert kennen. Om echt te leren programmeren is veel oefening nodig, dus bovenal verwachten we dat je **alle opdrachten volledig maakt**, waarbij er natuurlijk ruimte is om fouten te maken.
+In deze cursus ga je aan de slag met programmeeropdrachten, waardoor je de taal Python leert en bovendien de standaardaanpak voor een aantal wetenschappelijke problemen leert kennen. Om echt te leren programmeren is veel oefening nodig, dus bovenal verwachten we dat je **alle opdrachten volledig werkend maakt**, waarbij er natuurlijk ruimte is om fouten te maken.
 
 > Samenwerken tijdens dit vak is niet toegestaan. Dit vak heeft als doel jouw persoonlijke programmeervaardigheid te ontwikkelen. Bij vervolgvakken is het vaak wél mogelijk om samen te programmeren. Zie verder de opmerkingen over plagiaat, onderaan deze studiehandleiding.
 
@@ -36,17 +37,17 @@ Wat willen we dat je kunt aan het einde van deze cursus?
 
 Het eindcijfer is samengesteld uit de resultaten van de opdrachten en dat van het tentamen.
 
-| onderdeel | schaal              | gewicht |  
+| onderdeel | beoordeling         | gewicht |  
 | --------- | ------------------- | ------: |
-| module 1  | kwaliteit           |     20% |  
-| module 2  | kwaliteit           |     20% |  
-| module 3  | kwaliteit           |     20% |  
-| tentamen  | correcte uitwerking |     40% |  
+| module 1  | kwaliteit           |     33% |  
+| module 2  | kwaliteit           |     33% |  
+| module 3  | kwaliteit           |     33% |  
+| tentamen  | correcte uitwerking |      0% |  
 
 Je krijgt een eindcijfer voor dit vak als je:
 
 * elke module op tijd en naar verwachting hebt ingeleverd;
-* een voldoende hebt gehaald voor het tentamen.
+* het tentamen voldoende hebt gemaakt.
 
 Heb je een opdracht niet zichtbaar geprobeerd, of was je niet bij het tentamen, dan krijg je een NA (niet aanwezig). Heb je het tentamen niet gehaald, dan krijg je een NAV en kun je dit tentamen herkansen. Er zijn geen herkansingen voor de opdrachten, ook niet in geval van overmacht, dus lever altijd in wat je hebt en neem altijd contact op met de docent.
 
@@ -54,12 +55,12 @@ Heb je een opdracht niet zichtbaar geprobeerd, of was je niet bij het tentamen, 
 
 Er zijn drie modules waarvan de tweede de grootste is. Vanaf de eerste dag van de cursus ga je oefenen met het omzetten van een idee voor een programma naar werkende Python-code. Elke module bestaat uit theorie en voorbeelden, gecombineerd met grotere programmeeropdrachten.
 
-| onderdeel | deadline                        |  
-| --------- | ------------------------------- |
-| module 1  | woensdag   8 januari 17:59      |  
-| module 2  | dinsdag   21 januari 17:59      |  
-| module 3  | dinsdag   28 januari 17:59      |  
-| tentamen  | donderdag 31 januari 13--17 uur |  
+| onderdeel | deadline                      |  
+| --------- | ----------------------------- |
+| module 1  | maandag 13 januari 17:59      |  
+| module 2  | dinsdag 21 januari 17:59      |  
+| module 3  | dinsdag 28 januari 17:59      |  
+| tentamen  | vrijdag 31 januari 13--17 uur |  
 
 Het is geen probleem als de modules een paar minuten later worden ingeleverd, bijvoorbeeld in geval van technische problemen.
 
@@ -69,15 +70,17 @@ Omdat het mogelijk is ongemerkt mee te liften met een medestudent tijdens het ma
 
 ## Feedback
 
-Alle uitwerkingen van een module lever je vóór de deadline in. Om te beginnen kijken we of je alles goed gemaakt hebt: de **correctness**. Hiervoor gebruiken we de tool **checkpy**. Je hebt zelf ook toegang tot deze tool, dus gebruik die goed! Als alles werkt, dan kan je opdracht nagekeken worden.
+Alle uitwerkingen van een module lever je vóór de deadline in. Om te beginnen kijken we of je alles goed gemaakt hebt: de **correctness**. Hiervoor gebruiken we de tool **checkpy**. Je hebt zelf ook toegang tot deze tool, dus gebruik die goed!
+
+Alleen als je opdracht helemaal werkt volgens `checkpy` kan deze nagekeken worden.
 
 > Omdat we altijd nieuwe opdrachten gebruiken, gebeurt het soms dat er een fout wordt gevonden in `checkpy` of in de opdracht zelf. Als we de fout kunnen corrigeren sturen we een mail rond. Zorg in ieder geval dat je altijd aan het eind van de week je oplossingen nog eens checkt met de nieuwste versie van `checkpy`!
 
 Programma's moeten niet alleen het "goede" antwoord geven, maar een programma kan zelf ook een bepaalde **kwaliteit** hebben. Is het een ordelijk en leesbaar geschreven algoritme? Kan het korter of duidelijker? De opdrachten worden beoordeeld op de volgende schaal:
 
 10. uitzonderlijk goed resultaat met doordacht ontwerp
-9. uitstekend resultaat op alle aangegeven aspecten
-8. keurig resultaat op alle aangegeven aspecten
+9. uitstekend resultaat op de aangegeven aspecten
+8. keurig resultaat op de aangegeven aspecten
 7. zichtbare aandacht voor alle aspecten, goed resultaat op sommige
 6. zichtbare aandacht voor de meeste aspecten
 5. zichtbare aandacht voor een beperkt aantal aspecten
@@ -86,11 +89,11 @@ Programma's moeten niet alleen het "goede" antwoord geven, maar een programma ka
 
 Zoals je ziet is het minimum een 4. Als je de opdracht wel helemaal werkend inlevert, maar niet zichtbaar aan de kwaliteitsaspecten hebt gewerkt, krijg je dat cijfer.
 
-> Feedback op kwaliteit moet je gedurende de cursus zelf vragen! Zorg dat je diverse assistenten vraagt om verbeterpunten voor je verschillende opdrachten. Zo kun je een goed beeld vormen van wat "goede code" is, en dat zul je natuurlijk terug zien in je cijfer voor de laatste opdracht.
+> Feedback op kwaliteit moet je gedurende de cursus zelf vragen! Zorg dat je verschillende assistenten vraagt om verbeterpunten voor je opdrachten. Zo kun je een goed beeld vormen van wat "goede code" is, en dat zul je natuurlijk terug zien in je cijfer voor de laatste opdracht.
 
 ## Aanwezigheid
 
-Tijdens de eerste week is er een **aanwezigheidplicht** voor alle geroosterde practica: zie je persoonlijke rooster op datanose. In latere weken steeds verwachten we dat je bij de practica aanwezig bent als je hulp en uitleg nodig hebt. Er is geen mogelijkheid om hulp per e-mail te krijgen als vervanging van het practicum. Zorg dus dat je op tijd begint, zodat je nog een kans hebt om langs te komen als het nodig is!
+Tijdens de eerste week is er een **aanwezigheidplicht** voor alle geroosterde practica: zie je persoonlijke rooster op datanose. In latere weken verwachten we dat je bij de practica aanwezig bent als je hulp en uitleg nodig hebt. Er is geen mogelijkheid om hulp per e-mail te krijgen als vervanging van het practicum. Zorg dus dat je op tijd begint, zodat je nog een kans hebt om langs te komen als het nodig is!
 
 ## Studielast
 
