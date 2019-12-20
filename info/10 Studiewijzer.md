@@ -1,6 +1,6 @@
 # Inleiding Programmeren<br><small>Studiewijzer</small>
 
-*Versie: Januari 2019 (wijzigingen voorbehouden)*
+*Versie: Januari 2020 (wijzigingen voorbehouden)*
 
 ![Python](python-logo.png){:.inline}  
 
@@ -17,7 +17,7 @@ Het kan zijn dat je om één of andere reden een uitzondering nodig hebt op de r
 
 ## Verwachtingen
 
-In deze cursus ga je aan de slag met programmeeropdrachten, waardoor je de taal Python leert en bovendien de standaardaanpak voor een aantal wetenschappelijke problemen leert kennen. Om echt te leren programmeren is veel oefening nodig, dus bovenal verwachten we dat je alle opdrachten volledig maakt, waarbij er natuurlijk ruimte is om fouten te maken.
+In deze cursus ga je aan de slag met programmeeropdrachten, waardoor je de taal Python leert en bovendien de standaardaanpak voor een aantal wetenschappelijke problemen leert kennen. Om echt te leren programmeren is veel oefening nodig, dus bovenal verwachten we dat je **alle opdrachten volledig maakt**, waarbij er natuurlijk ruimte is om fouten te maken.
 
 > Samenwerken tijdens dit vak is niet toegestaan. Dit vak heeft als doel jouw persoonlijke programmeervaardigheid te ontwikkelen. Bij vervolgvakken is het vaak wél mogelijk om samen te programmeren. Zie verder de opmerkingen over plagiaat, onderaan deze studiehandleiding.
 
@@ -32,44 +32,65 @@ Wat willen we dat je kunt aan het einde van deze cursus?
   consistente stijl toe te passen.
 * Je kunt enkele veelvoorkomende programmeerfouten opsporen en verbeteren.
 
+## Eindcijfer
+
+Het eindcijfer is samengesteld uit de resultaten van de opdrachten en dat van het tentamen.
+
+| onderdeel | schaal              | gewicht |  
+| --------- | ------------------- | ------: |
+| module 1  | kwaliteit           |     20% |  
+| module 2  | kwaliteit           |     20% |  
+| module 3  | kwaliteit           |     20% |  
+| tentamen  | correcte uitwerking |     40% |  
+
+Je krijgt een eindcijfer voor dit vak als je:
+
+* elke module op tijd en naar verwachting hebt ingeleverd;
+* een voldoende hebt gehaald voor het tentamen.
+
+Heb je een opdracht niet zichtbaar geprobeerd, of was je niet bij het tentamen, dan krijg je een NA (niet aanwezig). Heb je het tentamen niet gehaald, dan krijg je een NAV en kun je dit tentamen herkansen. Er zijn geen herkansingen voor de opdrachten, ook niet in geval van overmacht, dus lever altijd in wat je hebt en neem altijd contact op met de docent.
+
 ## Activiteiten
 
-Er zijn drie modules van ongeveer één week. Vanaf de eerste dag van de cursus ga je oefenen met het omzetten van een idee voor een programma naar werkende Python-code. Elke module bestaat uit theorie en voorbeelden, gecombineerd met grotere programmeeropdrachten.
+Er zijn drie modules waarvan de tweede de grootste is. Vanaf de eerste dag van de cursus ga je oefenen met het omzetten van een idee voor een programma naar werkende Python-code. Elke module bestaat uit theorie en voorbeelden, gecombineerd met grotere programmeeropdrachten.
 
 | onderdeel | deadline                        |  
-| --------- | ------------------------------- |  
-| module 1  | dinsdag 15 januari 23:59        |  
-| module 2  | donderdag 24 januari 23:59      |  
-| module 3  | woensdag 30 januari 23:59       |  
-| tentamen  | donderdag 31 januari 13--15 uur |  
+| --------- | ------------------------------- |
+| module 1  | woensdag   8 januari 17:59      |  
+| module 2  | dinsdag   21 januari 17:59      |  
+| module 3  | dinsdag   28 januari 17:59      |  
+| tentamen  | donderdag 31 januari 13--17 uur |  
 
 Het is geen probleem als de modules een paar minuten later worden ingeleverd, bijvoorbeeld in geval van technische problemen.
 
-Het is mogelijk om de modules maximaal 24 uur later in te leveren, met aftrek van 2 punten op het eindcijfer van de module.
+Het is mogelijk om de modules maximaal 24 uur later in te leveren, met automatische aftrek van 1 punt voor de module. Lever je uiterlijk 4 dagen te laat in, dan gaan er 2 punten van het cijfer af. Nog later inleveren is niet mogelijk.
 
 Omdat het mogelijk is ongemerkt mee te liften met een medestudent tijdens het maken van de practica (als je steevast overlegt over de manier van code schrijven), checken we met behulp van het tentamen nog een keer of je zelfstandig de leerdoelen van het vak gehaald hebt.
 
 ## Feedback
 
-Alle uitwerkingen van een module lever je aan het eind van de week in. Om te beginnen kijken we of je alles geprobeerd hebt: de **correctness**. Op basis daarvan krijg je punten voor de module. Je hebt zelf ook toegang tot deze tool, dus gebruik die goed!
+Alle uitwerkingen van een module lever je vóór de deadline in. Om te beginnen kijken we of je alles goed gemaakt hebt: de **correctness**. Hiervoor gebruiken we de tool **checkpy**. Je hebt zelf ook toegang tot deze tool, dus gebruik die goed! Als alles werkt, dan kan je opdracht nagekeken worden.
 
 > Omdat we altijd nieuwe opdrachten gebruiken, gebeurt het soms dat er een fout wordt gevonden in `checkpy` of in de opdracht zelf. Als we de fout kunnen corrigeren sturen we een mail rond. Zorg in ieder geval dat je altijd aan het eind van de week je oplossingen nog eens checkt met de nieuwste versie van `checkpy`!
 
-Programma's moeten niet alleen het "goede" antwoord geven, maar een programma kan zelf ook een bepaalde kwaliteit hebben. Is het een ordelijk en leesbaar geschreven algoritme? Kan het korter of duidelijker? De opdrachten worden op **stijl** beoordeeld, en wel op de volgende schaal:
+Programma's moeten niet alleen het "goede" antwoord geven, maar een programma kan zelf ook een bepaalde **kwaliteit** hebben. Is het een ordelijk en leesbaar geschreven algoritme? Kan het korter of duidelijker? De opdrachten worden beoordeeld op de volgende schaal:
 
-1. Matig
-2. Redelijk: zeker geprobeerd, aardig wat punten voor verbetering
-3. Goed: aantal dingen goed op orde, met diverse punten voor verbetering
-4. Heel goed: beperkt ruimte voor verbetering, paar kleine problemen
-5. Excellent: in feite geen ruimte voor verbetering, misschien een suf foutje
+10. uitzonderlijk goed resultaat met doordacht ontwerp
+9. uitstekend resultaat op alle aangegeven aspecten
+8. keurig resultaat op alle aangegeven aspecten
+7. zichtbare aandacht voor alle aspecten, goed resultaat op sommige
+6. zichtbare aandacht voor de meeste aspecten
+5. zichtbare aandacht voor een beperkt aantal aspecten
+4. geen aantoonbare aandacht voor de kwaliteitsaspecten
+{: start="5" reversed=""}
 
-> Feedback op design en stijl moet je gedurende de cursus zelf vragen! Zorg dat je diverse assistenten vraagt om verbeterpunten voor je verschillende opdrachten. Zo kun je een goed beeld vormen van wat "goede code" is, en dat zul je natuurlijk terug zien in je cijfer voor de laatste opdracht.
+Zoals je ziet is het minimum een 4. Als je de opdracht wel helemaal werkend inlevert, maar niet zichtbaar aan de kwaliteitsaspecten hebt gewerkt, krijg je dat cijfer.
+
+> Feedback op kwaliteit moet je gedurende de cursus zelf vragen! Zorg dat je diverse assistenten vraagt om verbeterpunten voor je verschillende opdrachten. Zo kun je een goed beeld vormen van wat "goede code" is, en dat zul je natuurlijk terug zien in je cijfer voor de laatste opdracht.
 
 ## Aanwezigheid
 
-Tijdens de eerste week is er een **aanwezigheidplicht** voor alle geroosterde practica: zie je persoonlijke rooster op datanose. Je mag gerust wegblijven als je de opdrachten helemaal af hebt (en ingestuurd!).
-
-In latere weken steeds verwachten we dat je bij de practica aanwezig bent als je hulp en uitleg nodig hebt. Er is geen mogelijkheid om hulp per e-mail te krijgen als vervanging van het practicum. Zorg dus dat je op tijd begint, zodat je nog een kans hebt om langs te komen als het nodig is!
+Tijdens de eerste week is er een **aanwezigheidplicht** voor alle geroosterde practica: zie je persoonlijke rooster op datanose. In latere weken steeds verwachten we dat je bij de practica aanwezig bent als je hulp en uitleg nodig hebt. Er is geen mogelijkheid om hulp per e-mail te krijgen als vervanging van het practicum. Zorg dus dat je op tijd begint, zodat je nog een kans hebt om langs te komen als het nodig is!
 
 ## Studielast
 
@@ -79,7 +100,7 @@ De modules kosten je gemiddeld zo'n 19 uur werk: dat is dus meer tijd dan er pra
 | ----------- | ------------------------- | ---------: |  
 | hoorcollege | 4 x 2 uur                 |      8 uur |  
 | opdrachten  | 3 x 19 uur + 1 x 10 uur   |     67 uur |  
-| tentamen    | 1 x 3 uur + voorbereiding |      6 uur |  
+| tentamen    | 1 x 4 uur + voorbereiding |      6 uur |  
 |             |                           | **81 uur** |  
 
 De meeste studenten ervaren een programmeervak als **zwaar**. Dit komt omdat er veel tijd "verloren" gaat aan kleine foutjes, hard nadenken en even uitrusten. Als de frustratie je teveel wordt, laat het dan gerust weten. Weet dat het erbij hoort en onvermijdelijk is. En neem even pauze!
@@ -91,30 +112,6 @@ Het volgende boek is gratis verkrijgbaar. In de cursus staat soms al uitleg uit 
 Allen Downey  
 *Think Python* ([download](http://greenteapress.com/thinkpython2/html/index.html))  
 Green Tea Press, 2013
-
-## Eindcijfer
-
-Het eindcijfer is samengesteld uit de resultaten van de opdrachten en dat van het tentamen.
-
-| onderdeel | schaal      | beoordeling               | gewicht |  
-| --------- | ----------- | ------------------------- | ------: |  
-| module 1  | correctheid | aantal geslaagde tests    |     10% |  
-|           | style       | expertoordeel 1--5 punten |      5% |  
-| module 2  | correctheid | aantal geslaagde tests    |     10% |  
-|           | style       | expertoordeel 1--5 punten |     10% |  
-| module 3  | correctheid | aantal geslaagde tests    |     10% |  
-|           | style       | expertoordeel 1--5 punten |     15% |  
-| tentamen  |             | punten volgens model      |     40% |  
-
-Je krijgt een eindcijfer voor dit vak als je:
-
-* voldoende uren aanwezig bent geweest tijdens de practica;
-* elke module op tijd en naar verwachting hebt ingeleverd;
-* een voldoende hebt gehaald voor het tentamen.
-
-Een klein deel van het eindcijfer wordt bepaald door hoe je beter bent gaan programmeren tijdens het vak (de voortgang die jij persoonlijk hebt gemaakt!).
-
-Was je niet voldoende aanwezig, heb je een opdracht niet zichtbaar geprobeerd, of was je niet bij het tentamen, dan krijg je een NA (niet aanwezig). Heb je het tentamen niet gehaald, dan krijg je een NAV en kun je dit tentamen herkansen. Er zijn geen herkansingen voor de opdrachten, ook niet in geval van overmacht, dus lever altijd in wat je hebt.
 
 ## Eerder gevolgd
 
@@ -149,7 +146,7 @@ je zelf even onder de knie moet krijgen.
 
 Deze cursus hanteert de algemene Fraude- en plagiaatregeling van de UvA. Onder plagiaat wordt in ieder geval verstaan:
 
-1. het gebruik maken dan wel overnemen van andermans teksten, gegevens of ideeën zonder volledige en correcte bronvermelding;
+1. het gebruik maken dan wel overnemen van andermans teksten, gegevens of ideeën zonder volledige en correcte bronvermelding (overnemen van andermans code is hoe dan ook niet toegestaan voor dit vak, met of zonder bronvermelding);
 2. het presenteren als eigen werk of eigen gedachten van de structuur dan wel het centrale gedachtegoed uit bronnen van derden, zelfs indien een verwijzing naar andere auteurs is opgenomen;
 3. het niet duidelijk aangeven in de tekst, bijvoorbeeld via aanhalingstekens of een bepaalde vormgeving, dat letterlijke of bijna letterlijke citaten in het werk werden overgenomen, zelfs indien met een correcte bronvermelding;
 4. het parafraseren van de inhoud van andermans teksten zonder voldoende bronverwijzingen.
