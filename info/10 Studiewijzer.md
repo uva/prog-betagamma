@@ -18,7 +18,7 @@ Het kan zijn dat je om één of andere reden een uitzondering nodig hebt op de r
 
 ## Verwachtingen
 
-In deze cursus ga je aan de slag met programmeeropdrachten, waardoor je de taal Python leert en bovendien de standaardaanpak voor een aantal wetenschappelijke problemen leert kennen. Om echt te leren programmeren is veel oefening nodig, dus bovenal verwachten we dat je **alle opdrachten volledig werkend maakt**, waarbij er natuurlijk ruimte is om fouten te maken.
+In deze cursus ga je aan de slag met programmeeropdrachten, waardoor je de taal Python leert en bovendien de standaardaanpak voor een aantal wetenschappelijke problemen leert kennen. Om echt te leren programmeren is veel oefening nodig, dus bovenal verwachten we dat je **alle opdrachten volledig werkend maakt**.
 
 > Samenwerken tijdens dit vak is niet toegestaan. Dit vak heeft als doel jouw persoonlijke programmeervaardigheid te ontwikkelen. Bij vervolgvakken is het vaak wél mogelijk om samen te programmeren. Zie verder de opmerkingen over plagiaat, onderaan deze studiehandleiding.
 
