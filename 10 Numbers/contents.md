@@ -6,19 +6,19 @@ But why programming? Check out this video. [Mirjam Leunissen](http://www.dutchda
 
 ![embed](https://player.vimeo.com/video/235229540)
 
-##### Day 1: Getting started
+##### Part 1: Getting started
 
 1. Practice thoroughly with the [basic elements](/numbers/basics) of Python
 
 2. <span class="badge badge-primary">Assignment</span> Program the computer to be a [number whiz](/numbers/whiz)
 
-##### Day 2: Prime numbers
+##### Part 2: Prime numbers
 
 1. Learn more about [algorithms](/numbers/algorithms)
 
 3. <span class="badge badge-primary">Assignment</span> Look for [prime numbers](/numbers/primes)
 
-##### Day 3: Number theory
+##### Part 3: Number theory
 
 1. Store data in a [list](/numbers/lists)
 
@@ -28,7 +28,7 @@ But why programming? Check out this video. [Mirjam Leunissen](http://www.dutchda
 
 4. <span class="badge badge-primary">Assignment</span> Try to (dis)prove [Goldbach's](/numbers/goldbach) conjecture
 
-##### Day 4: Plotting graphs
+##### Part 4: Plotting graphs
 
 1. Learn how to use [modules](/numbers/modules) in Python
 
