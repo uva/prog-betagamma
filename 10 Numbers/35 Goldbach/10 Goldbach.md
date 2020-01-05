@@ -2,7 +2,7 @@
 
 Write a program that proves Goldbach's conjecture to be true for all even numbers up to and including 1000.
 
-  # python goldbach.py
+    # python goldbach.py
     16 = ...
     18 = 5 + 13
     20 = 3 + 17
