@@ -6,7 +6,7 @@ But why programming? Check out this video. [Mirjam Leunissen](http://www.dutchda
 
 ![embed](https://player.vimeo.com/video/235229540)
 
-# Grading
+##### Grading
 
 As soon as you have submitted working solutions for all problems below, your programs will be assessed and graded. The grade will partly depend on how well you integrated specific quality aspects. For this module, your programs will be primarily graded on:
 
