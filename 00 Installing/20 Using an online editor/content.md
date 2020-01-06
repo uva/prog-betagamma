@@ -66,8 +66,8 @@ We use a program to check whether your assignments are implemented correctly. We
 
 To download both `matplotlib` and `checkpy` you have to run the following command separately in your terminal:
 
-    pip install matplotlib
-    pip install checkpy
+    pip install --user matplotlib
+    pip install --user checkpy
     checkpy -d uva-sp/sp1
 
 It can take quite a while for each command and a lot of text will move over your screen. In case there is relatively little text on your screen, try to find a message stating something went wrong or ask for assistance! 
