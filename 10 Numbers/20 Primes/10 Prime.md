@@ -45,7 +45,8 @@ In the case of a non prime number, such as 36, it should print:
 
 At the start, keep it simple. Use a `for`-loop and `%` (modulo) to determine how many numbers are a divisor of `number`. If you keep track of this in the loop (count!), then by the end of the loop you can determine if a number is prime or not. Ultimately print the conclusion, like in the example above.
 
-> Tip: You can use the module operator to test for divisibility. For example the program below will test if 9 is divisible by 3 (which, of course, is the case):
+Tip: You can use the module operator to test for divisibility. For example the program below will test if 9 is divisible by 3 (which, of course, is the case):
+
 ```
 x = 9
 if x % 3 == 0:
