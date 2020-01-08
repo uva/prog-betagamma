@@ -2,8 +2,8 @@
 
 Implement a program that generates the $$n$$-th prime number, where $$n$$ is a user provided value.
 
-	Which prime number are you looking for? 1000
-	7919
+  Which prime number are you looking for? 1000
+  7919
 
 ## Background
 
@@ -41,9 +41,15 @@ If the user enters the number 37, at the end of the program the following statem
 
 In the case of a non prime number, such as 36, it should print:
 
-	The number 36 is not a prime number
+  The number 36 is not a prime number
 
 At the start, keep it simple. Use a `for`-loop and `%` (modulo) to determine how many numbers are a divisor of `number`. If you keep track of this in the loop (count!), then by the end of the loop you can determine if a number is prime or not. Ultimately print the conclusion, like in the example above.
+
+Tip: You can use the module operator to test for divisibility. For example the program below will test if 9 is divisible by 3 (which, of course, is the case):
+
+    x = 9
+    if x % 3 == 0:
+        print(f'{x} is divisible by 3')
 
 ## Step 2: check an entire list
 
@@ -73,7 +79,7 @@ Once again carefully read the specification at the top of the assignment and mak
 
 Then you're all set to test:
 
-	checkpy prime
+  checkpy prime
 
 ## Step 5: small optimizations
 
@@ -93,4 +99,4 @@ We started out as simple as possible, to get to a *correct* program as soon as p
 
 To be sure test your program again using `checkpy`:
 
-	checkpy prime
+  checkpy prime

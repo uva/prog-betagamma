@@ -6,6 +6,19 @@ But why programming? Check out this video. [Mirjam Leunissen](http://www.dutchda
 
 ![embed](https://player.vimeo.com/video/235229540)
 
+##### Grading
+
+As soon as you have submitted working solutions for all problems below, your programs will be assessed and graded. The grade will partly depend on how well you integrated specific quality aspects. For this module, your programs will be primarily graded on:
+
+* [comments](/reference/style-guide#comments)
+* [variable naming](/reference/style-guide#variables)
+* [indentation](/reference/style-guide#indentation)
+* [white spaces](/reference/style-guide#blank-lines-and-extra-spaces)
+
+You can find the grading criteria in the [syllabus](/syllabus#feedback).
+
+Remember to always **use `checkpy` to verify your code is working correctly** before handing it in.
+
 ##### Part 1: Getting started
 
 1. Practice thoroughly with the [basic elements](/numbers/basics) of Python
