@@ -24,7 +24,7 @@ We can also print multiple times on the same line. By default `print` adds an **
 
     print("The temperature is", end=" ")
     print(8, end=" ")
-    print(" degrees Celsius")
+    print("degrees Celsius")
 
 That way the entire message is printed on a single line. Try it for yourself!
 
