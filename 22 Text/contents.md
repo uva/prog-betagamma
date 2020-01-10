@@ -20,8 +20,6 @@ One interesting application of Python is to use it for analyzing texts written b
 
 - <span class="badge badge-primary">Assignment</span> Analyze the [content of texts](/text/words) word by word.
 
-- <span class="badge badge-primary">Assignment</span> [Reformat](/text/reformatting) a text, respecting word boundaries.
-
 ##### Part 3: Sentiment analysis
 
 - Learn how to read text from [files](/text/files) in Python.

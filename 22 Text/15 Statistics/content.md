@@ -12,7 +12,7 @@ One statistic we could calculate is the length of the text, using the built-in `
 But we can also define slightly more fine-grained statistics. In this assignment, you'll write four functions for text statistics that are not provided by Python.
 
 
-## 1. Letters
+## Specification
 
 Write a function `number_of_letters_in(text)` that calculates how many letters are in a given string. Here's how one might use such a function:
 
@@ -21,18 +21,18 @@ Write a function `number_of_letters_in(text)` that calculates how many letters a
     >>> print(number_of_letters_in("ABCDE 9182 F"))
     6
 
-### Background
+## Background
 
 Let's define a *letter* to be any alphabetic character that occurs in a string. For our `source_text` above, this means that the number of letters is definitely less than the total length of the string, because it also contains spaces as well as periods. In other words, this new function is not the same as the `len()` function.
 
-### Getting started
+## Getting started
 
 Create a new file called `text_statistics.py`, which will contain all of the functions that you write in this assignment. From the text above, copy the definition of the variable `source_text` into your file, for testing purposes. Then, define a function with the name `number_of_letters_in` and a single argument called `text`.
 
     def number_of_letters_in(text):
         # TODO
 
-### Strategy
+## Strategy
 
 To do this, you'll need to build a loop that:
 
@@ -112,4 +112,3 @@ If, like earlier, you split a text into words using `str.split()`, you will rece
 - To calculate the length of each word, you can use the counter strategy. Modify the strategy to iterate over words in the split list, not over letters. Next, modify it to not *count* each word, but to *sum* the lengths of all words.
 
 - When you have a variable containing the sum of the lengths of all words, you can calculate the average word length by dividing the sum by the number of words. You may retrieve the latter by calling the `number_of_words_in(text)` function that you wrote earlier.
-

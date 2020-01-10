@@ -5,7 +5,6 @@ Introduction: /text
     Calculate basic statistics: /text/statistics
 "Part 2: Text cleanup":
     Analyze word use: /text/words
-    Reformatting Text: /text/reformatting
 "Part 3: Sentiment analysis":
     Learn about files: /text/files
     Sentiment analysis: /text/sentiment

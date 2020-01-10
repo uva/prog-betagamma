@@ -1,6 +1,6 @@
 # Sentiment analysis
 
-Write a function `sentiment_of_text(text)` that calculates the *sentiment score* of the text.
+In a file called `sentiment.py`, write a function `sentiment_of_text(text)` that calculates the *sentiment score* of the text.
 
     >>> sentiment_of_text("Pastel-colored 1980s day cruisers from Florida are ugly.")
     -1
@@ -31,15 +31,15 @@ When analyzing a text, this means that each positive word adds 1 to the total sc
            lines = content.read().splitlines()
            content.close()
            return lines
-       
+
        def load_positive_words():
            return load_words("pos_words.txt")
-       
+
        def load_negative_words():
            return load_words("neg_words.txt")
-       
-       pos_words = load_pos_words()
-       neg_words = load_neg_words()
+
+       pos_words = load_positive_words()
+       neg_words = load_negative_words()
 
    Now you have two lists containing the words.
 
@@ -59,4 +59,3 @@ Add the following code to test your functions. It adds *interpretation* to your 
         print("The text talks about mad or bad stuff :(")
     else:
         print("The text is not opinionated or just messy.")
-
