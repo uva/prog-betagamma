@@ -35,13 +35,13 @@ Given the description and example above, you will need to make sure that each wo
 
 3. Write a function called `text_to_unique_words(text)` that takes a text as input and outputs a list of unique words.
 
-  * Pass all words through the `cleanup` function.
-  * To make sure that the words are unique, you will need a variant of the transform strategy:
+    * Pass all words through the `cleanup` function.
+    * To make sure that the words are unique, you will need a variant of the transform strategy:
 
-       unique_words = [...]
-       for each word in words:
-           only append to unique_words if it is not in there yet
-       return all unique_words
+          unique_words = [...]
+            for each word in words:
+              only append to unique_words if it is not in there yet
+          return all unique_words
 
 4. Sort all words and print as specified.
 
