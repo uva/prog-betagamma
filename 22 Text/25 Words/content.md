@@ -50,10 +50,14 @@ Tip: split up your code into functions (with meaningful names) as much as possib
 
 ## Testing
 
-These are potential test cases:
+First try to think of some testcases yourself. Some interesting examples could be:
 
 - empty input
 - 1-word input
 - multiple-word input
 - words with punctuation
 - words with double blanks / empty words  "word<space><space>huh"
+
+Now with checkpy:
+
+    checkpy list_words

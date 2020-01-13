@@ -50,7 +50,6 @@ To test this function, you may add a few lines of tests below the function defin
 
     python text_statistics.py
 
-
 ## 2. Words
 
 Write a function `number_of_words_in(text)` which takes a string containing text, and returns how many words are in that text.
@@ -112,3 +111,7 @@ If, like earlier, you split a text into words using `str.split()`, you will rece
 - To calculate the length of each word, you can use the counter strategy. Modify the strategy to iterate over words in the split list, not over letters. Next, modify it to not *count* each word, but to *sum* the lengths of all words.
 
 - When you have a variable containing the sum of the lengths of all words, you can calculate the average word length by dividing the sum by the number of words. You may retrieve the latter by calling the `number_of_words_in(text)` function that you wrote earlier.
+
+### Testing
+
+    checkpy text_statistics

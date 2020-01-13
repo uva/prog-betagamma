@@ -50,7 +50,7 @@ When analyzing a text, this means that each positive word adds 1 to the total sc
 
 ## Testing
 
-Add the following code to test your functions. It adds *interpretation* to your program.
+First convince yourself that everything works as it should by trying out some sentences. You can add the following code to test your functions:
 
     total_score = sentiment_of_text("...")
     if total_score > 0:
@@ -59,3 +59,7 @@ Add the following code to test your functions. It adds *interpretation* to your 
         print("The text talks about mad or bad stuff :(")
     else:
         print("The text is not opinionated or just messy.")
+
+Now you're ready to test with checkpy:
+
+    checkpy sentiment
