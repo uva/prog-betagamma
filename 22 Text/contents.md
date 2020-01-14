@@ -8,7 +8,7 @@ One interesting application of Python is to use it for analyzing texts written b
 
 ![embed](https://player.vimeo.com/video/233508920)
 
-##### Part 1: Text statistics
+## Part 1: Text statistics
 
 - Learn how to write [functions](/text/functions) in Python.
 
@@ -16,21 +16,21 @@ One interesting application of Python is to use it for analyzing texts written b
 
 - <span class="badge badge-primary">Assignment</span> Calculate [basic statistics](/text/statistics) about a text.
 
-##### Part 2: Text cleanup
+## Part 2: Text cleanup
 
 - <span class="badge badge-primary">Assignment</span> Analyze the [content of texts](/text/words) word by word.
 
-##### Part 3: Sentiment analysis
+## Part 3: Sentiment analysis
 
 - <span class="badge badge-primary">Assignment</span> Perform a [sentiment analysis](/text/sentiment) on a large text fragment.
 
 - <span class="badge badge-primary">Assignment</span> Present an overview of the sentiment contained in a collection of [tweets](/text/tweets).
 
-##### Submitting
+## Submitting
 
 When you're ready to submit, head to [the submit page for this module](/text/submit).
 
-##### When you've finished
+## When you've finished
 
 You might take a look at these resources for further study:
 
