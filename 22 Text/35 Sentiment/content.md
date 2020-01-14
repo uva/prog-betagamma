@@ -22,7 +22,7 @@ When analyzing a text, this means that each positive word adds 1 to the total sc
 
 ## Strategy
 
-1. Download [`pos_words.txt`](pos_words.txt) and [`neg_words.txt`](neg_words.txt).
+1. Download [pos_words.txt](pos_words.txt) and [neg_words.txt](neg_words.txt).
 
 2. Use this code for loading the word lists:
 
