@@ -22,8 +22,6 @@ One interesting application of Python is to use it for analyzing texts written b
 
 ##### Part 3: Sentiment analysis
 
-- Learn how to read text from [files](/text/files) in Python.
-
 - <span class="badge badge-primary">Assignment</span> Perform a [sentiment analysis](/text/sentiment) on a large text fragment.
 
 - <span class="badge badge-primary">Assignment</span> Present an overview of the sentiment contained in a collection of [tweets](/text/tweets).
