@@ -5,64 +5,14 @@
     type: float
     subgrades:
         points: integer
-        # style: integer
+        score: integer
     automatic:
         points: check_score
+    calculation: points && score || 0
     hide_calculated: true
 
 grades:
-    swap: *passfail
-    loops: *passfail
-    water:
-        <<: *autom
-        calculation: (points / 3.0 * 9 + 1).round(1)
-    wisselgeld:
-        <<: *autom
-        calculation: (points / 6.0 * 9 + 1).round(1)
-    piramide:
-        <<: *autom
-        calculation: (points / 4.0 * 9 + 1).round(1)
-    style1:
-        type: float
-        subgrades:
-            points: integer
-        calculation: (points / 5.0 * 9 + 1).round(1)
-        hide_calculated: true
-    gemiddelde: *passfail
-    toepassen: *passfail
-    plot:
-        <<: *autom
-        calculation: (points / 1.0 * 9 + 1).round(1)
-    nulpunten:
-        <<: *autom
-        calculation: (points / 4.0 * 9 + 1).round(1)
-    afstand:
-        <<: *autom
-        calculation: (points / 2.0 * 9 + 1).round(1)
-    riemann:
-        <<: *autom
-        calculation: (points / 4.0 * 9 + 1).round(1)
-    montecarlo:
-        <<: *autom
-        calculation: (points / 4.0 * 9 + 1).round(1)
-    style2:
-        type: float
-        subgrades:
-            points: integer
-        calculation: (points / 5.0 * 9 + 1).round(1)
-        hide_calculated: true
-    autorit:
-        <<: *autom
-        calculation: (points / 2.0 * 9 + 1).round(1)
-    temperatuur:
-        <<: *autom
-        calculation: (points / 8.0 * 9 + 1).round(1)
-    style3:
-        type: float
-        subgrades:
-            points: integer
-        calculation: (points / 5.0 * 9 + 1).round(1)
-        hide_calculated: true
+    numbers: *autom
     tentamen:
         type: float
         subgrades:
@@ -75,40 +25,25 @@ grades:
         calculation: "[(points*9.0/14-67.0/14).round(1), 1].max"
 
 calculation:
-    resit:
-        hertentamen: 40
-        modules: 30
-        style: 30
-    normal:
-        tentamen: 40
-        modules: 30
-        style: 30
+    eindcijfer:
+        hertentamen: 0
+        mods: 1
+    herkansing:
+        tentamen: 0
+        mods: 1
 
-modules:
+mods:
     submits:
-        water: 1
-        wisselgeld: 2
-        piramide: 2
-        afstand: 1
-        riemann: 2
-        montecarlo: 2
-        autorit: 2
-        temperatuur: 3
-
-style:
-    submits:
-        style1: 1
-        style2: 1
-        style3: 1
+        numbers: 1
+        text: 1
+        data: 1
 
 tentamen:
-    minimum: 5.5
     required: true
     submits:
         tentamen: 1
 
 hertentamen:
-    minimum: 5.5
     required: true
     submits:
         hertentamen: 1

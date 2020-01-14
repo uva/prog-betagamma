@@ -3,6 +3,5 @@ files:
     required:
         - text_statistics.py
         - list_words.py
-        - reformatting.py
-        - sentiment_of_text.py
+        - sentiment.py
         - tweets.py

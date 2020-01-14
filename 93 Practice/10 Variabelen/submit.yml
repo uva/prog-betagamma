@@ -1,4 +1,0 @@
-name: swap
-files:
-    required:
-        - swap.py

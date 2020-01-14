@@ -57,7 +57,7 @@ Er zijn drie modules waarvan de tweede de grootste is. Vanaf de eerste dag van d
 
 | onderdeel | deadline                      |  
 | --------- | ----------------------------- |
-| module 1  | maandag 13 januari 17:59      |  
+| module 1  | dinsdag 14 januari 17:59      |  
 | module 2  | dinsdag 21 januari 17:59      |  
 | module 3  | dinsdag 28 januari 17:59      |  
 | tentamen  | vrijdag 31 januari 13--17 uur |  
