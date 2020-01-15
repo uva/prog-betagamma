@@ -143,7 +143,7 @@ Operators such as `+`, `==`, `%` and `**` are often used in formulas and equatio
 
 ## Pure functions
 
-Ideally functions should given an input always produce the same output. And not change their behavior depending on the context. This means that a function shouldn't rely on variables outside of that function. Let's look at a couple of examples.
+Ideally functions should, given an input always produce the same output. And not change their behavior depending on the context. This means that a function shouldn't rely on variables outside of that function. Let's look at a couple of examples.
 
 Bad implementation:
 
@@ -179,7 +179,9 @@ In the first two examples, the function contains a reference to the variable `my
 
 The last example shows the correct implementation of this function. It contains no reference to the variables outside the function (`my_mail`), but instead refers to the input parameter (`mail`).
 
-Another example of a bad implementation:
+Another example:
+
+Bad implementation:
 
     number_list = [1, 2, 3, 4]
 
@@ -206,9 +208,9 @@ number_list = [1, 2, 3, 4]
 
 ## Structure
 
-It is important to try to keep the structure of your code clean. An overly complex
-structure and a lot of duplicated code is hard to understand and is prone to bugs.
-Let's look at some examples.
+It is important to keep the structure of your code simple. An overly complex
+structure and a lot of duplicated code is hard to understand and prone to bugs.
+Let's have a look at some examples.
 
 #### Example 1
 
@@ -285,7 +287,7 @@ Good implementation:
         if i % 2 == 0:
             print(f'{i} is even')
         elif i % 3 == 0:
-                print(f'{i} is divisible by three')
+            print(f'{i} is divisible by three')
         i = i + 1
 
 In the code above it was rather easy to avoid a lot of the nesting. The bad
