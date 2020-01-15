@@ -141,7 +141,7 @@ Operators such as `+`, `==`, `%` and `**` are often used in formulas and equatio
     hypotenuse_squared = x * x + y * y
     c = (a + b) * (a - b)
 
-## Functions
+## Pure functions
 
 Ideally functions should given an input always produce the same output. And not change their behavior depending on the context. This means that a function shouldn't rely on variables outside of that function. Let's look at a couple of examples.
 
