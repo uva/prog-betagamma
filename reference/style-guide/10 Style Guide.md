@@ -204,7 +204,7 @@ number_list = [1, 2, 3, 4]
     print(sum(number_list))
 
 
-## Code structure
+## Structure
 
 It is important to try to keep the structure of your code clean. An overly complex
 structure and a lot of duplicated code is hard to understand and is prone to bugs.
