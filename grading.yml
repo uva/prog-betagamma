@@ -7,7 +7,7 @@
         points: integer
         score: integer
     automatic:
-        points: check_score
+        points: correctness_score
     calculation: points && score || 0
     hide_calculated: true
 
