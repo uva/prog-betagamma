@@ -195,7 +195,7 @@ Bad implementation:
 
 Good implementation:
 
-number_list = [1, 2, 3, 4]
+    number_list = [1, 2, 3, 4]
 
     def sum(list):
         sum_agg = 0
