@@ -4,6 +4,19 @@ One interesting application of Python is to use it for analyzing texts written b
 
 ![embed](https://player.vimeo.com/video/233508920)
 
+##### Grading
+
+As soon as you have submitted working solutions for all problems below, your programs will be assessed and graded. The grade will partly depend on how well you integrated specific quality aspects. This week, your programs will be primarily graded on:
+
+[Clean functions](/reference/style-guide#functions)
+[Code structure](/reference/style-guide#structure)
+
+And we’ll also take the aspects from last week into account: [comments](/reference/style-guide#comments), [variable naming](/reference/style-guide#variables), [indentation](/reference/style-guide#indentation), [white spaces](/reference/style-guide#blank-lines-and-extra-spaces)
+
+You can find the grading criteria in the [syllabus](/syllabus#feedback).
+
+Remember to always **use `checkpy` to verify your code is working correctly** before handing it in.
+
 ## Part 1: Text statistics
 
 - Learn how to write [functions](/text/functions) in Python.

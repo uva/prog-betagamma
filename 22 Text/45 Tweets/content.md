@@ -14,8 +14,8 @@ Your program should comprise three parts:
 
 1. Load the file with tweet on each line. To do this, you need to use this code:
 
-       with open("tweets.txt") as tweet_file:
-   	       tweets = tweet_file.read().splitlines()
+    with open("trump.txt", encoding="utf8") as tweet_file:
+        tweets = tweet_file.read().splitlines()
 
    Your `tweets` variable will then contain a list of strings, each string being the text of a single tweet.
 
