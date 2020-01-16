@@ -175,7 +175,7 @@ Good implementation:
 
     print(get_name(my_mail))
 
-In the first two examples, the function contains a reference to the variable `my_mail` that is defined _outside_ of the function. This means that the output of the function depends on the value of that variable, which is not the input of the function. The second might look better but is actually worse: The functions has an input parameter `mail`, but that parameter is not used in the function.
+In the first two examples, the function contains a reference to the variable `my_mail` that is defined _outside_ of the function. This means that the output of the function depends on the value of that variable, which is not the input of the function. The second might look better but is actually worse: The function has an input parameter `mail`, but that parameter is not used inside of that function.
 
 The last example shows the correct implementation of this function. It contains no reference to the variables outside the function (`my_mail`), but instead refers to the input parameter (`mail`).
 
@@ -265,7 +265,7 @@ Good implementation:
 
 #### Example 3
 
-Avoid very deeply nested code. Nesting many `if`, `for` and `while` inside of
+Avoid very deeply nested code. Nesting many `if`, `for` and `while` statements inside of each other
 makes code very hard to understand, which will inevitably lead to bugs.
 
 Bad implementation:
