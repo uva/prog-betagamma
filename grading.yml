@@ -8,11 +8,11 @@
         score: integer
     automatic:
         points: correctness_score
-    calculation: points == 9 && score || 0
     hide_calculated: true
 
 grades:
     numbers: *autom
+        calculation: points >= 9 && score || 0
     tentamen:
         type: float
         subgrades:
