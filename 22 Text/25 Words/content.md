@@ -43,7 +43,11 @@ Given the description and example above, you will need to make sure that each wo
               only append to unique_words if it is not in there yet
           return all unique_words
 
-4. Sort all words and print as specified.
+    * Return a sorted list of unqiue words. If you want to sort a list you can use the function `sorted()` in python:
+
+          sorted_list = sorted(unsorted_list)
+
+4. print result as specified.
 
 Tip: split up your code into functions (with meaningful names) as much as possible!
 
