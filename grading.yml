@@ -2,7 +2,7 @@
     type: pass
 
 grades:
-    numbers: *autom
+    numbers:
         type: float
         subgrades:
             points: integer
