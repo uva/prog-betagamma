@@ -1,18 +1,16 @@
 1: &passfail
     type: pass
 
-2: &autom
-    type: float
-    subgrades:
-        points: integer
-        score: integer
-    automatic:
-        points: correctness_score
-    hide_calculated: true
-
 grades:
     numbers: *autom
+        type: float
+        subgrades:
+            points: integer
+            score: integer
+        automatic:
+            points: correctness_score
         calculation: points >= 9 && score || 0
+        hide_calculated: true
     tentamen:
         type: float
         subgrades:
