@@ -11,6 +11,15 @@ grades:
             points: correctness_score
         calculation: points >= 9 && score || 0
         hide_calculated: true
+    text:
+        type: float
+        subgrades:
+            points: integer
+            score: integer
+        automatic:
+            points: correctness_score
+        calculation: points >= 10 && score || 0
+        hide_calculated: true
     tentamen:
         type: float
         subgrades:
