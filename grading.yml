@@ -18,7 +18,7 @@ grades:
             score: integer
         automatic:
             points: correctness_score
-        calculation: points >= 10 && score || 0
+        calculation: points >= 9 && score || 0
         hide_calculated: true
     weather:
         type: float
