@@ -1,0 +1,4 @@
+name: weather
+files:
+    required:
+        - tentamen.py
