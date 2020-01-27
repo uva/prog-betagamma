@@ -1,6 +1,8 @@
 # Oefententamen Inleiding Programmeren
 
-### Opzet 
+Ja kan hier het oefententamen downloaden: [oefententamen](https://progbg.mprog.nl/course/80%20Oefententamen/oefententamen.pdf)
+
+### Opzet
 
 Dit tentamen bestaat in totaal uit vier programmeeropdrachten. Je hebt hier in totaal 3 uur voor. En je gaat
 het tentamen maken in een Sandbox-omgeving. Dit is een eenvoudigere variant van de IDE waarin je tot nu toe
