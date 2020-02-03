@@ -11,9 +11,9 @@ Files:
 
 Download the files, open them and read the headers (at the top of the file) on how the data has been formatted. We can see the maximum (minimum) temperature at January 1st 1901 was -3.1 (-6.8) degrees Celsius.
 
-> Note! The data files also contain all sorts of clarification. You're supposed to leave that in the file. Your Python program should be implemented in such a way that it skips those lines when it processes the file.
+> Note! The data files also contain all sorts of clarification. You're supposed to leave that in the file (don't change the contents of the file). Your Python program should be implemented in such a way that it skips those lines when it processes the file. Also, do not change the names of the data files. 
 
-Create a program **temperature.py** that parses the file line by line and answers the following questions.
+Create a program **temperature.py** that parses the file line by line and answers the following questions. 
 
 ### Assignment 1: extreme temperatures
 
