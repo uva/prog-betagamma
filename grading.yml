@@ -30,10 +30,10 @@ grades:
         calculation: points >= 9 && score || 0
         hide_calculated: true
     tentamen:
-        type: float
+        type: pass
         subgrades:
             points: integer
-        calculation: points >= 4
+        calculation: points >= 4 && -1 || 0
         is_test: true
     hertentamen:
         type: float
