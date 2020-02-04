@@ -33,7 +33,8 @@ grades:
         type: float
         subgrades:
             points: integer
-        calculation: "[(points*9.0/14-67.0/14).round(1), 1].max"
+        calculation: points >= 4
+        is_test: true
     hertentamen:
         type: float
         subgrades:
