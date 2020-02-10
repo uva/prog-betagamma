@@ -1,4 +1,4 @@
-# Tentamen inleveren
+# Hertentamen inleveren
 
 Hier kan je het tentamen inleveren.
 

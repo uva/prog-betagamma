@@ -16,8 +16,8 @@ opheldering vragen als een van de opdrachten niet duidelijk is.
 
 ### Sandbox
 
-Open de Sandbox voor dit tentamen hier: [Sandbox oefententamen Inleiding Programmeren](http://bit.ly/2H9GA7R)
+Open de Sandbox voor dit tentamen hier: [Sandbox hertentamen Inleiding Programmeren](http://bit.ly/2H9GA7R)
 
 ### Inleveren
 
-Als je klaar bent kan je het werk hier inleveren: [inlveren tentamen](/hertentamen/submit).
+Als je klaar bent kan je het werk hier inleveren: [inlveren hertentamen](/hertentamen/submit).
