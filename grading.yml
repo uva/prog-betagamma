@@ -36,24 +36,24 @@ grades:
         calculation: points >= 4 && -1 || 0
         is_test: true
     hertentamen:
-        type: float
+        type: pass
         subgrades:
             points: integer
-        calculation: "[(points*9.0/14-67.0/14).round(1), 1].max"
+        calculation: points >= 4 && -1 || 0
 
 calculation:
     eindcijfer:
-        hertentamen: 0
-        mods: 1
-    herkansing:
         tentamen: 0
         mods: 1
+    # herkansing:
+    #     hertentamen: 0
+    #     mods: 1
 
 mods:
     submits:
         numbers: 1
         text: 1
-        data: 1
+        weather: 1
 
 tentamen:
     required: true
