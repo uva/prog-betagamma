@@ -46,9 +46,9 @@ calculation:
     eindcijfer:
         tentamen: 0
         mods: 1
-    # herkansing:
-    #     hertentamen: 0
-    #     mods: 1
+    herkansing:
+        hertentamen: 0
+        mods: 1
 
 mods:
     submits:
