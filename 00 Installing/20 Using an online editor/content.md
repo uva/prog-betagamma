@@ -60,6 +60,12 @@ Here `..` stands for the folder directly 'above' the current one. Want to go bac
 
 That immediately brings you back to the folder `module1` inside of `workspace`.
 
+Some keyboard shortcuts that might save you some time: 
+
+* Use  **ctrl**+**\`** to switch from editor to terminal and vice versa
+* If you type a file name in the terminal you can use **tab** for autocomplete 
+* Want to use a previous command? Use arrow keys (up and down) to navigate through previous commands
+
 ## Installing Matplotlib and Checkpy
 
 We use a program to check whether your assignments are implemented correctly. We expect you to be very precise when you give the correct output. To do so, we have written a program called `checkpy`, which is not standard in your developing environment. Aside from that we'll get to work with plotting graphs and for that we need a specific module in Python called `matplotlib`. Both of these need to be downloaded additionally.
